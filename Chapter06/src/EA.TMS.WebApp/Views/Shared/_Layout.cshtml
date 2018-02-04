@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TMS</title>
+    <environment names="Development">
+        <link rel="stylesheet" href="~/styles/bootstrap.min.css" />
+        <link rel="stylesheet" href="~/styles/metro-bootstrap.min.css" />
+        <link rel="stylesheet" href="~/styles/navmenu-push.css" />
+        <link rel="stylesheet" href="~/styles/simple-sidebar.css" />
+        <link rel="stylesheet" href="~/styles/Site.css" />
+        <link rel="stylesheet" href="~/styles/styles.css" />
+        <link rel="stylesheet" href="~/styles/tfxbootstrap.css" />
+    </environment>
+    <environment names="Staging,Production">
+        <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.6/css/bootstrap.min.css"
+              asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
+        <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
+    </environment>
+</head>
+<body>
+    <div class="navbar">
+        <div class="container">
+            <div class="navbar-header">
+                <a asp-controller="Home" asp-action="Index" class="navbar-brand">Tenant Management System</a>
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+            <div class="col-md-12 col-sm-12 center-block floatnone">
+                <div class="homeIntro">
+                    <div class="col-sm-12">
+                        <h1>TMS<span>Tenant Management</span></h1>
+                    </div>
+                    <div class="col-sm-8">
+                        <p>The main purpose of the system is to provide functionality to schedule and conduct jobs. Jobs mainly consist of following components (Customer, Employees, Activity, Cost, Invoice, and Materials).</p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+              </div>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item active">Home</li>
+            </ol>
+                @RenderBody()
+            <div class="clearfix"></div>
+                <footer>
+                    <p>Tenant Management Portal&nbsp;</p>
+                </footer>
+            </div>
+
+            <environment names="Development">
+                <script src="~/lib/jquery/dist/jquery.js"></script>
+                <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+                <script src="~/js/site.js" asp-append-version="true"></script>
+                <script src="~/lib/core-js/shim.min.js"></script>
+                <script src="~/lib/zone.js/zone.js"></script>
+                <script src="~/lib/reflect-metadata/Reflect.js"></script>
+                <script src="~/lib/systemjs/system.src.js"></script>
+                <script src="~/lib/rxjs/bundles/Rx.js"></script>
+                <script src="~/app/systemjs.config.js"></script>
+                <script src="~/app/importer.js"></script>
+            </environment>
+            <environment names="Staging,Production">
+                <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.0.min.js"
+                        asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+                        asp-fallback-test="window.jQuery">
+                </script>
+                <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.6/bootstrap.min.js"
+                        asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.min.js"
+                        asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal">
+                </script>
+                <script src="~/js/site.min.js" asp-append-version="true"></script>
+            </environment>
+
+            @RenderSection("scripts", required: false)
+</body>
+</html>
