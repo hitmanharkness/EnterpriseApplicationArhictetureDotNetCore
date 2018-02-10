@@ -1,0 +1,11 @@
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.DataAccess\obj\Debug\netcoreapp2.0\Template.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.DataAccess\obj\Debug\netcoreapp2.0\Template.DataAccess.AssemblyInfoInputs.cache
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.DataAccess\obj\Debug\netcoreapp2.0\Template.DataAccess.AssemblyInfo.cs
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.DataAccess\bin\Debug\netcoreapp2.0\Template.DataAccess.deps.json
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.DataAccess\bin\Debug\netcoreapp2.0\Template.DataAccess.dll
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.DataAccess\obj\Debug\netcoreapp2.0\Template.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.DataAccess\bin\Debug\netcoreapp2.0\Template.DataAccess.pdb
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.DataAccess\bin\Debug\netcoreapp2.0\Template.Common.dll
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.DataAccess\bin\Debug\netcoreapp2.0\Template.Common.pdb
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.DataAccess\obj\Debug\netcoreapp2.0\Template.DataAccess.dll
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.DataAccess\obj\Debug\netcoreapp2.0\Template.DataAccess.pdb

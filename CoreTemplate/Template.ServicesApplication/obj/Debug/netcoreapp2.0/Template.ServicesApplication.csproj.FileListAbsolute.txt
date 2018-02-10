@@ -1,0 +1,11 @@
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.ServicesApplication\bin\Debug\netcoreapp2.0\Template.ServicesApplication.deps.json
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.ServicesApplication\bin\Debug\netcoreapp2.0\Template.ServicesApplication.runtimeconfig.json
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.ServicesApplication\bin\Debug\netcoreapp2.0\Template.ServicesApplication.runtimeconfig.dev.json
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.ServicesApplication\bin\Debug\netcoreapp2.0\Template.ServicesApplication.dll
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.ServicesApplication\bin\Debug\netcoreapp2.0\Template.ServicesApplication.pdb
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.ServicesApplication\obj\Debug\netcoreapp2.0\Template.ServicesApplication.csprojResolveAssemblyReference.cache
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.ServicesApplication\obj\Debug\netcoreapp2.0\Template.ServicesApplication.csproj.CoreCompileInputs.cache
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.ServicesApplication\obj\Debug\netcoreapp2.0\Template.ServicesApplication.AssemblyInfoInputs.cache
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.ServicesApplication\obj\Debug\netcoreapp2.0\Template.ServicesApplication.AssemblyInfo.cs
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.ServicesApplication\obj\Debug\netcoreapp2.0\Template.ServicesApplication.dll
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.ServicesApplication\obj\Debug\netcoreapp2.0\Template.ServicesApplication.pdb
