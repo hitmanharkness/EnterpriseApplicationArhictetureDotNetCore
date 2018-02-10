@@ -53,8 +53,7 @@ var HttpClient = (function () {
 HttpClient = __decorate([
     core_1.Injectable(),
     __param(1, core_1.Inject(app_config_1.APP_CONFIG)),
-    __metadata("design:paramtypes", [typeof (_a = typeof http_1.Http !== "undefined" && http_1.Http) === "function" && _a || Object, Object])
+    __metadata("design:paramtypes", [http_1.Http, Object])
 ], HttpClient);
 exports.HttpClient = HttpClient;
-var _a;
 //# sourceMappingURL=http-client.service.js.map
