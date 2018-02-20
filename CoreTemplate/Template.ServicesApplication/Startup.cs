@@ -6,6 +6,10 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Template.DataAccess.Core;
+using Template.BusinessLayer.Managers.ServiceRequestManagement;
+using Template.BusinessLayer.Managers.TenantManagement;
+using Template.BusinessLayer.Core;
 
 namespace Template.ServicesApplication
 {
@@ -21,6 +25,18 @@ namespace Template.ServicesApplication
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+
+
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
+            services.AddScoped<IDbFactory, DbFactory>();
+            services.AddScoped<DataContext>();
+            services.AddScoped<IRepository, Repository>();
+            services.AddScoped<IServiceRequestManager, ServiceRequestManager>();
+            services.AddScoped<ITenantManager, TenantManager>();
+            services.AddScoped<BusinessManagerFactory>();
+            // Add framework services.
+
+
             services.AddMvc();
         }
 

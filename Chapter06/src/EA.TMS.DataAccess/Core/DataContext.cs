@@ -19,6 +19,8 @@ namespace TMS.DataAccess.Core
         {
             base.OnConfiguring(optionsBuilder); 
             optionsBuilder.UseSqlServer("Data Source=.;Initial Catalog=TMS;Integrated Security=False; User Id=sa; Password=123; Timeout=500000;");
+
+            //optionsBuilder.UseSqlServer("Data Source = devdb01; Initial Catalog = Template; User ID = biweb; Password = biweb; MultipleActiveResultSets = True; App = NGTotalAccessApi");
         }
 
         protected override void OnModelCreating(ModelBuilder builder)

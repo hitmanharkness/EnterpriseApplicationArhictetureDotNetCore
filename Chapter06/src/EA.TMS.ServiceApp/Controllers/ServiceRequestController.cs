@@ -32,7 +32,8 @@ namespace EA.TMS.ServiceApp.Controllers
         [HttpGet]
         public IEnumerable<TenantServiceRequest> GetTenantsRequests()
         {
-            return _manager.GetAllTenantServiceRequests();
+            return null;
+            //return _manager.GetAllTenantServiceRequests();
         }
 
         // POST api/values
@@ -41,7 +42,7 @@ namespace EA.TMS.ServiceApp.Controllers
         {
             try
             {
-                _manager.Create(serviceRequest);
+               // _manager.Create(serviceRequest);
             }
             catch (Exception ex)
             {

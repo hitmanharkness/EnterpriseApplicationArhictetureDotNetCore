@@ -17,7 +17,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace Template.ServiceApp.Controllers
 {
-    [Authorize]
+    //[Authorize]
     [LoggingActionFilter]
     [Route("api/[controller]")]
     public class TenantController : BaseController
