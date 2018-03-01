@@ -1,0 +1,6 @@
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Enterprise.Controller.Base\bin\Debug\netcoreapp2.0\Enterprise.Controller.Base.deps.json
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Enterprise.Controller.Base\bin\Debug\netcoreapp2.0\Enterprise.Controller.Base.dll
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Enterprise.Controller.Base\obj\Debug\netcoreapp2.0\Enterprise.Controller.Base.csprojResolveAssemblyReference.cache
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Enterprise.Controller.Base\obj\Debug\netcoreapp2.0\Enterprise.Controller.Base.csproj.CoreCompileInputs.cache
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Enterprise.Controller.Base\obj\Debug\netcoreapp2.0\Enterprise.Controller.Base.AssemblyInfoInputs.cache
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Enterprise.Controller.Base\obj\Debug\netcoreapp2.0\Enterprise.Controller.Base.AssemblyInfo.cs

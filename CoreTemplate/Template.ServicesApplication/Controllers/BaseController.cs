@@ -13,6 +13,9 @@ using System.Text;
 
 // For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
 
+    
+    // THIS MIGHT NEED TO MOVE TO A LIBARY LIKE BI
+
 namespace  Template.ServiceApp.Controllers
 {
     public class BaseController : Controller

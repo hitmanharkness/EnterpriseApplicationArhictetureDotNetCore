@@ -11,33 +11,29 @@ using Template.Common.Core;
 
 namespace Template.BusinessLayer.Managers.ServiceRequestManagement
 {
-    public class ServiceRequestManager : BusinessManager, IServiceRequestManager
+    public class ClientInfoManager : BusinessManager, IClientInfoManager
     {
-        private readonly IRepository _repository;
-        private readonly ILogger<ServiceRequestManager> _logger;
-        private readonly IUnitOfWork _unitOfWork;
+        private IUnitOfWork _unitOfWork;
         
-        public IUnitOfWork UnitOfWork
-        {
-            get
-            {
-                return _unitOfWork;
-            }
-        }
+        public IRepository Repository { get; set; }
+        public ILogger<ClientInfoManager> Logger { get; set; }
+        public IUnitOfWork UnitOfWork { get => _unitOfWork; set => _unitOfWork = value; }
 
-        public ServiceRequestManager(IRepository repository, ILogger<ServiceRequestManager> logger, IUnitOfWork unitOfWork) : base()
+
+
+        public ClientInfoManager(IRepository repository, ILogger<ClientInfoManager> logger, IUnitOfWork unitOfWork) : base()
         {
-            _repository = repository;
-            _logger = logger;
-            _unitOfWork = unitOfWork;
+            Repository = repository;
+            Logger = logger;
+            UnitOfWork = unitOfWork;
         }
 
         public void Create(BaseEntity entity)
         {
             ServiceRequest serviceRequest = (ServiceRequest)entity;
-            _logger.LogInformation("Creating record for {0}", this.GetType());
-            _repository.Create<ServiceRequest>(serviceRequest);
-            _logger.LogInformation("Record saved for {0}", this.GetType());
+            Logger.LogInformation("Creating record for {0}", this.GetType());
+            Repository.Create<ServiceRequest>(serviceRequest);
+            Logger.LogInformation("Record saved for {0}", this.GetType());
         }
 
         public void Delete(BaseEntity entity)
@@ -57,9 +53,9 @@ namespace Template.BusinessLayer.Managers.ServiceRequestManagement
         public IEnumerable<TenantServiceRequest> GetAllTenantServiceRequests()
         {
 
-            var query = from tenants in _repository.All<Tenant>() join serviceReqs in _repository.All<ServiceRequest>()
+            var query = from tenants in Repository.All<Tenant>() join serviceReqs in Repository.All<ServiceRequest>()
                     on tenants.ID equals serviceReqs.TenantID
-                    join status in _repository.All<Status>()
+                    join status in Repository.All<Status>()
                     on serviceReqs.StatusID equals status.ID
                     select new TenantServiceRequest()
                     {
@@ -76,7 +72,7 @@ namespace Template.BusinessLayer.Managers.ServiceRequestManagement
 
         public void SaveChanges()
         {
-            _unitOfWork.SaveChanges();
+            UnitOfWork.SaveChanges();
         }
     }
 }

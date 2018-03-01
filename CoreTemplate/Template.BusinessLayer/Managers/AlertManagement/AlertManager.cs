@@ -11,11 +11,11 @@ using Template.Common.Core;
 
 namespace Template.BusinessLayer.Managers.ServiceRequestManagement
 {
-    public class ServiceRequestManager : BusinessManager, IServiceRequestManager
+    public class AlertManager : BusinessManager, IAlertManager
     {
-        private readonly IRepository _repository;
-        private readonly ILogger<ServiceRequestManager> _logger;
-        private readonly IUnitOfWork _unitOfWork;
+        IRepository _repository;
+        ILogger<AlertManager> _logger;
+        IUnitOfWork _unitOfWork;
         
         public IUnitOfWork UnitOfWork
         {
@@ -25,7 +25,7 @@ namespace Template.BusinessLayer.Managers.ServiceRequestManagement
             }
         }
 
-        public ServiceRequestManager(IRepository repository, ILogger<ServiceRequestManager> logger, IUnitOfWork unitOfWork) : base()
+        public AlertManager(IRepository repository, ILogger<ClientInfoManager> logger, IUnitOfWork unitOfWork) : base()
         {
             _repository = repository;
             _logger = logger;

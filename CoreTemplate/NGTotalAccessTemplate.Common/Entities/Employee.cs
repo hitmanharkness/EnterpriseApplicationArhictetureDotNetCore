@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 
 namespace Template.Common.Entities
 {
-    [Description("To store Employee information")]
-    [Table("Employee")]
-    public class Employee : BaseEntity
+    [Description("To store Client information")]
+    [Table("Client")]
+    public class Client : BaseEntity
     {
         [Key]
         public long ID { get; set; }

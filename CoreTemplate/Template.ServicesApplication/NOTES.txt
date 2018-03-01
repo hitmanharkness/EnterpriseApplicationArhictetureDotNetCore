@@ -1,0 +1,28 @@
+﻿
+TODO: 
+
+1) Connect to Database and examine.
+2) Code first thing. I don't understand.
+3) Integration of the nuget libraries like language. and base.
+4) multicultural.
+5) Exception handling and logging. Do I need the Aspect?
+6) Subdomain running as service. 
+
+
+
+10) CLI tools for making a template. like reporting. or NGTA.
+11) Connection with identity server4.
+
+DATAACCESS
+1) Example of MQ
+2) Example of database Repository
+3) Example of query mixing between MQ and database Repository
+7) Service bus connection with different examples. Masstransit.
+8) Transaction and roleback.
+
+
+OTHER
+12) Review the onion architecture.
+13) Swagger.
+14) Android Mobile connection.
+9) Angular front end project? Maybe. I liked the idea.

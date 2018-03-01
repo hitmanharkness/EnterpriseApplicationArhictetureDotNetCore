@@ -34,14 +34,14 @@ namespace Template.DataAccess.Core
         }
 
         #region Entities representing Database Objects
-        public DbSet<Employee> Employee { get; set; }
-        public DbSet<Job> Job { get; set; }
-        public DbSet<JobTask> JobTask { get; set; }
-        public DbSet<JobWorker> JobWorker { get; set; }
-        public DbSet<Property> Property { get; set; }
-        public DbSet<ServiceRequest> ServiceRequest { get; set; }
-        public DbSet<Status> Status { get; set; }
-        public DbSet<Tenant> Tenant { get; set; }
+        public DbSet<Employee> Client { get; set; }
+        //public DbSet<Job> Job { get; set; }
+        //public DbSet<JobTask> JobTask { get; set; }
+        //public DbSet<JobWorker> JobWorker { get; set; }
+        //public DbSet<Property> Property { get; set; }
+        //public DbSet<ServiceRequest> ServiceRequest { get; set; }
+        //public DbSet<Status> Status { get; set; }
+        //public DbSet<Tenant> Tenant { get; set; }
         #endregion
     }
 }

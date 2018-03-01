@@ -31,7 +31,7 @@ namespace Template.ServicesApplication
             services.AddScoped<IDbFactory, DbFactory>();
             services.AddScoped<DataContext>();
             services.AddScoped<IRepository, Repository>();
-            services.AddScoped<IServiceRequestManager, ServiceRequestManager>();
+            services.AddScoped<IServiceRequestManager, ClientInfoManager>();
             services.AddScoped<ITenantManager, TenantManager>();
             services.AddScoped<BusinessManagerFactory>();
             // Add framework services.

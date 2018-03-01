@@ -5,11 +5,15 @@ VisualStudioVersion = 15.0.27004.2006
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template.Common", "NGTotalAccessTemplate.Common\Template.Common.csproj", "{E7D50B9C-0ED5-4A21-AB48-54A2C8F44406}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.DataAccess", "Template.DataAccess\Template.DataAccess.csproj", "{DBCE0A2F-D161-4DAE-9EAB-04D32B0A9CCB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template.DataAccess", "Template.DataAccess\Template.DataAccess.csproj", "{DBCE0A2F-D161-4DAE-9EAB-04D32B0A9CCB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.BusinessLayer", "Template.BusinessLayer\Template.BusinessLayer.csproj", "{CC58F131-F0C1-48D2-B464-044D0A9D673E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template.BusinessLayer", "Template.BusinessLayer\Template.BusinessLayer.csproj", "{CC58F131-F0C1-48D2-B464-044D0A9D673E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.Services", "Template.ServicesApplication\Template.Services.csproj", "{034E8E51-7657-4680-9A49-41B70697A143}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template.Services", "Template.ServicesApplication\Template.Services.csproj", "{034E8E51-7657-4680-9A49-41B70697A143}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enterprise.Controller.Base", "Enterprise.Controller.Base\Enterprise.Controller.Base.csproj", "{10D3D9EA-97F3-4707-A6DA-A23C7E9B6DB5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{24DACF62-90D6-4DFD-BE4F-4922F1B059FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,9 +37,16 @@ Global
 		{034E8E51-7657-4680-9A49-41B70697A143}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{034E8E51-7657-4680-9A49-41B70697A143}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{034E8E51-7657-4680-9A49-41B70697A143}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10D3D9EA-97F3-4707-A6DA-A23C7E9B6DB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10D3D9EA-97F3-4707-A6DA-A23C7E9B6DB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10D3D9EA-97F3-4707-A6DA-A23C7E9B6DB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10D3D9EA-97F3-4707-A6DA-A23C7E9B6DB5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{10D3D9EA-97F3-4707-A6DA-A23C7E9B6DB5} = {24DACF62-90D6-4DFD-BE4F-4922F1B059FB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B30B63BC-AE37-4C5E-8362-9151ACA37AE9}
