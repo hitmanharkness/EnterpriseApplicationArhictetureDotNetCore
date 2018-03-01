@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema
+	id="RabbitMqConfigSettings"
+	targetNamespace="urn:RabbitMQ.ConfigSettings"
+	xmlns:tns="urn:RabbitMQ.ConfigSettings"
+	attributeFormDefault="unqualified"
+	elementFormDefault="qualified"
+	xmlns="http://tempuri.org/RabbitMqConfigSettings.xsd"
+	xmlns:mstns="http://tempuri.org/RabbitMqConfigSettings.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="rabbitMQSettings">
+		<xs:complexType>
+			<xs:sequence minOccurs="0">
+				<xs:element name="applicationSettings">
+					<xs:complexType>
+						<xs:sequence minOccurs="1" maxOccurs="unbounded">
+							<xs:element name="add">
+								<xs:complexType>
+									<xs:attribute name="appName" type="xs:string" />
+
+									<xs:attribute name="exchangeAutoDelete" type="xs:boolean" default="false" />
+									<xs:attribute name="exchangeDurable" type="xs:boolean" default="false" />
+									<xs:attribute name="exchangeName" type="xs:string" />
+									<xs:attribute name="exchangeType" default="direct">
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:enumeration value="topic" />
+												<xs:enumeration value="direct" />
+												<xs:enumeration value="headers" />
+												<xs:enumeration value="fanout" />
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+
+									<xs:attribute name="maxChannels" type="xs:int" default="100" />
+									<xs:attribute name="moveToErrorQueueOnFail" type="xs:boolean" default="false" />
+									<xs:attribute name="noAck" type="xs:boolean" default="false" />
+									<xs:attribute name="mandatory" type="xs:boolean" default="false" />
+
+									<xs:attribute name="queueAutoDelete" type="xs:boolean" default="false" />
+									<xs:attribute name="queueDurable" type="xs:boolean" default="true" />
+									<xs:attribute name="queueExclusive" type="xs:boolean" default="false" />
+									<xs:attribute name="queueName" type="xs:string" />
+
+									<xs:attribute name="replyTimeout" type="xs:int" default="30000"/>
+									<xs:attribute name="password" type="xs:string" />
+									<xs:attribute name="rabbitMQHost" type="xs:string" />
+									<xs:attribute name="username" type="xs:string" />
+
+									<xs:anyAttribute namespace="http://schemas.microsoft.com/XML-Document-Transform" processContents="strict"/>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+
+			<xs:attribute name="exchangeAutoDelete" type="xs:boolean" default="false" />
+			<xs:attribute name="exchangeDurable" type="xs:boolean" default="false" />
+			<xs:attribute name="exchangeName" type="xs:string" />
+			<xs:attribute name="exchangeType" default="direct">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="topic" />
+						<xs:enumeration value="direct" />
+						<xs:enumeration value="headers" />
+						<xs:enumeration value="fanout" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+
+			<xs:attribute name="queueAutoDelete" type="xs:boolean" default="false" />
+			<xs:attribute name="queueDurable" type="xs:boolean" default="true" />
+			<xs:attribute name="queueExclusive" type="xs:boolean" default="false" />
+			<xs:attribute name="queueName" type="xs:string" />
+
+			<xs:attribute name="maxChannels" type="xs:int" default="100" />
+			<xs:attribute name="mandatory" type="xs:boolean" default="false" />
+			<xs:attribute name="moveToErrorQueueOnFail" type="xs:boolean" default="false" />
+			<xs:attribute name="noAck" type="xs:boolean" default="false" />
+
+			<xs:attribute name="rabbitMQHost" type="xs:string" />
+			<xs:attribute name="username" type="xs:string" />
+			<xs:attribute name="password" type="xs:string" />
+			<xs:attribute name="replyTimeout" type="xs:int" default="30000"/>
+
+			<xs:anyAttribute namespace="http://schemas.microsoft.com/XML-Document-Transform" processContents="strict"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

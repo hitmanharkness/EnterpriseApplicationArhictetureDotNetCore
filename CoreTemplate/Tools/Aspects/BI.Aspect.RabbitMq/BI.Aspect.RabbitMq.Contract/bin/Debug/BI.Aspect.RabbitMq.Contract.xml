@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BI.Aspect.RabbitMq.Contract</name>
+    </assembly>
+    <members>
+        <member name="T:BI.Aspect.RabbitMq.Contract.IRabbitMqMessage">
+            <summary>
+            Represents the contract that should used to interact with RabbitMQ consumers.
+            </summary>
+        </member>
+        <member name="M:BI.Aspect.RabbitMq.Contract.IRabbitMqMessage.EnqueueAndWaitResponse``1(BI.Aspect.RabbitMq.Contract.QueueMessageRequest,System.String,System.String)">
+            <summary>
+            Enqueues a message an waits for a response from the consumer.
+            </summary>
+            <typeparam name="T">The type of the response that the consumer should return. This is based on contracts.</typeparam>
+            <param name="payload">The payload that will be delivered to the consumer. This is based on contracts.</param>
+            <param name="appName">The application name that should be used to load the RabbitMQ configurations.</param>
+            <param name="replyTo">A unique name that should be used as a temporary response queue. If left null a GUID will be assigned.</param>
+            <returns>A QueueMessageResponse object that contains the information returned by the consumer.</returns>
+        </member>
+        <member name="M:BI.Aspect.RabbitMq.Contract.IRabbitMqMessage.EnqueueMessage(BI.Aspect.RabbitMq.Contract.QueueMessageRequest,System.String)">
+            <summary>
+            Enqueues a message for a consumer to be processed.
+            </summary>
+            <param name="payload">The payload that will be delivered to the consumer. This is based on contracts.</param>
+            <param name="appName">The application name that will be used to load the RabbitNQ configurations.</param>
+        </member>
+        <member name="T:BI.Aspect.RabbitMq.Contract.QueueMessageRequest">
+            <inheritdoc />
+            <summary>
+            Represents a request to be process by a particular consumer.
+            </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.Contract.QueueMessageRequest.Payload">
+            <summary>
+            The payload attached this request.
+            </summary>
+        </member>
+        <member name="T:BI.Aspect.RabbitMq.Contract.QueueMessageRequest`1">
+            <inheritdoc />
+            <summary>
+            Represents a request to be process by a particular consumer.
+            </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.Contract.QueueMessageRequest`1.Payload">
+            <summary>
+            The payload attached this request.
+            </summary>
+        </member>
+        <member name="T:BI.Aspect.RabbitMq.Contract.QueueMessageRequestBase">
+            <summary>
+            Represents the minimum information that a Rabbit MQ message should contain.
+            </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.Contract.QueueMessageRequestBase.ActionId">
+            <summary>
+            The id of the action to execute
+            </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.Contract.QueueMessageRequestBase.SessionInfo">
+            <summary>
+            Gets or sets an string that represents the caller session information.
+            </summary>
+        </member>
+        <member name="T:BI.Aspect.RabbitMq.Contract.QueueMessageResponse`1">
+            <inheritdoc />
+            <summary>
+            Represents a response of a consumer after processing a request.
+            </summary>
+            <typeparam name="T">The type of the response that the consumer should return. This is based on contracts.</typeparam>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.Contract.QueueMessageResponse`1.Response">
+            <summary>
+            The object returned by the consumer processor, if any.
+            </summary>
+        </member>
+        <member name="T:BI.Aspect.RabbitMq.Contract.QueueMessageResponseBase">
+            <summary>
+            Represents the base response for a consumer request.
+            </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.Contract.QueueMessageResponseBase.Code">
+            <summary>
+            When the Success flag is false this indicates the error code.
+            </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.Contract.QueueMessageResponseBase.Message">
+            <summary>
+            When the Success flag is false, this property will contain the reason of the failure.
+            </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.Contract.QueueMessageResponseBase.Response">
+            <summary>
+            The object returned by the consumer processor, if any.
+            </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.Contract.QueueMessageResponseBase.Success">
+            <summary>
+            true if the consumer completed the process successfully; Otherwise false.
+            </summary>
+        </member>
+    </members>
+</doc>

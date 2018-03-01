@@ -1,0 +1,6 @@
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Tools\Aspects\Common\BI.Enterprise.Common.Patterns\BI.Enterprise.Common.Patterns\bin\Debug\BI.Enterprise.Common.Patterns.dll
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Tools\Aspects\Common\BI.Enterprise.Common.Patterns\BI.Enterprise.Common.Patterns\bin\Debug\BI.Enterprise.Common.Patterns.pdb
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Tools\Aspects\Common\BI.Enterprise.Common.Patterns\BI.Enterprise.Common.Patterns\obj\Debug\BI.Enterprise.Common.Patterns.csprojResolveAssemblyReference.cache
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Tools\Aspects\Common\BI.Enterprise.Common.Patterns\BI.Enterprise.Common.Patterns\obj\Debug\BI.Enterprise.Common.Patterns.csproj.CoreCompileInputs.cache
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Tools\Aspects\Common\BI.Enterprise.Common.Patterns\BI.Enterprise.Common.Patterns\obj\Debug\BI.Enterprise.Common.Patterns.dll
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Tools\Aspects\Common\BI.Enterprise.Common.Patterns\BI.Enterprise.Common.Patterns\obj\Debug\BI.Enterprise.Common.Patterns.pdb

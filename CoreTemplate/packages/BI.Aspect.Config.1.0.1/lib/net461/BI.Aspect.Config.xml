@@ -1,0 +1,696 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BI.Aspect.Config</name>
+    </assembly>
+    <members>
+        <member name="T:BI.Aspect.Config.ConfigSettingsRabbitMq">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="F:BI.Aspect.Config.ConfigSettingsRabbitMq.Lazy">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ConfigSettingsRabbitMq.Instance">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ConfigSettingsRabbitMq.ExchangeAutoDelete">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ConfigSettingsRabbitMq.ExchangeDurable">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ConfigSettingsRabbitMq.ExchangeName">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ConfigSettingsRabbitMq.ExchangeType">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ConfigSettingsRabbitMq.QueueAutoDelete">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ConfigSettingsRabbitMq.QueueDurable">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ConfigSettingsRabbitMq.QueueExclusive">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ConfigSettingsRabbitMq.QueueName">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ConfigSettingsRabbitMq.MaxChannels">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ConfigSettingsRabbitMq.MoveToErrorQueueOnFail">
+            <summary>
+            true to move the request to an error queue when the process returns a failure; Otherwise false.
+            </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ConfigSettingsRabbitMq.NoAck">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ConfigSettingsRabbitMq.Mandatory">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ConfigSettingsRabbitMq.ReplyTimeout">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ConfigSettingsRabbitMq.Password">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ConfigSettingsRabbitMq.RabbitMqHost">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ConfigSettingsRabbitMq.Username">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ConfigSettingsRabbitMq.RabbitMqConfigCollection">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:BI.Aspect.Config.ConfigSettingsRabbitMq.GetSettingsValues">
+             <summary>
+            
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="T:BI.Aspect.Config.RabbitMqConfigCollection">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.RabbitMqConfigCollection.CollectionType">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.RabbitMqConfigCollection.Item(System.Int32)">
+             <summary>
+            
+             </summary>
+             <param name="index"></param>
+             <returns></returns>
+        </member>
+        <member name="P:BI.Aspect.Config.RabbitMqConfigCollection.Item(System.String)">
+             <summary>
+            
+             </summary>
+             <param name="appName"></param>
+             <returns></returns>
+        </member>
+        <member name="M:BI.Aspect.Config.RabbitMqConfigCollection.Add(BI.Aspect.Config.ConfigSettingsRabbitMq)">
+             <summary>
+            
+             </summary>
+             <param name="element"></param>
+        </member>
+        <member name="M:BI.Aspect.Config.RabbitMqConfigCollection.Clear">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:BI.Aspect.Config.RabbitMqConfigCollection.Remove(System.String)">
+             <summary>
+            
+             </summary>
+             <param name="key"></param>
+        </member>
+        <member name="M:BI.Aspect.Config.RabbitMqConfigCollection.CreateNewElement">
+             <summary>
+            
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="M:BI.Aspect.Config.RabbitMqConfigCollection.GetElementKey(System.Configuration.ConfigurationElement)">
+             <summary>
+            
+             </summary>
+             <param name="element"></param>
+             <returns></returns>
+        </member>
+        <member name="T:BI.Aspect.Config.RabbitMqConfigElement">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.RabbitMqConfigElement.ExchangeAutoDelete">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.RabbitMqConfigElement.ExchangeDurable">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.RabbitMqConfigElement.ExchangeName">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.RabbitMqConfigElement.ExchangeType">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.RabbitMqConfigElement.QueueAutoDelete">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.RabbitMqConfigElement.QueueDurable">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.RabbitMqConfigElement.QueueExclusive">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.RabbitMqConfigElement.QueueName">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.RabbitMqConfigElement.MaxChannels">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.RabbitMqConfigElement.MoveToErrorQueueOnFail">
+            <summary>
+            true to move the request to an error queue when the process returns a failure; Otherwise false.
+            </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.RabbitMqConfigElement.NoAck">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.RabbitMqConfigElement.Mandatory">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.RabbitMqConfigElement.ReplyTimeout">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.RabbitMqConfigElement.Password">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.RabbitMqConfigElement.RabbitMqHost">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.RabbitMqConfigElement.Username">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.RabbitMqConfigElement.AppName">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:BI.Aspect.Config.RabbitMqConfigElement.GetSettingsValues">
+             <summary>
+            
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="T:BI.Aspect.Config.RabbitMqSettingsValues">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.RabbitMqSettingsValues.ExchangeAutoDelete">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.RabbitMqSettingsValues.ExchangeDurable">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.RabbitMqSettingsValues.ExchangeName">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.RabbitMqSettingsValues.ExchangeType">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.RabbitMqSettingsValues.QueueAutoDelete">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.RabbitMqSettingsValues.QueueDurable">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.RabbitMqSettingsValues.QueueExclusive">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.RabbitMqSettingsValues.QueueName">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.RabbitMqSettingsValues.MaxChannels">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.RabbitMqSettingsValues.MoveToErrorQueueOnFail">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.RabbitMqSettingsValues.NoAck">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.RabbitMqSettingsValues.Mandatory">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.RabbitMqSettingsValues.ReplyTimeout">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.RabbitMqSettingsValues.Password">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.RabbitMqSettingsValues.RabbitMqHost">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.RabbitMqSettingsValues.Username">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="T:BI.Aspect.Config.ConfigSettingsLogging">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ConfigSettingsLogging.Instance">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ConfigSettingsLogging.EnvironmentName">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ConfigSettingsLogging.FileEventLevel">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ConfigSettingsLogging.LogCount">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ConfigSettingsLogging.LogRoot">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ConfigSettingsLogging.AppName">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ConfigSettingsLogging.SerilogPath">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="T:BI.Aspect.Config.LogEventLevel">
+            <summary>
+            Specifies the meaning and relative importance of a log event.
+            </summary>
+        </member>
+        <member name="F:BI.Aspect.Config.LogEventLevel.Verbose">
+            <summary>
+            Anything and everything you might want to know about a running block of code.
+            </summary>
+        </member>
+        <member name="F:BI.Aspect.Config.LogEventLevel.Debug">
+            <summary>
+            Internal system events that aren't necessarily observable from the outside.
+            </summary>
+        </member>
+        <member name="F:BI.Aspect.Config.LogEventLevel.Information">
+            <summary>
+            The lifeblood of operational intelligence - things happen.
+            </summary>
+        </member>
+        <member name="F:BI.Aspect.Config.LogEventLevel.Warning">
+            <summary>
+            Service is degraded or endangered.
+            </summary>
+        </member>
+        <member name="F:BI.Aspect.Config.LogEventLevel.Error">
+            <summary>
+            Functionality is unavailable, invariants are broken or data is lost.
+            </summary>
+        </member>
+        <member name="F:BI.Aspect.Config.LogEventLevel.Fatal">
+            <summary>
+            If you have a pager, it goes off when one of these occurs.
+            </summary>
+        </member>
+        <member name="T:BI.Aspect.Config.ApplicationSettingsCollection">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ApplicationSettingsCollection.CollectionType">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ApplicationSettingsCollection.Item(System.Int32)">
+             <summary>
+            
+             </summary>
+             <param name="index"></param>
+             <returns></returns>
+        </member>
+        <member name="P:BI.Aspect.Config.ApplicationSettingsCollection.Item(System.String)">
+             <summary>
+            
+             </summary>
+             <param name="keyName"></param>
+             <returns></returns>
+        </member>
+        <member name="M:BI.Aspect.Config.ApplicationSettingsCollection.Add(BI.Aspect.Config.ApplicationSettingsElement)">
+             <summary>
+            
+             </summary>
+             <param name="element"></param>
+        </member>
+        <member name="M:BI.Aspect.Config.ApplicationSettingsCollection.Clear">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:BI.Aspect.Config.ApplicationSettingsCollection.GetClientAppSettingsOrDefault(System.String)">
+             <summary>
+            
+             </summary>
+             <param name="clientTypes"></param>
+             <returns></returns>
+        </member>
+        <member name="M:BI.Aspect.Config.ApplicationSettingsCollection.BaseAdd(System.Configuration.ConfigurationElement)">
+             <summary>
+            
+             </summary>
+             <param name="element"></param>
+        </member>
+        <member name="M:BI.Aspect.Config.ApplicationSettingsCollection.CreateNewElement">
+             <summary>
+            
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="M:BI.Aspect.Config.ApplicationSettingsCollection.GetElementKey(System.Configuration.ConfigurationElement)">
+             <summary>
+            
+             </summary>
+             <param name="element"></param>
+             <returns></returns>
+        </member>
+        <member name="T:BI.Aspect.Config.ApplicationSettingsElement">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:BI.Aspect.Config.ApplicationSettingsElement.#ctor">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:BI.Aspect.Config.ApplicationSettingsElement.#ctor(System.String)">
+             <summary>
+            
+             </summary>
+             <param name="clientType"></param>
+        </member>
+        <member name="P:BI.Aspect.Config.ApplicationSettingsElement.AccountLockoutDuration">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ApplicationSettingsElement.AccountLockoutFailedLoginAttempts">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ApplicationSettingsElement.AllowAccountDeletion">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ApplicationSettingsElement.AllowLoginAfterAccountCreating">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ApplicationSettingsElement.AppName">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ApplicationSettingsElement.ClaimsAreRequired">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ApplicationSettingsElement.ClientType">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ApplicationSettingsElement.EmailIsUnique">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ApplicationSettingsElement.EmailIsUserName">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ApplicationSettingsElement.EmailMessageFormatter">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ApplicationSettingsElement.EmailSignature">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ApplicationSettingsElement.MinimumVersion">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ApplicationSettingsElement.MobilePhoneNumberIsRequired">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ApplicationSettingsElement.MobilePhoneNumberIsUnique">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ApplicationSettingsElement.PasswordHashingIterationCount">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ApplicationSettingsElement.PasswordResetFrequency">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ApplicationSettingsElement.RelativeCancelVerificationUrl">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ApplicationSettingsElement.RelativeConfirmChangeEmailUrl">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ApplicationSettingsElement.RelativeConfirmPasswordResetUrl">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ApplicationSettingsElement.RelativeLoginUrl">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ApplicationSettingsElement.RequireAccountVerification">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ApplicationSettingsElement.RequiredScopes">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ApplicationSettingsElement.RequireMobilePhoneNumberVerfication">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ApplicationSettingsElement.RequirePasswordReset">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ApplicationSettingsElement.ResourceOwner">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ApplicationSettingsElement.Secret">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ApplicationSettingsElement.UniqueIdIsRequired">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ApplicationSettingsElement.VerificationKeyLifetime">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="T:BI.Aspect.Config.ConfigSettingsStsInfo">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="F:BI.Aspect.Config.ConfigSettingsStsInfo.Lazy">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ConfigSettingsStsInfo.Instance">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ConfigSettingsStsInfo.ApplicationsSettings">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ConfigSettingsStsInfo.Authority">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ConfigSettingsStsInfo.CertThumbPrint">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ConfigSettingsStsInfo.DefaultClientType">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ConfigSettingsStsInfo.RequiredScopes">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ConfigSettingsStsInfo.RequiredScopesArray">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ConfigSettingsStsInfo.SiteName">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Config.ConfigSettingsStsInfo.UserDataStore">
+             <summary>
+            
+             </summary>
+        </member>
+    </members>
+</doc>

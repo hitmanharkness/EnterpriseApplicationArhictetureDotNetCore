@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BI.Aspect.Encryption</name>
+    </assembly>
+    <members>
+        <member name="T:BI.Aspect.Encryption.EncryptionManager">
+            <summary>
+            Contains basic tools to encrypt and decrypt text.
+            </summary>
+        </member>
+        <member name="M:BI.Aspect.Encryption.EncryptionManager.Decrypt(System.String)">
+            <summary>
+            Decrypts a previously encrypted string.
+            </summary>
+            <param name="encryptedText">The encrypted string to decrypt.</param>
+            <returns>A decrypted string.</returns>
+        </member>
+        <member name="M:BI.Aspect.Encryption.EncryptionManager.DecryptAsInt(System.String)">
+            <summary>
+            Decrypts a previously encrypted string and returns that value parsed as an integer.
+            </summary>
+            <param name="encryptedText">The encrypted string to decrypt.</param>
+            <returns>The decrypted string parsed as an integer.</returns>
+        </member>
+        <member name="M:BI.Aspect.Encryption.EncryptionManager.DecryptAsLong(System.String)">
+            <summary>
+            Decrypts a previously encrypted string and returns that value parsed as a long.
+            </summary>
+            <param name="encryptedText">The encrypted string to decrypt.</param>
+            <returns>The decrypted string parsed as a long.</returns>
+        </member>
+        <member name="M:BI.Aspect.Encryption.EncryptionManager.Decrypt(System.String,System.String)">
+            <summary>
+            Decrypts a previously encrypted string.
+            </summary>
+            <param name="encryptedText">The encrypted string to decrypt.</param>
+            <param name="salt">The key salt used to derive the key.</param>
+            <returns>A decrypted string.</returns>
+        </member>
+        <member name="M:BI.Aspect.Encryption.EncryptionManager.DecryptAsInt(System.String,System.String)">
+            <summary>
+            Decrypts a previously encrypted string and returns that value parsed as an integer.
+            </summary>
+            <param name="encryptedText">The encrypted string to decrypt.</param>
+            <param name="salt">The key salt used to derive the key.</param>
+            <returns>The decrypted string parsed as an integer.</returns>
+        </member>
+        <member name="M:BI.Aspect.Encryption.EncryptionManager.DecryptAsLong(System.String,System.String)">
+            <summary>
+            Decrypts a previously encrypted string and returns that value parsed as a long.
+            </summary>
+            <param name="encryptedText">The encrypted string to decrypt.</param>
+            <param name="salt">The key salt used to derive the key.</param>
+            <returns>The decrypted string parsed as a long.</returns>
+        </member>
+        <member name="M:BI.Aspect.Encryption.EncryptionManager.Decrypt(System.String,System.Int32)">
+            <summary>
+            Decrypts a previously encrypted string.
+            </summary>
+            <param name="encryptedText">The encrypted string to decrypt.</param>
+            <param name="salt">The integer key salt used to derive the key.</param>
+            <returns>A decrypted string.</returns>
+        </member>
+        <member name="M:BI.Aspect.Encryption.EncryptionManager.DecryptAsInt(System.String,System.Int32)">
+            <summary>
+            Decrypts a previously encrypted string and returns that value parsed as an integer.
+            </summary>
+            <param name="encryptedText">The encrypted string to decrypt.</param>
+            <param name="salt">The integer key salt used to derive the key.</param>
+            <returns>The decrypted string parsed as an integer.</returns>
+        </member>
+        <member name="M:BI.Aspect.Encryption.EncryptionManager.DecryptAsLong(System.String,System.Int32)">
+            <summary>
+            Decrypts a previously encrypted string and returns that value parsed as a long.
+            </summary>
+            <param name="encryptedText">The encrypted string to decrypt.</param>
+            <param name="salt">The integer key salt used to derive the key.</param>
+            <returns>The decrypted string parsed as a long.</returns>
+        </member>
+        <member name="M:BI.Aspect.Encryption.EncryptionManager.Encrypt(System.String)">
+            <summary>
+            Encrypts any string using the Rijndael algorithm.
+            </summary>
+            <param name="clearText">The string to encrypt.</param>
+            <returns>A Base64 encrypted string.</returns>
+        </member>
+        <member name="M:BI.Aspect.Encryption.EncryptionManager.Encrypt(System.Int32)">
+            <summary>
+            Encrypts any string using the Rijndael algorithm.
+            </summary>
+            <param name="value">The integer value to encrypt.</param>
+        </member>
+        <member name="M:BI.Aspect.Encryption.EncryptionManager.Encrypt(System.Int64)">
+            <summary>
+            Encrypts any string using the Rijndael algorithm.
+            </summary>
+            <param name="value">The long value to encrypt.</param>
+        </member>
+        <member name="M:BI.Aspect.Encryption.EncryptionManager.Encrypt(System.String,System.String)">
+            <summary>
+            Encrypts any string using the Rijndael algorithm.
+            </summary>
+            <param name="clearText">The string to encrypt.</param>
+            <param name="salt">The key salt used to derive the key.</param>
+            <returns>A Base64 encrypted string.</returns>
+        </member>
+        <member name="M:BI.Aspect.Encryption.EncryptionManager.Encrypt(System.Int32,System.String)">
+            <summary>
+            Encrypts any string using the Rijndael algorithm.
+            </summary>
+            <param name="value">The integer value to encrypt.</param>
+            <param name="salt">The key salt used to derive the key.</param>
+            <returns>A Base64 encrypted string.</returns>
+        </member>
+        <member name="M:BI.Aspect.Encryption.EncryptionManager.Encrypt(System.Int64,System.String)">
+            <summary>
+            Encrypts any string using the Rijndael algorithm.
+            </summary>
+            <param name="value">The long value to encrypt.</param>
+            <param name="salt">The key salt used to derive the key.</param>
+            <returns>A Base64 encrypted string.</returns>
+        </member>
+        <member name="M:BI.Aspect.Encryption.EncryptionManager.Encrypt(System.String,System.Int32)">
+            <summary>
+            Encrypts any string using the Rijndael algorithm.
+            </summary>
+            <param name="clearText">The value to encrypt.</param>
+            <param name="salt">The integer key salt used to derive the key.</param>
+            <returns>A Base64 encrypted string.</returns>
+        </member>
+        <member name="M:BI.Aspect.Encryption.EncryptionManager.Encrypt(System.Int32,System.Int32)">
+            <summary>
+            Encrypts any string using the Rijndael algorithm.
+            </summary>
+            <param name="value">The integer value to encrypt.</param>
+            <param name="salt">The integer key salt used to derive the key.</param>
+            <returns>A Base64 encrypted string.</returns>
+        </member>
+        <member name="M:BI.Aspect.Encryption.EncryptionManager.Encrypt(System.Int64,System.Int32)">
+            <summary>
+            Encrypts any string using the Rijndael algorithm.
+            </summary>
+            <param name="value">The long value to encrypt.</param>
+            <param name="salt">The integer key salt used to derive the key.</param>
+            <returns>A Base64 encrypted string.</returns>
+        </member>
+        <member name="T:BI.Aspect.Encryption.UrlEncoding">
+            <summary>
+            This class encodes and decodes encrypted datum for usage in URLs.
+            We cannot use the standard urlEncode due to the usage of the %2f which will give you a 404 in IIS.
+            </summary>
+        </member>
+        <member name="M:BI.Aspect.Encryption.UrlEncoding.UrlDecode(System.String)">
+            <summary>
+            Decodes a previously encoded URL to its original value.
+            </summary>
+            <param name="url">The encoded URL to decode.</param>
+            <returns>The decoded URL value.</returns>
+        </member>
+        <member name="M:BI.Aspect.Encryption.UrlEncoding.UrlEncode(System.String)">
+            <summary>
+            Replaces the characters that are not URL safe for characters that can be safely transmitted as part of the URL address
+            </summary>
+            <param name="url">URL with potential unsafe characters.</param>
+            <returns>The provided URL with safe-only characters.</returns>
+        </member>
+    </members>
+</doc>

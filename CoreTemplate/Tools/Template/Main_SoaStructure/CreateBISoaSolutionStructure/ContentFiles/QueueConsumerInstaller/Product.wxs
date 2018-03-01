@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+	<Product Id="*" Name="BI.QueueConsumer.Template.Wix" Language="1033" Version="1.0.0.0" Manufacturer="BI Incorporated" UpgradeCode="cff621fc-d506-442c-8d74-4083f8792e2d">
+		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" InstallPrivileges="elevated" />
+		<Property Id="MSIUSEREALADMINDETECTION" Value="1" />
+		<MajorUpgrade DowngradeErrorMessage="A newer version of BI.QueueConsumer.Template is already installed." />
+		<Media Id="1" Cabinet="Cab1.cab" EmbedCab="yes" />
+
+		<Directory Id="TARGETDIR" Name="SourceDir">
+			<Directory Id="ProgramFilesFolder">
+				<Directory Id="BIIncorporatedDir" Name="BI Incorporated">
+					<Directory Id="INSTALLFOLDER" Name="BI.QueueConsumer.Template">
+						<Component Id="BI.QueueConsumer.Template" Guid="C71B0C68-8018-4AB7-875B-D831658CB191">
+							<ServiceInstall Id="BI.QueueConsumer.Template" Type="ownProcess" Name="BI.QueueConsumer.Template" DisplayName="BI.QueueConsumer.Template" Description="Monitors Template queue for communication requests" Start="demand" Account="LocalSystem" ErrorControl="normal" />
+							<File Id="BI.QueueConsumer.Template.exe" Name="$(var.BI.QueueConsumer.Template.TargetFileName)" Source='$(var.BI.QueueConsumer.Template.TargetPath)' DiskId='1' KeyPath='yes' />
+							<File Id='BI.QueueConsumer.Template.exe.config' Name='BI.QueueConsumer.Template.exe.config' Source='$(var.BI.QueueConsumer.Template.TargetDir)\BI.QueueConsumer.Template.exe.config' DiskId='1' />
+							<File Id='BI.Aspect.Logging.dll' Name='BI.Aspect.Logging.dll' Source='$(var.BI.QueueConsumer.Template.TargetDir)\BI.Aspect.Logging.dll' DiskId='1' />
+							<File Id='BI.Aspect.RabbitMq.Contract.dll' Name='BI.Aspect.RabbitMq.Contract.dll' Source='$(var.BI.QueueConsumer.Template.TargetDir)\BI.Aspect.RabbitMq.Contract.dll' DiskId='1' />
+							<File Id='BI.Aspect.RabbitMq.dll' Name='BI.Aspect.RabbitMq.dll' Source='$(var.BI.QueueConsumer.Template.TargetDir)\BI.Aspect.RabbitMq.dll' DiskId='1' />
+							<File Id='BI.Enterprise.Common.Exceptions.dll' Name='BI.Enterprise.Common.Exceptions.dll' Source='$(var.BI.QueueConsumer.Template.TargetDir)\BI.Enterprise.Common.Exceptions.dll' DiskId='1' />
+							<File Id='BI.Enterprise.Dto.Template.dll' Name='BI.Enterprise.Dto.Template.dll' Source='$(var.BI.QueueConsumer.Template.TargetDir)\BI.Enterprise.Dto.Template.dll' DiskId='1' />
+							<File Id='BI.Enterprise.ViewModels.Template.dll' Name='BI.Enterprise.ViewModels.Template.dll' Source='$(var.BI.QueueConsumer.Template.TargetDir)\BI.Enterprise.ViewModels.Template.dll' DiskId='1' />
+							<File Id='BI.Repository.Template.dll' Name='BI.Repository.Template.dll' Source='$(var.BI.QueueConsumer.Template.TargetDir)\BI.Repository.Template.dll' DiskId='1' />
+							<File Id='BI.ServiceBus.Core.Template.dll' Name='BI.ServiceBus.Core.Template.dll' Source='$(var.BI.QueueConsumer.Template.TargetDir)\BI.ServiceBus.Core.Template.dll' DiskId='1' />
+							<File Id='BI.ServiceBus.Manager.Template.dll' Name='BI.ServiceBus.Manager.Template.dll' Source='$(var.BI.QueueConsumer.Template.TargetDir)\BI.ServiceBus.Manager.Template.dll' DiskId='1' />
+							<File Id='BI.ServiceBus.Repository.Template.dll' Name='BI.ServiceBus.Repository.Template.dll' Source='$(var.BI.QueueConsumer.Template.TargetDir)\BI.ServiceBus.Repository.Template.dll' DiskId='1' />
+							<File Id='BWSRulesEngine.dll' Name='BWSRulesEngine.dll' Source='$(var.BI.QueueConsumer.Template.TargetDir)\BWSRulesEngine.dll' DiskId='1' />
+							<File Id='EntityFramework.dll' Name='EntityFramework.dll' Source='$(var.BI.QueueConsumer.Template.TargetDir)\EntityFramework.dll' DiskId='1' />
+							<File Id='EntityFramework.SqlServer.dll' Name='EntityFramework.SqlServer.dll' Source='$(var.BI.QueueConsumer.Template.TargetDir)\EntityFramework.SqlServer.dll' DiskId='1' />
+							<File Id='Microsoft.Diagnostics.Tracing.EventSource.dll' Name='Microsoft.Diagnostics.Tracing.EventSource.dll' Source='$(var.BI.QueueConsumer.Template.TargetDir)\Microsoft.Diagnostics.Tracing.EventSource.dll' DiskId='1' />
+							<File Id='Newtonsoft.Json.dll' Name='Newtonsoft.Json.dll' Source='$(var.BI.QueueConsumer.Template.TargetDir)Newtonsoft.Json.dll' DiskId='1' />
+							<File Id='RabbitMQ.Client.dll' Name='RabbitMQ.Client.dll' Source='$(var.BI.QueueConsumer.Template.TargetDir)\RabbitMQ.Client.dll' DiskId='1' />
+							<File Id='Serilog.dll' Name='Serilog.dll' Source='$(var.BI.QueueConsumer.Template.TargetDir)\Serilog.dll' DiskId='1' />
+							<File Id='Serilog.Sinks.File.dll' Name='Serilog.Sinks.File.dll' Source='$(var.BI.QueueConsumer.Template.TargetDir)\Serilog.Sinks.File.dll' DiskId='1' />
+							<File Id='Serilog.Sinks.RollingFile.dll' Name='Serilog.Sinks.RollingFile.dll' Source='$(var.BI.QueueConsumer.Template.TargetDir)\Serilog.Sinks.RollingFile.dll' DiskId='1' />
+							<File Id='SimpleInjector.dll' Name='SimpleInjector.dll' Source='$(var.BI.QueueConsumer.Template.TargetDir)\SimpleInjector.dll' DiskId='1' />
+						</Component>
+					</Directory>
+				</Directory>
+			</Directory>
+		</Directory>
+
+		<Feature Id="ProductFeature" Title="BI.QueueConsumer.Template.Wix" Level="1">
+			<ComponentRef Id="BI.QueueConsumer.Template" />
+		</Feature>
+	</Product>
+</Wix>

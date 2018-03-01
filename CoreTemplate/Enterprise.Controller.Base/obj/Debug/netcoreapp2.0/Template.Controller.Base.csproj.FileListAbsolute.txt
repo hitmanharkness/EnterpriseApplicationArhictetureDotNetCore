@@ -1,0 +1,4 @@
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Enterprise.Controller.Base\obj\Debug\netcoreapp2.0\Template.Controller.Base.csprojResolveAssemblyReference.cache
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Enterprise.Controller.Base\obj\Debug\netcoreapp2.0\Template.Controller.Base.csproj.CoreCompileInputs.cache
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Enterprise.Controller.Base\obj\Debug\netcoreapp2.0\Template.Controller.Base.AssemblyInfoInputs.cache
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Enterprise.Controller.Base\obj\Debug\netcoreapp2.0\Template.Controller.Base.AssemblyInfo.cs

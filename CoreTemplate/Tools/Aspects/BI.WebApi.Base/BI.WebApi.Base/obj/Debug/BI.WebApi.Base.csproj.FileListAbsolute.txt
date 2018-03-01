@@ -1,0 +1,2 @@
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Tools\Aspects\BI.WebApi.Base\BI.WebApi.Base\obj\Debug\BI.WebApi.Base.csprojResolveAssemblyReference.cache
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Tools\Aspects\BI.WebApi.Base\BI.WebApi.Base\obj\Debug\BI.WebApi.Base.csproj.CoreCompileInputs.cache

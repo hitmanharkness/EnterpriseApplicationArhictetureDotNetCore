@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+	<PropertyGroup>
+		<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+		<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+		<ProjectGuid>{6900DFB8-F425-4117-91FC-B82D7373FEC5}</ProjectGuid>
+		<OutputType>WinExe</OutputType>
+		<RootNamespace>BI.QueueConsumer.Template</RootNamespace>
+		<AssemblyName>BI.QueueConsumer.Template</AssemblyName>
+		<TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+		<FileAlignment>512</FileAlignment>
+		<AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+		<ProjectConfigFileName>App.config</ProjectConfigFileName>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+		<PlatformTarget>AnyCPU</PlatformTarget>
+		<DebugSymbols>true</DebugSymbols>
+		<DebugType>full</DebugType>
+		<Optimize>false</Optimize>
+		<OutputPath>bin\Debug\</OutputPath>
+		<DefineConstants>DEBUG;TRACE</DefineConstants>
+		<ErrorReport>prompt</ErrorReport>
+		<WarningLevel>4</WarningLevel>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Func1Debug|AnyCPU'">
+		<PlatformTarget>AnyCPU</PlatformTarget>
+		<DebugSymbols>true</DebugSymbols>
+		<DebugType>full</DebugType>
+		<Optimize>false</Optimize>
+		<OutputPath>bin\Func1Debug\</OutputPath>
+		<DefineConstants>DEBUG;TRACE</DefineConstants>
+		<ErrorReport>prompt</ErrorReport>
+		<WarningLevel>4</WarningLevel>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+		<PlatformTarget>AnyCPU</PlatformTarget>
+		<DebugType>pdbonly</DebugType>
+		<Optimize>true</Optimize>
+		<OutputPath>bin\Release\</OutputPath>
+		<DefineConstants>TRACE</DefineConstants>
+		<ErrorReport>prompt</ErrorReport>
+		<WarningLevel>4</WarningLevel>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Func1Release|AnyCPU'">
+		<PlatformTarget>AnyCPU</PlatformTarget>
+		<DebugType>pdbonly</DebugType>
+		<Optimize>true</Optimize>
+		<OutputPath>bin\Func1Release\</OutputPath>
+		<DefineConstants>TRACE</DefineConstants>
+		<ErrorReport>prompt</ErrorReport>
+		<WarningLevel>4</WarningLevel>
+	</PropertyGroup>
+	<ItemGroup>
+		<Reference Include="BI.Aspect.Logging, Version=1.0.4.0, Culture=neutral, processorArchitecture=MSIL">
+			<HintPath>..\packages\BI.Aspect.Logging.1.0.4\lib\net461\BI.Aspect.Logging.dll</HintPath>
+		</Reference>
+		<Reference Include="BI.Aspect.RabbitMq, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+			<HintPath>..\packages\BI.Aspect.RabbitMq.2.0.0\lib\net461\BI.Aspect.RabbitMq.dll</HintPath>
+		</Reference>
+		<Reference Include="BI.Aspect.RabbitMq.Contract, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+			<HintPath>..\packages\BI.Aspect.RabbitMq.Contract.2.0.0\lib\net461\BI.Aspect.RabbitMq.Contract.dll</HintPath>
+		</Reference>
+		<Reference Include="BI.Enterprise.Common.Exceptions, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+			<HintPath>..\packages\BI.Enterprise.Common.Exceptions.1.0.1\lib\net461\BI.Enterprise.Common.Exceptions.dll</HintPath>
+		</Reference>
+		<Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+			<HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+		</Reference>
+		<Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+			<HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+		</Reference>
+		<Reference Include="Microsoft.Diagnostics.Tracing.EventSource, Version=1.1.28.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+			<HintPath>..\packages\Microsoft.Diagnostics.Tracing.EventSource.Redist.1.1.28\lib\net46\Microsoft.Diagnostics.Tracing.EventSource.dll</HintPath>
+		</Reference>
+		<Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+			<HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+		</Reference>
+		<Reference Include="RabbitMQ.Client, Version=5.0.0.0, Culture=neutral, PublicKeyToken=89e7d7c5feba84ce, processorArchitecture=MSIL">
+			<HintPath>..\packages\RabbitMQ.Client.5.0.1\lib\net451\RabbitMQ.Client.dll</HintPath>
+		</Reference>
+		<Reference Include="Serilog, Version=2.0.0.0, Culture=neutral, PublicKeyToken=24c2f752a8e58a10, processorArchitecture=MSIL">
+			<HintPath>..\packages\Serilog.2.6.0\lib\net46\Serilog.dll</HintPath>
+		</Reference>
+		<Reference Include="Serilog.Sinks.File, Version=2.0.0.0, Culture=neutral, PublicKeyToken=24c2f752a8e58a10, processorArchitecture=MSIL">
+			<HintPath>..\packages\Serilog.Sinks.File.4.0.0\lib\net45\Serilog.Sinks.File.dll</HintPath>
+		</Reference>
+		<Reference Include="Serilog.Sinks.RollingFile, Version=2.0.0.0, Culture=neutral, PublicKeyToken=24c2f752a8e58a10, processorArchitecture=MSIL">
+			<HintPath>..\packages\Serilog.Sinks.RollingFile.3.3.0\lib\net45\Serilog.Sinks.RollingFile.dll</HintPath>
+		</Reference>
+		<Reference Include="SimpleInjector, Version=4.0.12.0, Culture=neutral, PublicKeyToken=984cb50dea722e99, processorArchitecture=MSIL">
+			<HintPath>..\packages\SimpleInjector.4.0.12\lib\net45\SimpleInjector.dll</HintPath>
+		</Reference>
+		<Reference Include="System" />
+		<Reference Include="System.Configuration.Install" />
+		<Reference Include="System.Core" />
+		<Reference Include="System.Management" />
+		<Reference Include="System.ServiceProcess" />
+	</ItemGroup>
+	<ItemGroup>
+		<Compile Include="HeartBeatWorker.cs" />
+		<Compile Include="ProjectInstaller.cs">
+			<SubType>Component</SubType>
+		</Compile>
+		<Compile Include="ProjectInstaller.Designer.cs">
+			<DependentUpon>ProjectInstaller.cs</DependentUpon>
+		</Compile>
+		<Compile Include="TemplateServiceConsumer.cs">
+			<SubType>Component</SubType>
+		</Compile>
+		<Compile Include="TemplateServiceConsumer.Designer.cs">
+			<DependentUpon>TemplateServiceConsumer.cs</DependentUpon>
+		</Compile>
+		<Compile Include="Program.cs" />
+		<Compile Include="Properties\AssemblyInfo.cs" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="App.config" />
+		<None Include="App.Debug.config">
+			<DependentUpon>App.config</DependentUpon>
+		</None>
+		<None Include="App.Func1Debug.config">
+			<DependentUpon>App.config</DependentUpon>
+		</None>
+		<None Include="App.Func1Release.config">
+			<DependentUpon>App.config</DependentUpon>
+		</None>
+		<None Include="App.Release.config">
+			<DependentUpon>App.config</DependentUpon>
+		</None>
+		<None Include="packages.config" />
+	</ItemGroup>
+	<ItemGroup>
+		<EmbeddedResource Include="ProjectInstaller.resx">
+			<DependentUpon>ProjectInstaller.cs</DependentUpon>
+		</EmbeddedResource>
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\BI.Enterprise.ViewModels.Template\BI.Enterprise.ViewModels.Template.csproj">
+			<Project>{1c8c2cc9-0176-47da-9958-8447a4e2a0f3}</Project>
+			<Name>BI.Enterprise.ViewModels.Template</Name>
+		</ProjectReference>
+		<ProjectReference Include="..\BI.Repository.Template\BI.Repository.Template.csproj">
+			<Project>{a4e5a0fb-050d-4f63-9ec3-ac58e47f5b2e}</Project>
+			<Name>BI.Repository.Template</Name>
+		</ProjectReference>
+		<ProjectReference Include="..\BI.ServiceBus.Core.Template\BI.ServiceBus.Core.Template.csproj">
+			<Project>{060fb396-1821-4ae6-bd67-38d05caed940}</Project>
+			<Name>BI.ServiceBus.Core.Template</Name>
+		</ProjectReference>
+		<ProjectReference Include="..\BI.ServiceBus.Manager.Template\BI.ServiceBus.Manager.Template.csproj">
+			<Project>{2af7d107-5151-403c-8933-24c8149a2def}</Project>
+			<Name>BI.ServiceBus.Manager.Template</Name>
+		</ProjectReference>
+		<ProjectReference Include="..\BI.ServiceBus.Repository.Template\BI.ServiceBus.Repository.Template.csproj">
+			<Project>{880e3d49-e63b-461d-b4a3-0a4cdde79e06}</Project>
+			<Name>BI.ServiceBus.Repository.Template</Name>
+		</ProjectReference>
+	</ItemGroup>
+	<PropertyGroup>
+		<VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+		<VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+	</PropertyGroup>
+	<Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+	<Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+	<Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+	<Import Project="$(SolutionDir)packages\OctoPack.3.6.3\build\OctoPack.targets" Condition="Exists('$(SolutionDir)packages\OctoPack.3.6.3\build\OctoPack.targets')" />
+	<Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+		<PropertyGroup>
+			<ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+		</PropertyGroup>
+		<Error Condition="!Exists('$(SolutionDir)packages\OctoPack.3.6.3\build\OctoPack.targets')" Text="$([System.String]::Format('$(ErrorText)', '$(SolutionDir)packages\OctoPack.3.6.3\build\OctoPack.targets'))" />
+	</Target>
+	<Target Name="BeforeBuild">
+		<TransformXml Source="App.config" Transform="App.$(Configuration).config" Destination="App.config" StackTrace="true" />
+	</Target>
+</Project>

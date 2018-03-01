@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0B9EF991-DB59-455A-A2FC-723BA774DEC0}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>CreateBISoaSolutionStructure</RootNamespace>
+    <AssemblyName>CreateBISoaSolutionStructure</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ContentFiles\Api\App_Start\WebApiConfig.cs" />
+    <EmbeddedResource Include="ContentFiles\Api\Controllers\TemplateController.cs" />
+    <EmbeddedResource Include="ContentFiles\Api\Models\GetTemplateSampleProvider.cs" />
+    <EmbeddedResource Include="ContentFiles\Api\Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ContentFiles\Api\DependencyRegistrar.cs" />
+    <EmbeddedResource Include="ContentFiles\Api\Startup.cs" />
+    <EmbeddedResource Include="ContentFiles\Core\Action\SaveTemplateInfoAction.cs" />
+    <EmbeddedResource Include="ContentFiles\Core\Action\GetTemplateInfoAction.cs" />
+    <EmbeddedResource Include="ContentFiles\Core\Action\Rule\IdEqualTo4Returns404Rule.cs" />
+    <EmbeddedResource Include="ContentFiles\Core\Action\Rule\ValueShouldBeGreaterThanZeroRule.cs" />
+    <EmbeddedResource Include="ContentFiles\Core\Action\Rule\ValueShouldNotBeEmptyOrNullRule.cs" />
+    <EmbeddedResource Include="ContentFiles\Core\Contract\ITemplateCore.cs" />
+    <EmbeddedResource Include="ContentFiles\Core\Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ContentFiles\Core\TemplateCore.cs" />
+    <EmbeddedResource Include="ContentFiles\Dto\DtoTemplateInfo.cs" />
+    <EmbeddedResource Include="ContentFiles\Dto\Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ContentFiles\Manager\Contract\ITemplateManager.cs" />
+    <EmbeddedResource Include="ContentFiles\Manager\Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ContentFiles\Manager\TemplateManager.cs" />
+    <EmbeddedResource Include="ContentFiles\QueueConsumer\HeartBeatWorker.cs" />
+    <EmbeddedResource Include="ContentFiles\QueueConsumer\Program.cs" />
+    <EmbeddedResource Include="ContentFiles\QueueConsumer\ProjectInstaller.cs" />
+    <EmbeddedResource Include="ContentFiles\QueueConsumer\Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ContentFiles\Repository\Contract\ITemplateContext.cs" />
+    <EmbeddedResource Include="ContentFiles\Repository\Models\TemplateContext.cs" />
+    <EmbeddedResource Include="ContentFiles\Repository\Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ContentFiles\RepositoryManager\Contract\ITemplateRepositoryManager.cs" />
+    <EmbeddedResource Include="ContentFiles\RepositoryManager\Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ContentFiles\RepositoryManager\TemplateRepositoryManager.cs" />
+    <EmbeddedResource Include="ContentFiles\ViewModels\Contract\ISaveTemplateResponse.cs" />
+    <EmbeddedResource Include="ContentFiles\ViewModels\Contract\ITemplateInfo.cs" />
+    <EmbeddedResource Include="ContentFiles\ViewModels\GetTemplateResponseInfo.cs" />
+    <EmbeddedResource Include="ContentFiles\ViewModels\Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ContentFiles\ViewModels\SaveTemplateResponseInfo.cs" />
+    <EmbeddedResource Include="ContentFiles\ViewModels\TemplateInfo.cs" />
+    <EmbeddedResource Include="ContentFiles\UnitTest\Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ContentFiles\UnitTest\TemplateTest.cs" />
+    <EmbeddedResource Include="ContentFiles\Core\Action\Rule\CollectionShouldNotBeEmptyOrNullRule.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ContentFiles\QueueConsumer\TemplateServiceConsumer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <EmbeddedResource Include="ContentFiles\Api\Global.asax.cs" />
+    <EmbeddedResource Include="ContentFiles\Api\packages.config" />
+    <EmbeddedResource Include="ContentFiles\Api\Web.config" />
+    <EmbeddedResource Include="ContentFiles\Core\packages.config" />
+    <EmbeddedResource Include="ContentFiles\Manager\packages.config" />
+    <EmbeddedResource Include="ContentFiles\QueueConsumer\App.config">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContentFiles\QueueConsumer\packages.config" />
+    <EmbeddedResource Include="ContentFiles\QueueConsumer\ProjectInstaller.designer.cs" />
+    <EmbeddedResource Include="ContentFiles\QueueConsumer\ProjectInstaller.resx1" />
+    <EmbeddedResource Include="ContentFiles\QueueConsumer\TemplateServiceConsumer.designer.cs" />
+    <EmbeddedResource Include="ContentFiles\QueueConsumerInstaller\BI.QueueConsumer.Template.Wix.wixproj" />
+    <EmbeddedResource Include="ContentFiles\QueueConsumerInstaller\Product.wxs" />
+    <EmbeddedResource Include="ContentFiles\Repository\packages.config" />
+    <EmbeddedResource Include="ContentFiles\UnitTest\Fakes\BI.ServiceBus.Repository.Template.fakes" />
+    <EmbeddedResource Include="ContentFiles\UnitTest\packages.config" />
+    <EmbeddedResource Include="ContentFiles\nuget\NuGet.Config" />
+    <EmbeddedResource Include="ContentFiles\QueueConsumer\App.Debug.config" />
+    <EmbeddedResource Include="ContentFiles\QueueConsumer\App.Func1Debug.config" />
+    <EmbeddedResource Include="ContentFiles\QueueConsumer\App.Func1Release.config" />
+    <EmbeddedResource Include="ContentFiles\QueueConsumer\App.Release.config">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContentFiles\Api\Web.Debug.config" />
+    <EmbeddedResource Include="ContentFiles\Api\Web.Func1Debug.config" />
+    <EmbeddedResource Include="ContentFiles\Api\Web.Func1Release.config" />
+    <EmbeddedResource Include="ContentFiles\Api\Web.Release.config" />
+    <EmbeddedResource Include="ContentFiles\nuget\LoggingConfigSettings.xsd">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContentFiles\nuget\RabbitMqConfigSettings.xsd">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContentFiles\nuget\StsConfigSettings.xsd">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ContentFiles\Api\App_Data\Skip.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ContentFiles\Api\BI.WebApi.Template.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ContentFiles\Api\SwaggerExtensions\auth-header.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ContentFiles\Api\Global.asax" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ContentFiles\Api\Index.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ContentFiles\Core\BI.ServiceBus.Core.Template.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ContentFiles\Dto\BI.Enterprise.Dto.Template.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ContentFiles\Manager\BI.ServiceBus.Manager.Template.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ContentFiles\QueueConsumer\BI.QueueConsumer.Template.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ContentFiles\Repository\BI.Repository.Template.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ContentFiles\RepositoryManager\BI.ServiceBus.Repository.Template.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ContentFiles\Solution\Template.sln" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ContentFiles\ViewModels\BI.Enterprise.ViewModels.Template.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ContentFiles\UnitTest\BI.ServiceBus.Core.Template.Test.csproj" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

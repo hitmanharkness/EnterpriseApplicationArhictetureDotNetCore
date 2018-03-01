@@ -1,0 +1,7 @@
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Tools\Aspects\BI.Aspect.Encryption\BI.Aspect.Encryption\bin\Debug\BI.Aspect.Encryption.xml
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Tools\Aspects\BI.Aspect.Encryption\BI.Aspect.Encryption\bin\Debug\BI.Aspect.Encryption.dll
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Tools\Aspects\BI.Aspect.Encryption\BI.Aspect.Encryption\bin\Debug\BI.Aspect.Encryption.pdb
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Tools\Aspects\BI.Aspect.Encryption\BI.Aspect.Encryption\obj\Debug\BI.Aspect.Encryption.csprojResolveAssemblyReference.cache
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Tools\Aspects\BI.Aspect.Encryption\BI.Aspect.Encryption\obj\Debug\BI.Aspect.Encryption.csproj.CoreCompileInputs.cache
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Tools\Aspects\BI.Aspect.Encryption\BI.Aspect.Encryption\obj\Debug\BI.Aspect.Encryption.dll
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Tools\Aspects\BI.Aspect.Encryption\BI.Aspect.Encryption\obj\Debug\BI.Aspect.Encryption.pdb

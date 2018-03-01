@@ -19,13 +19,13 @@ namespace Template.ServiceApp.Controllers
     public class ServiceRequestController : BaseController
     {
          
-        IServiceRequestManager _manager;
-        ILogger<ServiceRequestController> _logger;
+        private IServiceRequestManager _manager;
+        private ILogger<ServiceRequestController> _logger;
 
         public ServiceRequestController(IServiceRequestManager manager, ILogger<ServiceRequestController> logger) : base(manager, logger)
         {
-            _manager = manager;
-            _logger = logger;
+            _manager = manager ?? throw new ArgumentNullException(nameof(manager));
+            _logger = logger ?? throw new ArgumentNullException(nameof(logger));
         }
 
         // GET: api/values

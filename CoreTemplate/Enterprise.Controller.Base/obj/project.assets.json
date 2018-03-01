@@ -7658,9 +7658,9 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\tharknes\\Documents\\GitHub\\EnterpriseApplicationArhictetureDotNetCore\\CoreTemplate\\Enterprise.Controller.Base\\Enterprise.Controller.Base.csproj",
-      "projectName": "Enterprise.Controller.Base",
-      "projectPath": "C:\\Users\\tharknes\\Documents\\GitHub\\EnterpriseApplicationArhictetureDotNetCore\\CoreTemplate\\Enterprise.Controller.Base\\Enterprise.Controller.Base.csproj",
+      "projectUniqueName": "C:\\Users\\tharknes\\Documents\\GitHub\\EnterpriseApplicationArhictetureDotNetCore\\CoreTemplate\\Enterprise.Controller.Base\\Common.Controller.Base.csproj",
+      "projectName": "Common.Controller.Base",
+      "projectPath": "C:\\Users\\tharknes\\Documents\\GitHub\\EnterpriseApplicationArhictetureDotNetCore\\CoreTemplate\\Enterprise.Controller.Base\\Common.Controller.Base.csproj",
       "packagesPath": "C:\\Users\\tharknes\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\tharknes\\Documents\\GitHub\\EnterpriseApplicationArhictetureDotNetCore\\CoreTemplate\\Enterprise.Controller.Base\\obj\\",
       "projectStyle": "PackageReference",

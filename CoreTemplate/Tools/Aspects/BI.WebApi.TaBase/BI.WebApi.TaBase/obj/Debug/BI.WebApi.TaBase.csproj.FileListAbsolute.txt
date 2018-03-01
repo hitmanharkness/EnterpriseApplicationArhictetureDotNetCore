@@ -1,0 +1,2 @@
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Tools\Aspects\BI.WebApi.TaBase\BI.WebApi.TaBase\obj\Debug\BI.WebApi.TaBase.csprojResolveAssemblyReference.cache
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Tools\Aspects\BI.WebApi.TaBase\BI.WebApi.TaBase\obj\Debug\BI.WebApi.TaBase.csproj.CoreCompileInputs.cache

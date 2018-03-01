@@ -1,0 +1,6 @@
+C:\BI\BWS\Tools\Aspects\BI.Aspect.Config\BI.Aspect.Config\bin\Debug\BI.Aspect.Config.xml
+C:\BI\BWS\Tools\Aspects\BI.Aspect.Config\BI.Aspect.Config\bin\Debug\BI.Aspect.Config.dll
+C:\BI\BWS\Tools\Aspects\BI.Aspect.Config\BI.Aspect.Config\bin\Debug\BI.Aspect.Config.pdb
+C:\BI\BWS\Tools\Aspects\BI.Aspect.Config\BI.Aspect.Config\obj\Debug\BI.Aspect.Config.csproj.CoreCompileInputs.cache
+C:\BI\BWS\Tools\Aspects\BI.Aspect.Config\BI.Aspect.Config\obj\Debug\BI.Aspect.Config.dll
+C:\BI\BWS\Tools\Aspects\BI.Aspect.Config\BI.Aspect.Config\obj\Debug\BI.Aspect.Config.pdb

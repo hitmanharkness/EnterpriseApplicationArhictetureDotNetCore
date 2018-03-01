@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateBISoaSolutionStructure", "CreateBISoaSolutionStructure\CreateBISoaSolutionStructure.csproj", "{0B9EF991-DB59-455A-A2FC-723BA774DEC0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B9EF991-DB59-455A-A2FC-723BA774DEC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B9EF991-DB59-455A-A2FC-723BA774DEC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B9EF991-DB59-455A-A2FC-723BA774DEC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B9EF991-DB59-455A-A2FC-723BA774DEC0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E6056AA-11CB-46D4-B2A0-9D607319CB2A}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://boucotfs:8080/tfs/software
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = CreateBISoaSolutionStructure\\CreateBISoaSolutionStructure.csproj
+		SccProjectName1 = CreateBISoaSolutionStructure
+		SccLocalPath1 = CreateBISoaSolutionStructure
+	EndGlobalSection
+EndGlobal

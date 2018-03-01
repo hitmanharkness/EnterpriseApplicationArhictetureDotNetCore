@@ -1,0 +1,2 @@
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Tools\Aspects\BI.Aspect.Language\BI.Aspect.Language\obj\Debug\BI.Aspect.Language.csprojResolveAssemblyReference.cache
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Tools\Aspects\BI.Aspect.Language\BI.Aspect.Language\obj\Debug\BI.Aspect.Language.csproj.CoreCompileInputs.cache

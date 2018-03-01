@@ -1,0 +1,5 @@
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Tools\Aspects\Common\BI.Enterprise.Common.DateHelper\BI.Enterprise.Common.DateHelper\bin\Debug\BI.Enterprise.Common.DateHelper.dll
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Tools\Aspects\Common\BI.Enterprise.Common.DateHelper\BI.Enterprise.Common.DateHelper\bin\Debug\BI.Enterprise.Common.DateHelper.pdb
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Tools\Aspects\Common\BI.Enterprise.Common.DateHelper\BI.Enterprise.Common.DateHelper\obj\Debug\BI.Enterprise.Common.DateHelper.csproj.CoreCompileInputs.cache
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Tools\Aspects\Common\BI.Enterprise.Common.DateHelper\BI.Enterprise.Common.DateHelper\obj\Debug\BI.Enterprise.Common.DateHelper.dll
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Tools\Aspects\Common\BI.Enterprise.Common.DateHelper\BI.Enterprise.Common.DateHelper\obj\Debug\BI.Enterprise.Common.DateHelper.pdb

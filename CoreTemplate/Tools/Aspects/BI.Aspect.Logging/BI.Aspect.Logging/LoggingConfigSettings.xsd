@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema
+	id="LoggingConfigSettings"
+	targetNamespace="urn:Logging.ConfigSettings"
+	xmlns:tns="urn:Logging.ConfigSettings"
+	attributeFormDefault="unqualified"
+	elementFormDefault="qualified"
+	xmlns="http://tempuri.org/LoggingConfigSettings.xsd"
+	xmlns:mstns="http://tempuri.org/LoggingConfigSettings.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="loggingSettings">
+		<xs:complexType>
+			<xs:attribute name="environmentName" type="xs:string" default="dev" />
+			<xs:attribute name="fileEventLevel" default="Information">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="Verbose" />
+						<xs:enumeration value="Debug" />
+						<xs:enumeration value="Information" />
+						<xs:enumeration value="Warning" />
+						<xs:enumeration value="Error" />
+						<xs:enumeration value="Fatal" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="logCount" type="xs:integer" default="90" />
+			<xs:attribute name="logRoot" type="xs:string" default="C:\Logs\" />
+			<xs:anyAttribute namespace="http://schemas.microsoft.com/XML-Document-Transform" processContents="strict"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

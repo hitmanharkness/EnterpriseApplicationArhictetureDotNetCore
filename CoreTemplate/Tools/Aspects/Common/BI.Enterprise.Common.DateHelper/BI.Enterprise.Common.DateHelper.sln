@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BI.Enterprise.Common.DateHelper", "BI.Enterprise.Common.DateHelper\BI.Enterprise.Common.DateHelper.csproj", "{C27C959F-C61A-42F4-B945-295F8CC5FD17}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C27C959F-C61A-42F4-B945-295F8CC5FD17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C27C959F-C61A-42F4-B945-295F8CC5FD17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C27C959F-C61A-42F4-B945-295F8CC5FD17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C27C959F-C61A-42F4-B945-295F8CC5FD17}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {38A600AA-79C1-41EC-B737-BF39E8206A47}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://boucotfs:8080/tfs/software
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = BI.Enterprise.Common.DateHelper\\BI.Enterprise.Common.DateHelper.csproj
+		SccProjectName1 = BI.Enterprise.Common.DateHelper
+		SccLocalPath1 = BI.Enterprise.Common.DateHelper
+	EndGlobalSection
+EndGlobal

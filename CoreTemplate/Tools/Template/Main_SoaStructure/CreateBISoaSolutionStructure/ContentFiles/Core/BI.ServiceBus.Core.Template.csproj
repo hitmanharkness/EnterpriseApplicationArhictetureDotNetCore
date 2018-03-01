@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+	<PropertyGroup>
+		<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+		<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+		<ProjectGuid>{060FB396-1821-4AE6-BD67-38D05CAED940}</ProjectGuid>
+		<OutputType>Library</OutputType>
+		<AppDesignerFolder>Properties</AppDesignerFolder>
+		<RootNamespace>BI.ServiceBus.Core.Template</RootNamespace>
+		<AssemblyName>BI.ServiceBus.Core.Template</AssemblyName>
+		<TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+		<FileAlignment>512</FileAlignment>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+		<DebugSymbols>true</DebugSymbols>
+		<DebugType>full</DebugType>
+		<Optimize>false</Optimize>
+		<OutputPath>bin\Debug\</OutputPath>
+		<DefineConstants>DEBUG;TRACE</DefineConstants>
+		<ErrorReport>prompt</ErrorReport>
+		<WarningLevel>4</WarningLevel>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+		<DebugType>pdbonly</DebugType>
+		<Optimize>true</Optimize>
+		<OutputPath>bin\Release\</OutputPath>
+		<DefineConstants>TRACE</DefineConstants>
+		<ErrorReport>prompt</ErrorReport>
+		<WarningLevel>4</WarningLevel>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Func1Debug|AnyCPU'">
+		<DebugSymbols>true</DebugSymbols>
+		<DebugType>full</DebugType>
+		<Optimize>false</Optimize>
+		<OutputPath>bin\Func1Debug\</OutputPath>
+		<DefineConstants>DEBUG;TRACE</DefineConstants>
+		<ErrorReport>prompt</ErrorReport>
+		<WarningLevel>4</WarningLevel>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Func1Release|AnyCPU'">
+		<DebugType>pdbonly</DebugType>
+		<Optimize>true</Optimize>
+		<OutputPath>bin\Func1Release\</OutputPath>
+		<DefineConstants>TRACE</DefineConstants>
+		<ErrorReport>prompt</ErrorReport>
+		<WarningLevel>4</WarningLevel>
+	</PropertyGroup>
+	<ItemGroup>
+		<Reference Include="BI.Enterprise.Common.Exceptions, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+			<HintPath>..\packages\BI.Enterprise.Common.Exceptions.1.0.1\lib\net461\BI.Enterprise.Common.Exceptions.dll</HintPath>
+		</Reference>
+		<Reference Include="BWSRulesEngine, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+			<HintPath>..\packages\BI.RulesEngine.1.0.1\lib\net461\BWSRulesEngine.dll</HintPath>
+		</Reference>
+		<Reference Include="Serilog, Version=2.0.0.0, Culture=neutral, PublicKeyToken=24c2f752a8e58a10, processorArchitecture=MSIL">
+			<HintPath>..\packages\Serilog.2.6.0\lib\net46\Serilog.dll</HintPath>
+		</Reference>
+		<Reference Include="System" />
+		<Reference Include="System.Core" />
+	</ItemGroup>
+	<ItemGroup>
+		<Compile Include="Action\GetTemplateInfoAction.cs" />
+		<Compile Include="Action\Rule\CollectionShouldNotBeEmptyOrNullRule.cs" />
+		<Compile Include="Action\Rule\IdEqualTo4Returns404Rule.cs" />
+		<Compile Include="Action\Rule\ValueShouldBeGreaterThanZeroRule.cs" />
+		<Compile Include="Action\Rule\ValueShouldNotBeEmptyOrNullRule.cs" />
+		<Compile Include="Action\SaveTemplateInfoAction.cs" />
+		<Compile Include="Contract\ITemplateCore.cs" />
+		<Compile Include="TemplateCore.cs" />
+		<Compile Include="Properties\AssemblyInfo.cs" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\BI.Enterprise.Dto.Template\BI.Enterprise.Dto.Template.csproj">
+			<Project>{ad4465b2-15a5-404b-8f25-182f37ed96d0}</Project>
+			<Name>BI.Enterprise.Dto.Template</Name>
+		</ProjectReference>
+		<ProjectReference Include="..\BI.ServiceBus.Repository.Template\BI.ServiceBus.Repository.Template.csproj">
+			<Project>{880e3d49-e63b-461d-b4a3-0a4cdde79e06}</Project>
+			<Name>BI.ServiceBus.Repository.Template</Name>
+		</ProjectReference>
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="packages.config" />
+	</ItemGroup>
+	<ItemGroup />
+	<Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

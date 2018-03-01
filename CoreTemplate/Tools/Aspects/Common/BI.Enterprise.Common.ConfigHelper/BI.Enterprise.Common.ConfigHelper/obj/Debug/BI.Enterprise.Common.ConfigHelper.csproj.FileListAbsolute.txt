@@ -1,0 +1,1 @@
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Tools\Aspects\Common\BI.Enterprise.Common.ConfigHelper\BI.Enterprise.Common.ConfigHelper\obj\Debug\BI.Enterprise.Common.ConfigHelper.csproj.CoreCompileInputs.cache

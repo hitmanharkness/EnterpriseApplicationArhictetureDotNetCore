@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BI.Aspect.Language</name>
+    </assembly>
+    <members>
+        <member name="T:BI.Aspect.Language.LanguageAspect">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.Language.LanguageAspect.Instance">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:BI.Aspect.Language.LanguageAspect.GetStringResource(System.Int32)">
+             <summary>
+            
+             </summary>
+             <param name="resourceId"></param>
+             <returns></returns>
+        </member>
+        <member name="M:BI.Aspect.Language.LanguageAspect.GetStringResources(System.Collections.Generic.IEnumerable{System.Int32})">
+             <summary>
+            
+             </summary>
+             <param name="resources"></param>
+             <returns></returns>
+        </member>
+        <member name="M:BI.Aspect.Language.LanguageAspect.GetStringResourceTuple(System.Int32)">
+             <summary>
+            
+             </summary>
+             <param name="resourceId"></param>
+             <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema
+	targetNamespace="urn:Sts.ConfigSettings"
+	xmlns:tns="urn:Sts.ConfigSettings"
+	attributeFormDefault="unqualified"
+	elementFormDefault="qualified"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="stsConfigs">
+		<xs:complexType>
+			<xs:attribute name="authority" type="xs:string" use="required" />
+			<xs:attribute name="certThumbPrint" type="xs:string" />
+			<xs:attribute name="defaultClientType" type="xs:string" default="Default" />
+			<xs:attribute name="requiredScopes" type="xs:string" default="openid" />
+			<xs:attribute name="siteName" type="xs:string" />
+			<xs:attribute name="userDataStore" type="xs:string" />
+			<xs:anyAttribute namespace="http://schemas.microsoft.com/XML-Document-Transform" processContents="strict" />
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
