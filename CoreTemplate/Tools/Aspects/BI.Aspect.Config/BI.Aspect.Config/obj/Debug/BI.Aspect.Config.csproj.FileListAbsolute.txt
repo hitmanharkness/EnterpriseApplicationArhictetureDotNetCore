@@ -4,3 +4,10 @@ C:\BI\BWS\Tools\Aspects\BI.Aspect.Config\BI.Aspect.Config\bin\Debug\BI.Aspect.Co
 C:\BI\BWS\Tools\Aspects\BI.Aspect.Config\BI.Aspect.Config\obj\Debug\BI.Aspect.Config.csproj.CoreCompileInputs.cache
 C:\BI\BWS\Tools\Aspects\BI.Aspect.Config\BI.Aspect.Config\obj\Debug\BI.Aspect.Config.dll
 C:\BI\BWS\Tools\Aspects\BI.Aspect.Config\BI.Aspect.Config\obj\Debug\BI.Aspect.Config.pdb
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Tools\Aspects\BI.Aspect.Config\BI.Aspect.Config\bin\Debug\BI.Aspect.Config.xml
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Tools\Aspects\BI.Aspect.Config\BI.Aspect.Config\bin\Debug\BI.Aspect.Config.dll
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Tools\Aspects\BI.Aspect.Config\BI.Aspect.Config\bin\Debug\BI.Aspect.Config.pdb
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Tools\Aspects\BI.Aspect.Config\BI.Aspect.Config\obj\Debug\BI.Aspect.Config.csprojResolveAssemblyReference.cache
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Tools\Aspects\BI.Aspect.Config\BI.Aspect.Config\obj\Debug\BI.Aspect.Config.csproj.CoreCompileInputs.cache
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Tools\Aspects\BI.Aspect.Config\BI.Aspect.Config\obj\Debug\BI.Aspect.Config.dll
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Tools\Aspects\BI.Aspect.Config\BI.Aspect.Config\obj\Debug\BI.Aspect.Config.pdb

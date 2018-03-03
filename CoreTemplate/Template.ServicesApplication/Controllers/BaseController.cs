@@ -10,18 +10,21 @@ using Template.Common.Facade;
 using System.Web.Http;
 using System.Net.Http;
 using System.Text;
+using Common.Controller.Base;
 
 // For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
 
-    
-    // THIS MIGHT NEED TO MOVE TO A LIBARY LIKE BI
+
+// THIS MIGHT NEED TO MOVE TO A LIBARY LIKE BI
 
 namespace  Template.ServiceApp.Controllers
 {
-    public class BaseController : Controller
+    public class BaseController : CommonControllerBase // Controller
     {
         private IActionManager _manager;
         private ILogger _logger;
+        
+        //public BaseController(IActionManager manager, ILogger logger)
         public BaseController(IActionManager manager, ILogger logger)
         {
             _manager = manager;
