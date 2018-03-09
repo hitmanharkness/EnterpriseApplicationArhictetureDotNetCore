@@ -23,8 +23,8 @@ namespace Template.Common.Entities
 
         public long EmployeeID { get; set; }
 
-        [ForeignKey("EmployeeID")]
-        public virtual Employee Employee { get; set; }
+        //[ForeignKey("EmployeeID")]
+        //public virtual Employee Employee { get; set; }
 
 
     }

@@ -16,7 +16,7 @@ namespace Template.ServiceApp.Controllers
 {
     [LoggingActionFilter]
     [Route("api/[controller]")]
-    public class ServiceRequestController : BaseController
+    public class ServiceRequestController : ServiceBaseController
     {
          
         private IServiceRequestManager _manager;

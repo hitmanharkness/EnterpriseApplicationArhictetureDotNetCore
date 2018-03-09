@@ -43,7 +43,7 @@ namespace Template.ServiceApp.Filters
             var controllerName = routeData.Values["controller"];
             var actionName = routeData.Values["action"];
             var message = String.Format("{0} controller:{1} action:{2}", methodName, controllerName, actionName);
-            BaseController baseController = ((BaseController)controller);
+            ServiceBaseController baseController = ((ServiceBaseController)controller);
             baseController.Logger.LogInformation(LoggingEvents.ACCESS_METHOD, message);
         }
     }

@@ -29,7 +29,6 @@ namespace Common.Controller.Base
         #region Public Properties
 
 
-        // What is this for???????
         // ClaimsPrincipal contains a collections of ClaimsIdentities. The primary being from the IPrinciple interface IIdentity Identity { get; }
         protected ClaimsPrincipal CurrentPrincipal => User as ClaimsPrincipal;
 
@@ -73,7 +72,6 @@ namespace Common.Controller.Base
 
         #region Private Methods
 
-        // ????????????????????????????? Why do I do this. Don't I always have access to this?
         private ClaimsIdentity GetClaimsIdentity()
         {
             if (this._identity != null)

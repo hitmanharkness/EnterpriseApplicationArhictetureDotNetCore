@@ -19,13 +19,13 @@ using Common.Controller.Base;
 
 namespace  Template.ServiceApp.Controllers
 {
-    public class BaseController : CommonControllerBase // Controller
+    public class ServiceBaseController : ControllerBase // Controller
     {
-        private IActionManager _manager;
-        private ILogger _logger;
+        private readonly IActionManager _manager;
+        private readonly ILogger _logger;
         
         //public BaseController(IActionManager manager, ILogger logger)
-        public BaseController(IActionManager manager, ILogger logger)
+        public ServiceBaseController(IActionManager manager, ILogger logger)
         {
             _manager = manager;
             _logger = logger;

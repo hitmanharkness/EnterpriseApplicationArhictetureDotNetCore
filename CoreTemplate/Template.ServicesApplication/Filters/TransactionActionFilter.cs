@@ -14,7 +14,7 @@ namespace Template.ServiceApp.Filters
         IDbContextTransaction transaction;
         public override void OnActionExecuting(ActionExecutingContext context)
         {
-            ((BaseController)context.Controller).ActionManager.UnitOfWork.BeginTransaction();
+            ((ServiceBaseController)context.Controller).ActionManager.UnitOfWork.BeginTransaction();
             
         }
 
@@ -23,11 +23,11 @@ namespace Template.ServiceApp.Filters
             
             if (context.Exception != null)
             {
-                ((BaseController)context.Controller).ActionManager.UnitOfWork.RollbackTransaction();
+                ((ServiceBaseController)context.Controller).ActionManager.UnitOfWork.RollbackTransaction();
             }
             else
             {
-                ((BaseController)context.Controller).ActionManager.UnitOfWork.CommitTransaction();
+                ((ServiceBaseController)context.Controller).ActionManager.UnitOfWork.CommitTransaction();
             }
         }
 

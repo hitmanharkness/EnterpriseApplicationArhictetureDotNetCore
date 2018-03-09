@@ -25,7 +25,7 @@ namespace Template.BusinessLayer.Managers.ServiceRequestManagement
             }
         }
 
-        public AlertManager(IRepository repository, ILogger<ClientInfoManager> logger, IUnitOfWork unitOfWork) : base()
+        public AlertManager(IRepository repository, ILogger<AlertManager> logger, IUnitOfWork unitOfWork) : base()
         {
             _repository = repository;
             _logger = logger;

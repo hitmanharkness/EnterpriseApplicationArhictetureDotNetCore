@@ -21,6 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Enterprise.Controller.Base\Common.Controller.Base.csproj" />
     <ProjectReference Include="..\NGTotalAccessTemplate.Common\Template.Common.csproj" />
     <ProjectReference Include="..\Template.BusinessLayer\Template.BusinessLayer.csproj" />
   </ItemGroup>

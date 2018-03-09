@@ -1,0 +1,354 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BI.Aspect.RabbitMq</name>
+    </assembly>
+    <members>
+        <member name="T:BI.Aspect.RabbitMq.RabbitMqConfigSettings">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="F:BI.Aspect.RabbitMq.RabbitMqConfigSettings.Lazy">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.RabbitMqConfigSettings.Instance">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.RabbitMqConfigSettings.ExchangeAutoDelete">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.RabbitMqConfigSettings.ExchangeDurable">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.RabbitMqConfigSettings.ExchangeName">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.RabbitMqConfigSettings.ExchangeType">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.RabbitMqConfigSettings.QueueAutoDelete">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.RabbitMqConfigSettings.QueueDurable">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.RabbitMqConfigSettings.QueueExclusive">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.RabbitMqConfigSettings.QueueName">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.RabbitMqConfigSettings.MaxChannels">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.RabbitMqConfigSettings.MoveToErrorQueueOnFail">
+            <summary>
+            true to move the request to an error queue when the process returns a failure; Otherwise false.
+            </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.RabbitMqConfigSettings.NoAck">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.RabbitMqConfigSettings.Mandatory">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.RabbitMqConfigSettings.ReplyTimeout">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.RabbitMqConfigSettings.Password">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.RabbitMqConfigSettings.RabbitMqHost">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.RabbitMqConfigSettings.Username">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.RabbitMqConfigSettings.RabbitMqConfigCollection">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.RabbitMqConfigSettings.Xmlns">
+            <summary>
+            Gets the XML name space where the rules are defined for this configuration section.
+            </summary>
+        </member>
+        <member name="M:BI.Aspect.RabbitMq.RabbitMqConfigSettings.GetSettingsValues">
+             <summary>
+            
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="T:BI.Aspect.RabbitMq.RabbitMqConfigCollection">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.RabbitMqConfigCollection.CollectionType">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.RabbitMqConfigCollection.Item(System.Int32)">
+             <summary>
+            
+             </summary>
+             <param name="index"></param>
+             <returns></returns>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.RabbitMqConfigCollection.Item(System.String)">
+             <summary>
+            
+             </summary>
+             <param name="appName"></param>
+             <returns></returns>
+        </member>
+        <member name="M:BI.Aspect.RabbitMq.RabbitMqConfigCollection.Add(BI.Aspect.RabbitMq.RabbitMqConfigSettings)">
+             <summary>
+            
+             </summary>
+             <param name="element"></param>
+        </member>
+        <member name="M:BI.Aspect.RabbitMq.RabbitMqConfigCollection.Clear">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:BI.Aspect.RabbitMq.RabbitMqConfigCollection.Remove(System.String)">
+             <summary>
+            
+             </summary>
+             <param name="key"></param>
+        </member>
+        <member name="M:BI.Aspect.RabbitMq.RabbitMqConfigCollection.CreateNewElement">
+             <summary>
+            
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="M:BI.Aspect.RabbitMq.RabbitMqConfigCollection.GetElementKey(System.Configuration.ConfigurationElement)">
+             <summary>
+            
+             </summary>
+             <param name="element"></param>
+             <returns></returns>
+        </member>
+        <member name="T:BI.Aspect.RabbitMq.RabbitMqConfigElement">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.RabbitMqConfigElement.ExchangeAutoDelete">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.RabbitMqConfigElement.ExchangeDurable">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.RabbitMqConfigElement.ExchangeName">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.RabbitMqConfigElement.ExchangeType">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.RabbitMqConfigElement.QueueAutoDelete">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.RabbitMqConfigElement.QueueDurable">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.RabbitMqConfigElement.QueueExclusive">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.RabbitMqConfigElement.QueueName">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.RabbitMqConfigElement.MaxChannels">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.RabbitMqConfigElement.MoveToErrorQueueOnFail">
+            <summary>
+            true to move the request to an error queue when the process returns a failure; Otherwise false.
+            </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.RabbitMqConfigElement.NoAck">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.RabbitMqConfigElement.Mandatory">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.RabbitMqConfigElement.ReplyTimeout">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.RabbitMqConfigElement.Password">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.RabbitMqConfigElement.RabbitMqHost">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.RabbitMqConfigElement.Username">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.RabbitMqConfigElement.AppName">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:BI.Aspect.RabbitMq.RabbitMqConfigElement.GetSettingsValues">
+             <summary>
+            
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="T:BI.Aspect.RabbitMq.RabbitMqSettingsValues">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.RabbitMqSettingsValues.ExchangeAutoDelete">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.RabbitMqSettingsValues.ExchangeDurable">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.RabbitMqSettingsValues.ExchangeName">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.RabbitMqSettingsValues.ExchangeType">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.RabbitMqSettingsValues.QueueAutoDelete">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.RabbitMqSettingsValues.QueueDurable">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.RabbitMqSettingsValues.QueueExclusive">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.RabbitMqSettingsValues.QueueName">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.RabbitMqSettingsValues.MaxChannels">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.RabbitMqSettingsValues.MoveToErrorQueueOnFail">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.RabbitMqSettingsValues.NoAck">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.RabbitMqSettingsValues.Mandatory">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.RabbitMqSettingsValues.ReplyTimeout">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.RabbitMqSettingsValues.Password">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.RabbitMqSettingsValues.RabbitMqHost">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.RabbitMqSettingsValues.Username">
+             <summary>
+            
+             </summary>
+        </member>
+    </members>
+</doc>
