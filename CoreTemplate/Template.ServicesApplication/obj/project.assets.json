@@ -3000,6 +3000,19 @@
           }
         }
       },
+      "Serilog/2.7.1-dev-00960": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "System.Collections.NonGeneric": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard1.3/Serilog.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/Serilog.dll": {}
+        }
+      },
       "SQLitePCLRaw.bundle_green/1.1.7": {
         "type": "package",
         "dependencies": {
@@ -4775,7 +4788,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
         "dependencies": {
-          "Microsoft.AspNetCore.Mvc": "2.0.2"
+          "Microsoft.AspNetCore.Mvc": "2.0.2",
+          "Serilog": "2.7.1-dev-00960"
         },
         "compile": {
           "bin/placeholder/Common.Controller.Base.dll": {}
@@ -7939,6 +7953,23 @@
         "runtimes/win-x86/native/sni.dll",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "Serilog/2.7.1-dev-00960": {
+      "sha512": "bWQLXXkc1sFAqjM0KGis4bAaUNGM3jWm9SeIT0atpZ0uWAVFwm7CLm+DDPEGgrxlVvWSPSKndbw/Xa7n70XEJg==",
+      "type": "package",
+      "path": "serilog/2.7.1-dev-00960",
+      "files": [
+        "lib/net45/Serilog.dll",
+        "lib/net45/Serilog.xml",
+        "lib/net46/Serilog.dll",
+        "lib/net46/Serilog.xml",
+        "lib/netstandard1.0/Serilog.dll",
+        "lib/netstandard1.0/Serilog.xml",
+        "lib/netstandard1.3/Serilog.dll",
+        "lib/netstandard1.3/Serilog.xml",
+        "serilog.2.7.1-dev-00960.nupkg.sha512",
+        "serilog.nuspec"
       ]
     },
     "SQLitePCLRaw.bundle_green/1.1.7": {

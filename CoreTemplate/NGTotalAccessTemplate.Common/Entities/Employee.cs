@@ -14,27 +14,27 @@ namespace Template.Common.Entities
     public class Client : BaseEntity
     {
         [Key]
-        public long ID { get; set; }
+        public long Client_Id { get; set; }
 
-        public  string UserID { get; set; }
+        //public  string UserID { get; set; }
 
-        [ForeignKey("UserID")]
-        public virtual ApplicationUser ApplicationUser { get; set; }
+        //[ForeignKey("UserID")]
+        //public virtual ApplicationUser ApplicationUser { get; set; }
 
-        [MaxLength(100)]
-        public string Name { get; set; }
+        //[MaxLength(100)]
+        //public string Name { get; set; }
 
-        [MaxLength(100)]
-        public string Email { get; set; }
+        //[MaxLength(100)]
+        //public string Email { get; set; }
 
-        [MaxLength(500)]
-        public string Address { get; set; }
+        //[MaxLength(500)]
+        //public string Address { get; set; }
 
-        [MaxLength(50)]
-        public string PhoneNo { get; set; }
+        //[MaxLength(50)]
+        //public string PhoneNo { get; set; }
 
-        [MaxLength(50)]
-        public string MobileNo { get; set; }
+        //[MaxLength(50)]
+        //public string MobileNo { get; set; }
       
     }
 }

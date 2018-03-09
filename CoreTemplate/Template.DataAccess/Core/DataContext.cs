@@ -34,7 +34,7 @@ namespace Template.DataAccess.Core
         }
 
         #region Entities representing Database Objects
-        //public DbSet<Employee> Client { get; set; }
+        public DbSet<Client> Client { get; set; }
         //public DbSet<Job> Job { get; set; }
         //public DbSet<JobTask> JobTask { get; set; }
         //public DbSet<JobWorker> JobWorker { get; set; }
