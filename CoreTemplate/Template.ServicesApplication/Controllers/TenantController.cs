@@ -22,7 +22,7 @@ namespace Template.ServiceApp.Controllers
     [Route("api/[controller]")]
     public class TenantController : ServiceBaseController
     {
-         
+
         private ITenantManager _tenantManager;
         private ILogger _logger;
 
@@ -43,7 +43,8 @@ namespace Template.ServiceApp.Controllers
                 var items = _tenantManager.GetAll();
                 return new OkObjectResult(items);
 
-            }catch(Exception ex)
+            }
+            catch (Exception ex)
             {
                 _logger.LogError(LoggingEvents.SERVICE_ERROR, ex, ex.Message);
                 return new EmptyResult();
@@ -59,7 +60,8 @@ namespace Template.ServiceApp.Controllers
                 _tenantManager.Create(tenant);
                 return new OkResult();
 
-            }catch(Exception ex)
+            }
+            catch (Exception ex)
             {
                 _logger.LogError(LoggingEvents.SERVICE_ERROR, ex, ex.Message);
                 return new EmptyResult();
@@ -112,12 +114,13 @@ namespace Template.ServiceApp.Controllers
                 {
                     return NotFound();
                 }
-            }catch(Exception ex)
+            }
+            catch (Exception ex)
             {
                 _logger.LogError(LoggingEvents.SERVICE_ERROR, ex, ex.Message);
                 return new EmptyResult();
             }
         }
     }
-        
+
 }

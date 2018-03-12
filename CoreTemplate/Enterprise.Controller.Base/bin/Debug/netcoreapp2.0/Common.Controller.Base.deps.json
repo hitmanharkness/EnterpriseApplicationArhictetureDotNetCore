@@ -1,14 +1,15 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "f25e0d14849f3b724bd2f125d3d9d0e93b0ef9ca"
+    "signature": "ce833fe30385ce6e5debc89f83091e5d3d3f9a62"
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.0": {
       "Common.Controller.Base/1.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.Mvc": "2.0.2"
+          "Microsoft.AspNetCore.Mvc": "2.0.2",
+          "Serilog": "2.7.1-dev-00960"
         },
         "runtime": {
           "Common.Controller.Base.dll": {}
@@ -801,6 +802,14 @@
             "rid": "ubuntu.16.10-x64",
             "assetType": "native"
           }
+        }
+      },
+      "Serilog/2.7.1-dev-00960": {
+        "dependencies": {
+          "System.Collections.NonGeneric": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Serilog.dll": {}
         }
       },
       "System.AppContext/4.3.0": {
@@ -2209,6 +2218,13 @@
       "sha512": "sha512-VB5cn/7OzUfzdnC8tqAIMQciVLiq2epm2NrAm1E9OjNRyG4lVhfR61SMcLizejzQP8R8Uf/0l5qOIbUEi+RdEg==",
       "path": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "hashPath": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512"
+    },
+    "Serilog/2.7.1-dev-00960": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bWQLXXkc1sFAqjM0KGis4bAaUNGM3jWm9SeIT0atpZ0uWAVFwm7CLm+DDPEGgrxlVvWSPSKndbw/Xa7n70XEJg==",
+      "path": "serilog/2.7.1-dev-00960",
+      "hashPath": "serilog.2.7.1-dev-00960.nupkg.sha512"
     },
     "System.AppContext/4.3.0": {
       "type": "package",

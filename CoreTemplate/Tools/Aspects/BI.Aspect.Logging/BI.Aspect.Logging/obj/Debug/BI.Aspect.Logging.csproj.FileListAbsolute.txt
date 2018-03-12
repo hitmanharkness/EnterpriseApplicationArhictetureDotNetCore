@@ -1,2 +1,6 @@
-C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Tools\Aspects\BI.Aspect.Logging\BI.Aspect.Logging\obj\Debug\BI.Aspect.Logging.csprojResolveAssemblyReference.cache
 C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Tools\Aspects\BI.Aspect.Logging\BI.Aspect.Logging\obj\Debug\BI.Aspect.Logging.csproj.CoreCompileInputs.cache
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Tools\Aspects\BI.Aspect.Logging\BI.Aspect.Logging\bin\Debug\BI.Aspect.Logging.xml
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Tools\Aspects\BI.Aspect.Logging\BI.Aspect.Logging\bin\Debug\BI.Aspect.Logging.dll
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Tools\Aspects\BI.Aspect.Logging\BI.Aspect.Logging\bin\Debug\BI.Aspect.Logging.pdb
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Tools\Aspects\BI.Aspect.Logging\BI.Aspect.Logging\obj\Debug\BI.Aspect.Logging.dll
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Tools\Aspects\BI.Aspect.Logging\BI.Aspect.Logging\obj\Debug\BI.Aspect.Logging.pdb

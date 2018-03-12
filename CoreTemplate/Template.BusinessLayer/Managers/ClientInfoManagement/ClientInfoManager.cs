@@ -8,6 +8,7 @@ using Template.BusinessLayer.Core;
 using Microsoft.Extensions.Logging;
 using Template.Common.BusinessObjects;
 using Template.Common.Core;
+using Template.BusinessLayer.Managers.ClientInfoManager;
 
 namespace Template.BusinessLayer.Managers.ServiceRequestManagement
 {
@@ -26,6 +27,22 @@ namespace Template.BusinessLayer.Managers.ServiceRequestManagement
             Repository = repository;
             Logger = logger;
             UnitOfWork = unitOfWork;
+        }
+
+
+        public virtual Client GetClient(long Id)
+        {
+            throw new NotImplementedException();
+            //try
+            //{
+            //    _logger.LogInformation(LoggingEvents.GET_ITEM, "The tenant Id is " + tenantID);
+            //    return _repository.All<Tenant>().Where(i => i.ID == tenantID).FirstOrDefault();
+            //}
+            //catch (Exception ex)
+            //{
+            //    throw ex;
+            //}
+
         }
 
         public void Create(BaseEntity entity)
@@ -50,24 +67,21 @@ namespace Template.BusinessLayer.Managers.ServiceRequestManagement
             throw new NotImplementedException();
         }
 
-        public IEnumerable<TenantServiceRequest> GetAllTenantServiceRequests()
+        public IEnumerable<ClientAlert> GetAllClientAlerts()
         {
+            throw new NotImplementedException();
 
-            var query = from tenants in Repository.All<Tenant>() join serviceReqs in Repository.All<ServiceRequest>()
-                    on tenants.ID equals serviceReqs.TenantID
-                    join status in Repository.All<Status>()
-                    on serviceReqs.StatusID equals status.ID
-                    select new TenantServiceRequest()
-                    {
-                        TenantID = tenants.ID,
-                        Description = serviceReqs.Description,
-                        Email = tenants.Email,
-                        EmployeeComments = serviceReqs.EmployeeComments,
-                        Phone = tenants.Phone,
-                        Status = status.Description,
-                        TenantName = tenants.Name
-                    };
-            return query.ToList<TenantServiceRequest>();
+            //var query = from clients in Repository.All<Client>()
+            //            join clientAlerts in Repository.All<ClientAlert>()
+            //            on clients.Id equals clientAlerts.clientId
+            //            select new TenantServiceRequest()
+            //            {
+            //                ClientId = clients.Id,
+            //                ClientName = clients.Name,
+            //            };
+
+
+            //return query.ToList<ClientAlert>();
         }
 
         public void SaveChanges()

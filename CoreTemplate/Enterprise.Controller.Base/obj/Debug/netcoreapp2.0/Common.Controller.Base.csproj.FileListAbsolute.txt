@@ -6,4 +6,3 @@ C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\Co
 C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Enterprise.Controller.Base\obj\Debug\netcoreapp2.0\Common.Controller.Base.AssemblyInfo.cs
 C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Enterprise.Controller.Base\obj\Debug\netcoreapp2.0\Common.Controller.Base.dll
 C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Enterprise.Controller.Base\obj\Debug\netcoreapp2.0\Common.Controller.Base.pdb
-C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Enterprise.Controller.Base\obj\Debug\netcoreapp2.0\Common.Controller.Base.csprojResolveAssemblyReference.cache

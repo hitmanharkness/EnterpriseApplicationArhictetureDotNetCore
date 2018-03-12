@@ -10,8 +10,8 @@ using System.Threading.Tasks;
 namespace Template.Common.Entities
 {
     [Description("To store Client information")]
-    [Table("Client")]
-    public class Client : BaseEntity
+    [Table("Employee")]
+    public class Employee : BaseEntity
     {
         [Key]
         public long Client_Id { get; set; }

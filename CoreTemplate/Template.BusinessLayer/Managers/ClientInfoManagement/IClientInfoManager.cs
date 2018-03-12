@@ -6,10 +6,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Template.BusinessLayer.Managers.ServiceRequestManagement
+namespace Template.BusinessLayer.Managers.ClientInfoManager
 {
     public interface IClientInfoManager : IActionManager
     {
-        IEnumerable<TenantServiceRequest> GetAllTenantServiceRequests();
+        IEnumerable<ClientAlert> GetAllClientAlerts();
+        Client GetClient(long id);
     }
 }
