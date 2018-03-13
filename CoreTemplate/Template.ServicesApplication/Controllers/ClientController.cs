@@ -54,14 +54,15 @@ namespace Template.ServiceApp.Controllers
 
         [TransactionActionFilter()]
         [HttpPost]
-        public IActionResult Post(Tenant tenant)
+        public IActionResult Post(Client client)
         {
             try
             {
-                _clientManager.Create(tenant);
+                _clientManager.Create(client);
                 return new OkResult();
 
-            }catch(Exception ex)
+            }
+            catch (Exception ex)
             {
                 _logger.LogError(LoggingEvents.SERVICE_ERROR, ex, ex.Message);
                 return new EmptyResult();
@@ -69,11 +70,11 @@ namespace Template.ServiceApp.Controllers
         }
         [TransactionActionFilter()]
         [HttpPut]
-        public IActionResult Put(Tenant tenant)
+        public IActionResult Put(Client client)
         {
             try
             {
-                _clientManager.Update(tenant);
+                _clientManager.Update(client);
                 return new OkResult();
 
             }
@@ -86,11 +87,11 @@ namespace Template.ServiceApp.Controllers
 
         [TransactionActionFilter()]
         [HttpDelete]
-        public IActionResult Delete(Tenant tenant)
+        public IActionResult Delete(Client client)
         {
             try
             {
-                _clientManager.Delete(tenant);
+                _clientManager.Delete(client);
                 return new OkResult();
 
             }

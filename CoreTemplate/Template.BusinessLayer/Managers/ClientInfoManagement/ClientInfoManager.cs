@@ -15,8 +15,8 @@ namespace Template.BusinessLayer.Managers.ServiceRequestManagement
     public class ClientInfoManager : BusinessManager, IClientInfoManager
     {
         private IUnitOfWork _unitOfWork;
-        
-        public IRepository Repository { get; set; }
+
+        private readonly IRepository _repository;
         public ILogger<ClientInfoManager> Logger { get; set; }
         public IUnitOfWork UnitOfWork { get => _unitOfWork; set => _unitOfWork = value; }
 
@@ -24,7 +24,7 @@ namespace Template.BusinessLayer.Managers.ServiceRequestManagement
 
         public ClientInfoManager(IRepository repository, ILogger<ClientInfoManager> logger, IUnitOfWork unitOfWork) : base()
         {
-            Repository = repository;
+            _repository = repository;
             Logger = logger;
             UnitOfWork = unitOfWork;
         }
@@ -32,24 +32,22 @@ namespace Template.BusinessLayer.Managers.ServiceRequestManagement
 
         public virtual Client GetClient(long Id)
         {
-            throw new NotImplementedException();
-            //try
-            //{
-            //    _logger.LogInformation(LoggingEvents.GET_ITEM, "The tenant Id is " + tenantID);
-            //    return _repository.All<Tenant>().Where(i => i.ID == tenantID).FirstOrDefault();
-            //}
-            //catch (Exception ex)
-            //{
-            //    throw ex;
-            //}
+            try
+            {
+                return _repository.All<Client>().Where(c => c.client_id == Id).FirstOrDefault();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
 
         }
 
         public void Create(BaseEntity entity)
         {
-            ServiceRequest serviceRequest = (ServiceRequest)entity;
+            Client client = (Client)entity;
             Logger.LogInformation("Creating record for {0}", this.GetType());
-            Repository.Create<ServiceRequest>(serviceRequest);
+            _repository.Create<Client>(client);
             Logger.LogInformation("Record saved for {0}", this.GetType());
         }
 
@@ -59,7 +57,17 @@ namespace Template.BusinessLayer.Managers.ServiceRequestManagement
 
         public IEnumerable<BaseEntity> GetAll()
         {
-            throw new NotImplementedException();
+            var _testClientId = 187; // test filter.
+            var query = from clients in _repository.All<Client>()
+                        where clients.client_id == _testClientId
+
+                        select new ClientInfo()
+                        {
+                            Id = clients.client_id,
+                            FirstName = clients.first_name,
+                            LastName = clients.last_name,
+                        };
+            return query.ToList<ClientInfo>();
         }
 
         public void Update(BaseEntity entity)
@@ -70,18 +78,6 @@ namespace Template.BusinessLayer.Managers.ServiceRequestManagement
         public IEnumerable<ClientAlert> GetAllClientAlerts()
         {
             throw new NotImplementedException();
-
-            //var query = from clients in Repository.All<Client>()
-            //            join clientAlerts in Repository.All<ClientAlert>()
-            //            on clients.Id equals clientAlerts.clientId
-            //            select new TenantServiceRequest()
-            //            {
-            //                ClientId = clients.Id,
-            //                ClientName = clients.Name,
-            //            };
-
-
-            //return query.ToList<ClientAlert>();
         }
 
         public void SaveChanges()

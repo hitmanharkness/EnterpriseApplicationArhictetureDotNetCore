@@ -10,6 +10,7 @@ using Template.DataAccess.Core;
 using Template.BusinessLayer.Managers.ServiceRequestManagement;
 using Template.BusinessLayer.Managers.TenantManagement;
 using Template.BusinessLayer.Core;
+using Template.BusinessLayer.Managers.ClientInfoManager;
 
 namespace Template.ServicesApplication
 {
@@ -31,8 +32,10 @@ namespace Template.ServicesApplication
             services.AddScoped<IDbFactory, DbFactory>();
             services.AddScoped<DataContext>();
             services.AddScoped<IRepository, Repository>();
-            //services.AddScoped<IServiceRequestManager, ClientInfoManager>();
-            services.AddScoped<ITenantManager, TenantManager>();
+
+            services.AddScoped<IClientInfoManager, ClientInfoManager>();
+
+            //services.AddScoped<ITenantManager, TenantManager>();
             services.AddScoped<BusinessManagerFactory>();
             // Add framework services.
 
