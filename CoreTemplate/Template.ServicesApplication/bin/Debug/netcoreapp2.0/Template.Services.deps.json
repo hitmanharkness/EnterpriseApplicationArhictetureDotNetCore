@@ -23,7 +23,7 @@
     ".NETCoreApp,Version=v2.0": {
       "Template.Services/1.0.0": {
         "dependencies": {
-          "Common.Controller.Base": "1.0.0",
+          "BI.WebApi.Base.NetCore": "1.0.0",
           "Microsoft.AspNetCore.All": "2.0.0",
           "Microsoft.AspNetCore.Authentication.OpenIdConnect": "2.0.1",
           "Microsoft.AspNetCore.Mvc": "2.0.2",
@@ -3844,16 +3844,16 @@
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
       },
-      "Common.Controller.Base/1.0.0": {
+      "BI.WebApi.Base.NetCore/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Mvc": "2.0.2",
           "Serilog": "2.7.1-dev-00960"
         },
         "runtime": {
-          "Common.Controller.Base.dll": {}
+          "BI.WebApi.Base.NetCore.dll": {}
         },
         "compile": {
-          "Common.Controller.Base.dll": {}
+          "BI.WebApi.Base.NetCore.dll": {}
         }
       },
       "Template.BusinessLayer/1.0.0": {
@@ -6103,7 +6103,7 @@
       "path": "windowsazure.storage/8.1.4",
       "hashPath": "windowsazure.storage.8.1.4.nupkg.sha512"
     },
-    "Common.Controller.Base/1.0.0": {
+    "BI.WebApi.Base.NetCore/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

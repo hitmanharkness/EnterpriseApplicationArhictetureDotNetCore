@@ -9,6 +9,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
+
+// TODO: This is duplicated in BI.Controller.base.
 namespace Template.ServiceApp.Filters
 {
     public class LoggingActionFilter : ActionFilterAttribute

@@ -7689,9 +7689,9 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\tharknes\\Documents\\GitHub\\EnterpriseApplicationArhictetureDotNetCore\\CoreTemplate\\Enterprise.Controller.Base\\Common.Controller.Base.csproj",
-      "projectName": "Common.Controller.Base",
-      "projectPath": "C:\\Users\\tharknes\\Documents\\GitHub\\EnterpriseApplicationArhictetureDotNetCore\\CoreTemplate\\Enterprise.Controller.Base\\Common.Controller.Base.csproj",
+      "projectUniqueName": "C:\\Users\\tharknes\\Documents\\GitHub\\EnterpriseApplicationArhictetureDotNetCore\\CoreTemplate\\Enterprise.Controller.Base\\BI.WebApi.Base.NetCore.csproj",
+      "projectName": "BI.WebApi.Base.NetCore",
+      "projectPath": "C:\\Users\\tharknes\\Documents\\GitHub\\EnterpriseApplicationArhictetureDotNetCore\\CoreTemplate\\Enterprise.Controller.Base\\BI.WebApi.Base.NetCore.csproj",
       "packagesPath": "C:\\Users\\tharknes\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\tharknes\\Documents\\GitHub\\EnterpriseApplicationArhictetureDotNetCore\\CoreTemplate\\Enterprise.Controller.Base\\obj\\",
       "projectStyle": "PackageReference",

@@ -15,5 +15,5 @@ C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\Co
 C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.ServicesApplication\bin\Debug\netcoreapp2.0\Template.Services.pdb
 C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.ServicesApplication\obj\Debug\netcoreapp2.0\Template.Services.dll
 C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.ServicesApplication\obj\Debug\netcoreapp2.0\Template.Services.pdb
-C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.ServicesApplication\bin\Debug\netcoreapp2.0\Common.Controller.Base.dll
-C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.ServicesApplication\bin\Debug\netcoreapp2.0\Common.Controller.Base.pdb
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.ServicesApplication\bin\Debug\netcoreapp2.0\BI.WebApi.Base.NetCore.dll
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.ServicesApplication\bin\Debug\netcoreapp2.0\BI.WebApi.Base.NetCore.pdb

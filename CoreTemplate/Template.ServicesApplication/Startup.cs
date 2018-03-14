@@ -27,7 +27,6 @@ namespace Template.ServicesApplication
         public void ConfigureServices(IServiceCollection services)
         {
 
-
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddScoped<IDbFactory, DbFactory>();
             services.AddScoped<DataContext>();

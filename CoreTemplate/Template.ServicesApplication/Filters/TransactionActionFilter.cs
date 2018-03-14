@@ -15,12 +15,10 @@ namespace Template.ServiceApp.Filters
         public override void OnActionExecuting(ActionExecutingContext context)
         {
             ((ServiceBaseController)context.Controller).ActionManager.UnitOfWork.BeginTransaction();
-            
         }
 
         public override void OnActionExecuted(ActionExecutedContext context)
         {
-            
             if (context.Exception != null)
             {
                 ((ServiceBaseController)context.Controller).ActionManager.UnitOfWork.RollbackTransaction();

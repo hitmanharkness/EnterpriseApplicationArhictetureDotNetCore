@@ -41,7 +41,5 @@ namespace  Template.ServiceApp.Controllers
             message.StatusCode = System.Net.HttpStatusCode.ExpectationFailed;
             throw new HttpResponseException(message);
         }
-
-
     }
 }

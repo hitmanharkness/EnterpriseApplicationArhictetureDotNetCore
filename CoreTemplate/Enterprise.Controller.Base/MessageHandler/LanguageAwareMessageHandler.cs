@@ -6,6 +6,11 @@ using System.Net.Http.Headers;
 using System.Threading;
 using System.Threading.Tasks;
 
+
+// TODO Find and test this implementatino in webapi2 examples.
+// TODO look up DelegatingHandler 
+// https://msdn.microsoft.com/en-us/library/system.net.http.delegatinghandler(v=vs.118).aspx
+
 namespace BI.WebApi.Base.MessageHandler
 {
 	public class LanguageAwareMessageHandler : DelegatingHandler

@@ -7,11 +7,14 @@ using Template.Common.Entities;
 using Template.BusinessLayer.Managers.TenantManagement;
 using System.Net.Http;
 using System.Net;
+using System.Security.Claims;
+using BI.WebApi.Base.Attributes;
 using Template.ServiceApp.Filters;
 using Template.BusinessLayer.Core;
 using Microsoft.Extensions.Logging;
 using Template.Common.Facade;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Template.BusinessLayer.Managers.ServiceRequestManagement;
 using Template.BusinessLayer.Managers.ClientInfoManager;
 
@@ -20,7 +23,11 @@ using Template.BusinessLayer.Managers.ClientInfoManager;
 namespace Template.ServiceApp.Controllers
 {
     //[Authorize]
-    [LoggingActionFilter]
+
+    //[ClaimRequirement("EntityType", "4")] // BI.WebApi.base
+    [Log] // BI.WebApi.base
+
+    [LoggingActionFilter] // This was native logging
     [Route("api/[controller]")]
     public class ClientController : ServiceBaseController
     {
