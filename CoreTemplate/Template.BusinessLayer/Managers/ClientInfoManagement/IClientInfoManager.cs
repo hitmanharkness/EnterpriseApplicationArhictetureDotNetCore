@@ -10,7 +10,7 @@ namespace Template.BusinessLayer.Managers.ClientInfoManager
 {
     public interface IClientInfoManager : IActionManager
     {
-        IEnumerable<ClientAlert> GetAllClientAlerts();
+        IEnumerable<Alert> GetAllClientAlerts();
         Client GetClient(long id);
     }
 }

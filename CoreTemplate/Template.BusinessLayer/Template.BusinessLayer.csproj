@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="Singleton.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\NGTotalAccessTemplate.Common\Template.Common.csproj" />
     <ProjectReference Include="..\Template.DataAccess\Template.DataAccess.csproj" />
   </ItemGroup>

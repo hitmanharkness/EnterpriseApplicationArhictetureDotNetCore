@@ -57,8 +57,10 @@ namespace Template.BusinessLayer.Managers.ServiceRequestManagement
 
         public IEnumerable<BaseEntity> GetAll()
         {
-            var _testClientId = 187; // test filter.
+            var _testClientId = 187; //TODO test filter.
+
             var query = from clients in _repository.All<Client>()
+                        // join alerts in _repository.All<Alert>() on clients.client_id == alerts.client_id
                         where clients.client_id == _testClientId
 
                         select new ClientInfo()
@@ -67,6 +69,7 @@ namespace Template.BusinessLayer.Managers.ServiceRequestManagement
                             FirstName = clients.first_name,
                             LastName = clients.last_name,
                         };
+
             return query.ToList<ClientInfo>();
         }
 
@@ -75,7 +78,7 @@ namespace Template.BusinessLayer.Managers.ServiceRequestManagement
             throw new NotImplementedException();
         }
 
-        public IEnumerable<ClientAlert> GetAllClientAlerts()
+        public IEnumerable<Alert> GetAllClientAlerts()
         {
             throw new NotImplementedException();
         }
