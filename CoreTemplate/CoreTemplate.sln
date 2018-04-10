@@ -51,6 +51,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BI.Enterprise.Common.DateHe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BI.Enterprise.Common.ConfigHelper", "Tools\Aspects\Common\BI.Enterprise.Common.ConfigHelper\BI.Enterprise.Common.ConfigHelper\BI.Enterprise.Common.ConfigHelper.csproj", "{D0390A30-B85B-4ED0-BF26-9B1F716ABD03}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{E6D010D4-9E0E-4B5A-B618-954644F0B61D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlertsWebApi", "AlertsWebApi\AlertsWebApi.csproj", "{EE51C3A5-DE8E-4F82-903E-99AEFA5C4E68}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +145,10 @@ Global
 		{D0390A30-B85B-4ED0-BF26-9B1F716ABD03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0390A30-B85B-4ED0-BF26-9B1F716ABD03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0390A30-B85B-4ED0-BF26-9B1F716ABD03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE51C3A5-DE8E-4F82-903E-99AEFA5C4E68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE51C3A5-DE8E-4F82-903E-99AEFA5C4E68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE51C3A5-DE8E-4F82-903E-99AEFA5C4E68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE51C3A5-DE8E-4F82-903E-99AEFA5C4E68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -164,6 +172,7 @@ Global
 		{55E4FC38-EEB3-49A8-B9BB-DD1AE1FBABDD} = {688BF7BD-4AB6-4DDD-B9E4-216AFF39B4E3}
 		{C27C959F-C61A-42F4-B945-295F8CC5FD17} = {688BF7BD-4AB6-4DDD-B9E4-216AFF39B4E3}
 		{D0390A30-B85B-4ED0-BF26-9B1F716ABD03} = {688BF7BD-4AB6-4DDD-B9E4-216AFF39B4E3}
+		{EE51C3A5-DE8E-4F82-903E-99AEFA5C4E68} = {E6D010D4-9E0E-4B5A-B618-954644F0B61D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B30B63BC-AE37-4C5E-8362-9151ACA37AE9}

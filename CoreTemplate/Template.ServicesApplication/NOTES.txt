@@ -8,10 +8,18 @@ TODO:
 5) Exception handling and logging. Do I need the Aspect?
 6) Subdomain running as service. 
 
+7) Caching
+https://app.pluralsight.com/player?course=aspdotnet-core-mvc-enterprise-application&author=gill-cleeren&name=81741cc0-66db-4b7a-a4fe-673f61981301&clip=7&mode=live
+
+Continuous Integration
+https://app.pluralsight.com/player?course=aspdotnet-core-mvc-enterprise-application&author=gill-cleeren&name=81741cc0-66db-4b7a-a4fe-673f61981301&clip=2&mode=live
+
 
 
 10) CLI tools for making a template. like reporting. or NGTA.
 11) Connection with identity server4.
+
+
 
 DATAACCESS
 1) Example of MQ

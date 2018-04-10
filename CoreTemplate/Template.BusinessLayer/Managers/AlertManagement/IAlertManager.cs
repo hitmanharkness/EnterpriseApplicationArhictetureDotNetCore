@@ -10,6 +10,6 @@ namespace Template.BusinessLayer.Managers.ServiceRequestManagement
 {
     public interface IAlertManager : IActionManager
     {
-        IEnumerable<TenantServiceRequest> GetAllTenantServiceRequests();
+        //IEnumerable<TenantServiceRequest> GetAllTenantServiceRequests();
     }
 }

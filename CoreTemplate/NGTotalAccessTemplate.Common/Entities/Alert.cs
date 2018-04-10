@@ -9,37 +9,15 @@ using System.Threading.Tasks;
 
 namespace Template.Common.Entities
 {
-    [Description("To store ClientAlert information")]
-    [Table("Alert")]
+    [Description("To store client alert information")]
+    [Table("tblalerts")]
     public class Alert : BaseEntity
     {
         [Key]
-        public long Id { get; set; }
-
-        //public int PropertyID { get; set; }
-        //[ForeignKey("PropertyID")]
-        //public virtual Property Property { get; set; }
-
-        //public string UserID {get; set; }
-        //[ForeignKey("UserID")]
-        //public virtual ApplicationUser ApplicationUser { get; set; }
-         
-
-        //[MaxLength(100)]
-        //public string Name { get; set; }
-
-        //[MaxLength(200)]
-        //public string Address1 { get; set; }
-
-        //[MaxLength(50)]
-        //public string Phone { get; set; }
-
-        //[MaxLength(50)]
-        //public string Fax { get; set; }
-
-        //[MaxLength(100)]
-        //public string Email { get; set; }
-
+        public int IAlert_ID { get; set; }
+        public int event_code { get; set; }
+        public int client_id { get; set; }
+        
     }
 }
 

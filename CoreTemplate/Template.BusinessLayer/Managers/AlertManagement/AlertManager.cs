@@ -54,25 +54,25 @@ namespace Template.BusinessLayer.Managers.ServiceRequestManagement
             throw new NotImplementedException();
         }
 
-        public IEnumerable<TenantServiceRequest> GetAllTenantServiceRequests()
-        {
+        //public IEnumerable<TenantServiceRequest> GetAllTenantServiceRequests()
+        //{
 
-            var query = from tenants in _repository.All<Tenant>() join serviceReqs in _repository.All<ServiceRequest>()
-                    on tenants.ID equals serviceReqs.TenantID
-                    join status in _repository.All<Status>()
-                    on serviceReqs.StatusID equals status.ID
-                    select new TenantServiceRequest()
-                    {
-                        TenantID = tenants.ID,
-                        Description = serviceReqs.Description,
-                        Email = tenants.Email,
-                        EmployeeComments = serviceReqs.EmployeeComments,
-                        Phone = tenants.Phone,
-                        Status = status.Description,
-                        TenantName = tenants.Name
-                    };
-            return query.ToList<TenantServiceRequest>();
-        }
+        //    var query = from tenants in _repository.All<Tenant>() join serviceReqs in _repository.All<ServiceRequest>()
+        //            on tenants.ID equals serviceReqs.TenantID
+        //            join status in _repository.All<Status>()
+        //            on serviceReqs.StatusID equals status.ID
+        //            select new TenantServiceRequest()
+        //            {
+        //                TenantID = tenants.ID,
+        //                Description = serviceReqs.Description,
+        //                Email = tenants.Email,
+        //                EmployeeComments = serviceReqs.EmployeeComments,
+        //                Phone = tenants.Phone,
+        //                Status = status.Description,
+        //                TenantName = tenants.Name
+        //            };
+        //    return query.ToList<TenantServiceRequest>();
+        //}
 
         public void SaveChanges()
         {

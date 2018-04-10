@@ -9,5 +9,7 @@ namespace Template.Common.BusinessObjects
     public class AlertInfo : BaseEntity
     {
         public int Id { get; set; }
+        public int EventCode { get; set; }
+        public int ClientId { get; set; }
     }
 }

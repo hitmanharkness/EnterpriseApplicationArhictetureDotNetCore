@@ -109,6 +109,8 @@ namespace Template.ServiceApp.Controllers
             }
         }
 
+        [Route("api/clients")]
+        [HttpGet]
         public IActionResult Get(long id)
         {
             try

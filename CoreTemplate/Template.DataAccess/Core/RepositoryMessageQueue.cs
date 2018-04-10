@@ -15,17 +15,46 @@ using Template.DataAccess.Core;
 
 namespace Template.DataAccess.Core
 {
-    public class RepositoryMessageQueue : IRepository
+    public class RepositoryMessageQueue : IRepositoryBase
     {
-        private static string baseUrl = "https://example.com/api/";
 
         public RepositoryMessageQueue()
         {
 
         }
 
+        public void Delete<T>(object Id) where T : class
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<T> GetAll<T>() where T : class
+        {
+            throw new NotImplementedException();
+        }
+
+        public T GetById<T>(object Id) where T : class
+        {
+            throw new NotImplementedException();
+        }
+
+        public T Insert<T>(T obj) where T : class
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Save<T>() where T : class
+        {
+            throw new NotImplementedException();
+        }
+
+        public T Update<T>(T obj) where T : class
+        {
+            throw new NotImplementedException();
+        }
 
 
+        /*
         public T Single<T>(Expression<Func<T, bool>> expression) where T : class
         {
             return All<T>().FirstOrDefault(expression);
@@ -105,6 +134,6 @@ namespace Template.DataAccess.Core
             throw new NotImplementedException();
             // _context.Database.ExecuteSqlCommand(procedureCommand, sqlParams);
         }
-
+        */
     }
 }
