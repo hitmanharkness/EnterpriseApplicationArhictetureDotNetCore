@@ -6,3 +6,4 @@ C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\Co
 C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\NGTotalAccessTemplate.Common\bin\Debug\netcoreapp2.0\Template.Common.pdb
 C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\NGTotalAccessTemplate.Common\obj\Debug\netcoreapp2.0\Template.Common.dll
 C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\NGTotalAccessTemplate.Common\obj\Debug\netcoreapp2.0\Template.Common.pdb
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\NGTotalAccessTemplate.Common\obj\Debug\netcoreapp2.0\Template.Common.csprojResolveAssemblyReference.cache

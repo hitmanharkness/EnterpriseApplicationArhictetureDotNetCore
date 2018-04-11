@@ -16,9 +16,13 @@ namespace Template.Common.Core
             this.State = (int)EntityState.New;
             
         }
+        [NotMapped]
         public string CreatedBy { get; set; }
+        [NotMapped]
         public DateTime CreatedOn { get; set; }
+        [NotMapped]
         public string UpdatedBy { get; set; }
+        [NotMapped]
         public DateTime UpdatedOn { get; set; }
 
         [NotMapped]

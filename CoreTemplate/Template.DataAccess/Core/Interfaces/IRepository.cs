@@ -42,8 +42,8 @@ namespace Template.DataAccess.Core
 
     public interface IRepository
     {
-        //IQueryable<T> All<T>() where T : class; // IQueryable? WebApi or Mongo will not have that.
-        IEnumerable<T> All<T>() where T : class; // IQueryable? WebApi or Mongo will not have that.
+        IQueryable<T> All<T>() where T : class; // IQueryable? WebApi or Mongo will not have that.
+        //IEnumerable<T> All<T>() where T : class; // IQueryable? WebApi or Mongo will not have that.
         void Create<T>(T TObject) where T : class;
         void Delete<T>(T TObject) where T : class;
         void Delete<T>(Expression<Func<T, bool>> predicate) where T : class;

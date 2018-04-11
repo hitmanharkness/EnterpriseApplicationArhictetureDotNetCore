@@ -14,18 +14,18 @@ namespace Template.ServiceApp.Filters
         IDbContextTransaction transaction;
         public override void OnActionExecuting(ActionExecutingContext context)
         {
-            ((ServiceBaseController)context.Controller).ActionManager.UnitOfWork.BeginTransaction();
+            ((ServicesControllerBase)context.Controller).ActionManager.UnitOfWork.BeginTransaction();
         }
 
         public override void OnActionExecuted(ActionExecutedContext context)
         {
             if (context.Exception != null)
             {
-                ((ServiceBaseController)context.Controller).ActionManager.UnitOfWork.RollbackTransaction();
+                ((ServicesControllerBase)context.Controller).ActionManager.UnitOfWork.RollbackTransaction();
             }
             else
             {
-                ((ServiceBaseController)context.Controller).ActionManager.UnitOfWork.CommitTransaction();
+                ((ServicesControllerBase)context.Controller).ActionManager.UnitOfWork.CommitTransaction();
             }
         }
 

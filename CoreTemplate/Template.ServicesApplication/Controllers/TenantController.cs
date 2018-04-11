@@ -20,7 +20,7 @@ namespace Template.ServiceApp.Controllers
     //[Authorize]
     [LoggingActionFilter]
     [Route("api/[controller]")]
-    public class TenantController : ServiceBaseController
+    public class TenantController : ServicesControllerBase
     {
 
         private ITenantManager _tenantManager;

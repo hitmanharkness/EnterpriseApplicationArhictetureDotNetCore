@@ -29,7 +29,7 @@ namespace Template.ServiceApp.Controllers
 
     [LoggingActionFilter] // This was native logging
     [Route("api/[controller]")]
-    public class ClientController : ServiceBaseController
+    public class ClientController : ServicesControllerBase
     {
          
         private IClientInfoManager _clientManager;
@@ -52,7 +52,8 @@ namespace Template.ServiceApp.Controllers
                 var items = _clientManager.GetAll();
                 return new OkObjectResult(items);
 
-            }catch(Exception ex)
+            }
+            catch (Exception ex)
             {
                 _logger.LogError(LoggingEvents.SERVICE_ERROR, ex, ex.Message);
                 return new EmptyResult();

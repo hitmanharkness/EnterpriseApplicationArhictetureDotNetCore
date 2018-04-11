@@ -20,19 +20,20 @@ namespace Template.DataAccess.Core
       
         public T Single<T>(Expression<Func<T, bool>> expression) where T : class
         {
-            return All<T>().FirstOrDefault(expression);
+            throw new NotImplementedException();
+            //return All<T>().FirstOrDefault(expression);
         }
 
-        public IEnumerable<T> All<T>() where T : class
-        {
-            return _context.Set<T>().AsEnumerable();
-        }
+        //public IEnumerable<T> All<T>() where T : class
+        //{
+        //    return _context.Set<T>().AsEnumerable();
+        //}
 
         // I'm not sure about this.
-        //public IQueryable<T> All<T>() where T : class
-        //{
-        //    return _context.Set<T>().AsQueryable();
-        //}
+        public IQueryable<T> All<T>() where T : class
+        {
+            return _context.Set<T>().AsQueryable();
+        }
 
         public virtual IEnumerable<T> Filter<T>(Expression<Func<T, bool>> predicate) where T : class
         {
