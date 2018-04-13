@@ -49,36 +49,39 @@ namespace Template.ServiceApp.Controllers
 
 
         [Route("api/v1/clients/{id:int}/events/")]
+        // Is this really what I want to do?
         [ResponseCache(Duration = 30, VaryByHeader = "User-Agent")] // https://app.pluralsight.com/player?course=aspdotnet-core-mvc-enterprise-application&author=gill-cleeren&name=81741cc0-66db-4b7a-a4fe-673f61981301&clip=8&mode=live
         [HttpGet]
         public IActionResult GetClientEvents(int id)
         {
+            var clientId = id;
+
             var clientEvents = new List<ClientEvent>();
             try
             {
-                var client = _clientManager.GetClient(id);
+                var client = _clientManager.GetClient(clientId);
                 if (client == null)
                     return NotFound();
 
                 // I think this goes into the repository.
-                var cachedClientEvents = _distributedCache.Get("ClientEvents");
-                if (cachedClientEvents == null)
-                {
-                    clientEvents = _clientManager.GetClientEvents(id).ToList();
-                    string serializedClientEvents = JsonConvert.SerializeObject(clientEvents);
-                    byte[] encodeClientEvents = Encoding.UTF8.GetBytes(serializedClientEvents);
-                    var cacheEntryOptions = new DistributedCacheEntryOptions()
-                        .SetAbsoluteExpiration(TimeSpan.FromSeconds(60));
+                //var cachedClientEvents = _distributedCache.Get("ClientEvents");
+                //if (cachedClientEvents == null)
+                //{
+                    clientEvents = _clientManager.GetClientEvents(clientId).ToList();
+                //    string serializedClientEvents = JsonConvert.SerializeObject(clientEvents);
+                //    byte[] encodeClientEvents = Encoding.UTF8.GetBytes(serializedClientEvents);
+                //    var cacheEntryOptions = new DistributedCacheEntryOptions()
+                //        .SetAbsoluteExpiration(TimeSpan.FromSeconds(1000));
 
-                    _distributedCache.Set("ClientEvents", encodeClientEvents, cacheEntryOptions);
-                }
-                else
-                {
-                    byte[] encodedClientEvents = _distributedCache.Get("ClientEvents");
-                    string serializedClientEvents = Encoding.UTF8.GetString(encodedClientEvents);
-                    clientEvents =
-                        JsonConvert.DeserializeObject<List<ClientEvent>>(serializedClientEvents);
-                }
+                //    _distributedCache.Set("ClientEvents", encodeClientEvents, cacheEntryOptions);
+                //}
+                //else
+                //{
+                //    byte[] encodedClientEvents = _distributedCache.Get("ClientEvents");
+                //    string serializedClientEvents = Encoding.UTF8.GetString(encodedClientEvents);
+                //    clientEvents =
+                //        JsonConvert.DeserializeObject<List<ClientEvent>>(serializedClientEvents);
+                //}
 
                 return new OkObjectResult(clientEvents);
 

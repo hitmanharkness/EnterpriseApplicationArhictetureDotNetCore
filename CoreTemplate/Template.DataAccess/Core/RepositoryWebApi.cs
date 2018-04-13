@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Caching.Distributed;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 using System;
@@ -7,7 +8,9 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Net.Http;
+using System.Text;
 using System.Threading.Tasks;
+using Template.Common.BusinessObjects;
 using Template.Common.Entities;
 using Template.DataAccess.Core;
 
@@ -19,11 +22,13 @@ namespace Template.DataAccess.Core
 {
     public class RepositoryWebApi : IRepositoryBase
     {
+        private IDistributedCache _distributedCache;
+
         private static string baseUrl = "http://localhost:13736/api/";
 
-        public RepositoryWebApi()
+        public RepositoryWebApi(IDistributedCache distributedCache)
         {
-
+            _distributedCache = distributedCache;
         }
 
         public void Delete<T>(object Id) where T : class
@@ -33,11 +38,43 @@ namespace Template.DataAccess.Core
 
         public IEnumerable<T> GetAll<T>() where T : class
         {
-            // Async this stuff.
-            var jsonObject = GetStringAsync(baseUrl + typeof(T).Name + "s");
-            var json = jsonObject.Result;
+            // For CQRS if would go here. We want to replace the remote database with something local either redis or other.
+            var clientEvents = new List<Event>(); // Thsi was a business object but... oh man. but it's actually a dto from the repository level.
+            // I think this goes into the repository.
+            var cachedEvents = _distributedCache.Get("Events");
 
-            var deserializeObject = JsonConvert.DeserializeObject<List<T>>(json);
+            var deserializeObject = new List<T>();
+
+
+            if (cachedEvents == null)
+            {
+
+                // HTTP Call to domain WebApi - Make Async this stuff.
+                var jsonObject = GetStringAsync(baseUrl + typeof(T).Name + "s");
+                var json = jsonObject.Result;
+
+                string serializedClientEvents = json;
+
+                //string serializedClientEvents = JsonConvert.SerializeObject(clientEvents);
+                byte[] encodeClientEvents = Encoding.UTF8.GetBytes(serializedClientEvents);
+                var cacheEntryOptions = new DistributedCacheEntryOptions()
+                    .SetAbsoluteExpiration(TimeSpan.FromSeconds(1000));
+
+                _distributedCache.Set("Events", encodeClientEvents, cacheEntryOptions);
+
+                // return value.
+                deserializeObject = JsonConvert.DeserializeObject<List<T>>(json);
+            }
+            else
+            {
+                byte[] encodedClientEvents = _distributedCache.Get("Events");
+                string serializedEvents = Encoding.UTF8.GetString(encodedClientEvents);
+                //clientEvents = JsonConvert.DeserializeObject<List<Event>>(serializedEvents);
+                deserializeObject = JsonConvert.DeserializeObject<List<T>>(serializedEvents);
+
+                //deserializeObject = JsonConvert.DeserializeObject<List<T>>(json);
+            }
+
 
             return deserializeObject;
         }
