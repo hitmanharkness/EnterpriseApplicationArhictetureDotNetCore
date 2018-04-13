@@ -19,7 +19,7 @@ namespace Template.DataAccess.Core
 {
     public class RepositoryWebApi : IRepositoryBase
     {
-        private static string baseUrl = "http://localhost:22566/api/";
+        private static string baseUrl = "http://localhost:13736/api/";
 
         public RepositoryWebApi()
         {
@@ -34,15 +34,12 @@ namespace Template.DataAccess.Core
         public IEnumerable<T> GetAll<T>() where T : class
         {
             // Async this stuff.
-            // ?????????? Can this call be generic? I think it might be able to be.
-            string name = typeof(T).ToString();
+            var jsonObject = GetStringAsync(baseUrl + typeof(T).Name + "s");
+            var json = jsonObject.Result;
 
-            var jsonObject = GetStringAsync(baseUrl + "alerts");
-            var _alert = jsonObject.Result;
+            var deserializeObject = JsonConvert.DeserializeObject<List<T>>(json);
 
-            T alert = JsonConvert.DeserializeObject<T>(_alert);
-
-            return new List<T> { alert } ;
+            return deserializeObject;
         }
 
 

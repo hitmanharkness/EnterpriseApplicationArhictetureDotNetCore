@@ -4149,8 +4149,8 @@
     },
     "Template.Common/1.0.0": {
       "type": "project",
-      "path": "../NGTotalAccessTemplate.Common/Template.Common.csproj",
-      "msbuildProject": "../NGTotalAccessTemplate.Common/Template.Common.csproj"
+      "path": "../Template.Common/Template.Common.csproj",
+      "msbuildProject": "../Template.Common/Template.Common.csproj"
     },
     "Template.DataAccess/1.0.0": {
       "type": "project",
@@ -4200,8 +4200,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\tharknes\\Documents\\GitHub\\EnterpriseApplicationArhictetureDotNetCore\\CoreTemplate\\NGTotalAccessTemplate.Common\\Template.Common.csproj": {
-              "projectPath": "C:\\Users\\tharknes\\Documents\\GitHub\\EnterpriseApplicationArhictetureDotNetCore\\CoreTemplate\\NGTotalAccessTemplate.Common\\Template.Common.csproj"
+            "C:\\Users\\tharknes\\Documents\\GitHub\\EnterpriseApplicationArhictetureDotNetCore\\CoreTemplate\\Template.Common\\Template.Common.csproj": {
+              "projectPath": "C:\\Users\\tharknes\\Documents\\GitHub\\EnterpriseApplicationArhictetureDotNetCore\\CoreTemplate\\Template.Common\\Template.Common.csproj"
             },
             "C:\\Users\\tharknes\\Documents\\GitHub\\EnterpriseApplicationArhictetureDotNetCore\\CoreTemplate\\Template.DataAccess\\Template.DataAccess.csproj": {
               "projectPath": "C:\\Users\\tharknes\\Documents\\GitHub\\EnterpriseApplicationArhictetureDotNetCore\\CoreTemplate\\Template.DataAccess\\Template.DataAccess.csproj"

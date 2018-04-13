@@ -10,6 +10,11 @@ using Template.Common.BusinessObjects;
 using Template.Common.Core;
 using Template.BusinessLayer.Managers.ClientInfoManager;
 
+
+// CQRS https://www.exceptionnotfound.net/real-world-cqrs-es-with-asp-net-and-redis-part-3-the-read-model/
+
+
+
 namespace Template.BusinessLayer.Managers.ServiceRequestManagement
 {
     public class ClientInfoManager : BusinessManager, IClientInfoManager
@@ -68,13 +73,59 @@ namespace Template.BusinessLayer.Managers.ServiceRequestManagement
         // joining an Iqueryable with an Ienumerable?
         // https://blog.hompus.nl/2010/08/26/joining-an-iqueryable-with-an-ienumerable/
 
+
+
+
         public IEnumerable<BaseEntity> GetAll()
         {
             var _testClientId = 425758; //TODO test filter.
 
             var query = from clients in _repository.All<Client>()
                 // EF Repository.
-                join alerts1 in _repository.All<Alert>() on clients.client_id equals alerts1.client_id
+                // join alerts in _repository.All<Alert>() on clients.client_id equals alerts.client_id
+
+                // Repository from another database.
+                //join alerts2 in _repository.All<Alert>() on clients.client_id equals alerts2.client_id
+
+                // repository base simple crud from a webapi.
+                // join events in _apiRepository.GetAll<Event>() on clients.client_id equals events.client_id
+
+                // repository base simple crud from a message queue.
+                //join alerts4 in _mqRepository.GetAll<Alert>() on clients.client_id equals alerts4.client_id
+
+                // where from a message queue.
+                // where clients.client_id == _testClientId //_apiRepository.GetById<Event>(123).client_id
+
+                select new ClientInfo()
+                {
+                    Id = clients.client_id,
+                    FirstName = clients.first_name,
+                    LastName = clients.last_name
+                };
+
+            return query.ToList<ClientInfo>();
+        }
+
+        public void Update(BaseEntity entity)
+        {
+            throw new NotImplementedException();
+        }
+
+
+        // NOTE: EF SQL I believe the easiest, fastest and cleanest solution is to use SQL Profiler.
+
+
+        //exec sp_executesql N'SELECT [clients].[client_id] AS [Id], [clients].[first_name] AS [FirstName], [clients].[last_name] AS [LastName]
+        //FROM[Client] AS[clients]
+        //INNER JOIN[tblalerts] AS[alerts] ON[clients].[client_id] = [alerts].[client_id]
+        //WHERE[clients].[client_id] = @___testClientId_1',N'@___testClientId_1 int',@___testClientId_1=425758
+
+        public IEnumerable<ClientEvent> GetClientEvents(int clientId)
+        {
+
+            var query = from clients in _repository.All<Client>()
+                // EF Repository.
+                join alerts in _repository.All<Alert>() on clients.client_id equals alerts.client_id
 
                 // Repository from another database.
                 //join alerts2 in _repository.All<Alert>() on clients.client_id equals alerts2.client_id
@@ -86,27 +137,17 @@ namespace Template.BusinessLayer.Managers.ServiceRequestManagement
                 //join alerts4 in _mqRepository.GetAll<Alert>() on clients.client_id equals alerts4.client_id
 
                 // where from a message queue.
-                where clients.client_id == _testClientId //_apiRepository.GetById<Event>(123).client_id
+                where clients.client_id == clientId //_apiRepository.GetById<Event>(123).client_id
 
-                select new ClientInfo()
+                        select new ClientEvent()
                 {
                     Id = clients.client_id,
                     FirstName = clients.first_name,
                     LastName = clients.last_name,
-                    //EventCode = events.event_code,
+                    EventCode = events.event_code,
                 };
 
-            return query.ToList<ClientInfo>();
-        }
-
-        public void Update(BaseEntity entity)
-        {
-            throw new NotImplementedException();
-        }
-
-        public IEnumerable<Alert> GetAllClientAlerts()
-        {
-            throw new NotImplementedException();
+            return query.ToList<ClientEvent>();
         }
 
         public void SaveChanges()

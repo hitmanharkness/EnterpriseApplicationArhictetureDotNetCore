@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\NGTotalAccessTemplate.Common\Template.Common.csproj" />
+    <ProjectReference Include="..\Template.Common\Template.Common.csproj" />
     <ProjectReference Include="..\Template.DataAccess\Template.DataAccess.csproj" />
   </ItemGroup>
 

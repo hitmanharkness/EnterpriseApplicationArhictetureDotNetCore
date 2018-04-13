@@ -19,7 +19,7 @@ namespace Template.DataAccess.Core
         {
             base.OnConfiguring(optionsBuilder); 
             //optionsBuilder.UseSqlServer("Data Source=.;Initial Catalog=Template;Integrated Security=False; User Id=sa; Password=123; Timeout=500000;");
-            optionsBuilder.UseSqlServer("Data Source = devdb01; Initial Catalog = Bicasemgmt; User ID = biweb; Password = biweb; MultipleActiveResultSets = True; App = NGTotalAccessApi");
+            optionsBuilder.UseSqlServer("Data Source = devdb01; Initial Catalog = Bicasemgmt; User ID = biweb; Password = biweb; MultipleActiveResultSets = True; App = CoreTemplate");
 
         }
 
