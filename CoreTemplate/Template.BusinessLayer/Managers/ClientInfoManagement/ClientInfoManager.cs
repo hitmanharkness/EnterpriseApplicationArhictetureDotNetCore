@@ -82,19 +82,19 @@ namespace Template.BusinessLayer.Managers.ServiceRequestManagement
 
             var query = from clients in _repository.All<Client>()
                 // EF Repository.
-                // join alerts in _repository.All<Alert>() on clients.client_id equals alerts.client_id
+                join alerts in _repository.All<Alert>() on clients.client_id equals alerts.client_id
 
                 // Repository from another database.
                 //join alerts2 in _repository.All<Alert>() on clients.client_id equals alerts2.client_id
 
                 // repository base simple crud from a webapi.
-                // join events in _apiRepository.GetAll<Event>() on clients.client_id equals events.client_id
+                join events in _apiRepository.GetAll<Event>() on clients.client_id equals events.client_id
 
                 // repository base simple crud from a message queue.
                 //join alerts4 in _mqRepository.GetAll<Alert>() on clients.client_id equals alerts4.client_id
 
                 // where from a message queue.
-                // where clients.client_id == _testClientId //_apiRepository.GetById<Event>(123).client_id
+                where clients.client_id == _testClientId //_apiRepository.GetById<Event>(123).client_id
 
                 select new ClientInfo()
                 {
@@ -124,11 +124,44 @@ namespace Template.BusinessLayer.Managers.ServiceRequestManagement
         {
 
             var query = from clients in _repository.All<Client>()
+                // repository base simple crud from a webapi.
+                join events in _apiRepository.GetAll<Event>() on clients.client_id equals events.client_id
+                    // EF Repository.
+                    // join alerts in _repository.All<Alert>() on clients.client_id equals alerts.client_id
+
+                    // Repository from another database.
+                    //join alerts2 in _repository.All<Alert>() on clients.client_id equals alerts2.client_id
+
+
+
+                    // repository base simple crud from a message queue.
+                    //join alerts4 in _mqRepository.GetAll<Alert>() on clients.client_id equals alerts4.client_id
+
+                    // where from a message queue.
+                where clients.client_id == clientId //_apiRepository.GetById<Event>(123).client_id
+
+                select new ClientEvent()
+                {
+                    Id = clients.client_id,
+                    FirstName = clients.first_name,
+                    LastName = clients.last_name,
+                    EventCode = events.event_code,
+                };
+
+            return query.ToList<ClientEvent>();
+        }
+
+
+        public void CreateClientCreate(Alert alert)
+        {
+            _repository.Create<Alert>(alert);
+        }
+
+        public IEnumerable<ClientEvent> GetClientAlerts(int clientId)
+        {
+            var query = from clients in _repository.All<Client>()
                 // EF Repository.
                 join alerts in _repository.All<Alert>() on clients.client_id equals alerts.client_id
-
-                // Repository from another database.
-                //join alerts2 in _repository.All<Alert>() on clients.client_id equals alerts2.client_id
 
                 // repository base simple crud from a webapi.
                 join events in _apiRepository.GetAll<Event>() on clients.client_id equals events.client_id
@@ -139,7 +172,7 @@ namespace Template.BusinessLayer.Managers.ServiceRequestManagement
                 // where from a message queue.
                 where clients.client_id == clientId //_apiRepository.GetById<Event>(123).client_id
 
-                        select new ClientEvent()
+                select new ClientEvent()
                 {
                     Id = clients.client_id,
                     FirstName = clients.first_name,
@@ -149,6 +182,7 @@ namespace Template.BusinessLayer.Managers.ServiceRequestManagement
 
             return query.ToList<ClientEvent>();
         }
+
 
         public void SaveChanges()
         {

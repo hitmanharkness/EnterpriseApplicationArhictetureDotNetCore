@@ -1,12 +1,62 @@
 ﻿
-TODO: 
+TODO:
+Research webapi returning iqueryable.
+https://stackoverflow.com/questions/20584400/making-a-web-api-controller-returning-a-iqueryable-list-asynchronous
+
+
+Realworld CQRS/ES asp.net and redis
+https://www.exceptionnotfound.net/real-world-cqrs-es-with-asp-net-and-redis-part-3-the-read-model/
+http://blog.gauffin.org/2013/01/repository-pattern-done-right/
+
+paging sorting unit of work and 
+http://blog.gauffin.org/2013/01/repository-pattern-done-right/
+
+DDD
+https://app.pluralsight.com/player?course=domain-driven-design-fundamentals&author=julie-lerman&name=domain-driven-design-fundamentals-m2&clip=11&mode=live
+
+SOA 
+https://dzone.com/articles/microservices-vs-soa-2
+
+
+Present
+--------------------------------------
+Don't mind the code, this was for my learning.
+Key Concepts
+1) Transactions can be easy with they are centralized on one domain and everything else is a type of cache.
+2) Stored procedure logic is business logic. Table joins and where clause is business logic.
+3) Advantages of the repository and unit of work wrapper around efs repository unit of work pattern.
+- The query is pretty cool.
+4) Parts
+- Repository Pattern
+The repository pattern is an abstraction. It’s purpose is to reduce complexity and make the rest of the code persistent ignorant.
+http://blog.gauffin.org/2013/01/repository-pattern-done-right/
+
+- Trouble using IQueryable which is SQL provider specific to Microsoft, extends IEnumerable.
+
+Example
+4) Different types of redis caching.
+1) CQRS with 4 differences in handling data integrity. Pluralsight somewhere had this.
+
+3) Exceptions Filters
+https://damienbod.com/2015/09/30/asp-net-5-exception-filters-and-resource-filters/
+
+
+
+
+1) Transactions
+   - CQRS and local cache but what about two updates to two domains, one succeeds and one does not. 
+     We have the update of both stored locally in cached in redis.  We could probably undo if we had a transaction Id.
 
 1) Connect to Database and examine.
 2) Code first thing. I don't understand.
 3) Integration of the nuget libraries like language. and base.
 4) multicultural.
 5) Exception handling and logging. Do I need the Aspect?
+
+
 6) Subdomain running as service. 
+7) Paging example.
+
 
 7) Caching
 https://app.pluralsight.com/player?course=aspdotnet-core-mvc-enterprise-application&author=gill-cleeren&name=81741cc0-66db-4b7a-a4fe-673f61981301&clip=7&mode=live
@@ -21,13 +71,26 @@ https://www.exceptionnotfound.net/real-world-cqrs-es-with-asp-net-and-redis-part
 
 Repository Pattern
 https://www.planetgeek.ch/2012/05/05/what-is-that-all-about-the-repository-anti-pattern/
+** https://weblogs.asp.net/dotnetstories/entity-framework-and-repository-pattern
+
 EF and the Repository Pattern
 https://weblogs.asp.net/dotnetstories/entity-framework-and-repository-pattern
 EF / Repository Pattern and Iqueryable
 https://weblogs.asp.net/dotnetstories/repository-iqueryable
 
+https://blog.hompus.nl/2010/08/26/joining-an-iqueryable-with-an-ienumerable/
+https://blog.hompus.nl/2010/08/26/joining-an-iqueryable-with-an-ienumerable/
+
+Microsoft Docs EF.NET CORE
+https://docs.microsoft.com/en-us/ef/core/what-is-new/roadmap
+
+
 10) CLI tools for making a template. like reporting. or NGTA.
 11) Connection with identity server4.
+
+
+12) Nuget Azure
+https://www.suchan.cz/2014/10/how-to-deploy-your-own-nuget-server-on-azure-website-in-15-minutes/
 
 
 App.Settings
