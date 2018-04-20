@@ -350,5 +350,96 @@
             
              </summary>
         </member>
+        <member name="T:BI.Aspect.RabbitMq.RabbitMqConsumer">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="T:BI.Aspect.RabbitMq.RabbitMqConsumer.ConnectionRecoveryError">
+             <summary>
+            
+             </summary>
+             <param name="message"></param>
+        </member>
+        <member name="T:BI.Aspect.RabbitMq.RabbitMqConsumer.ConnectionRestored">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="T:BI.Aspect.RabbitMq.RabbitMqConsumer.ConnectionShutdown">
+             <summary>
+            
+             </summary>
+             <param name="initiator"></param>
+             <param name="code"></param>
+             <param name="description"></param>
+        </member>
+        <member name="T:BI.Aspect.RabbitMq.RabbitMqConsumer.ConsumerCancelled">
+             <summary>
+            
+             </summary>
+             <param name="consumerTag"></param>
+        </member>
+        <member name="T:BI.Aspect.RabbitMq.RabbitMqConsumer.ReceivedMessage">
+             <summary>
+            
+             </summary>
+             <param name="message"></param>
+             <returns></returns>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.RabbitMqConsumer.OnConnectionRecoveryError">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.RabbitMqConsumer.OnConnectionRestored">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.RabbitMqConsumer.OnConnectionShutdown">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.RabbitMqConsumer.OnConsumerCancelled">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:BI.Aspect.RabbitMq.RabbitMqConsumer.OnReceivedMessage">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:BI.Aspect.RabbitMq.RabbitMqConsumer.#ctor">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:BI.Aspect.RabbitMq.RabbitMqConsumer.Dispose">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:BI.Aspect.RabbitMq.RabbitMqConsumer.StartConsumer">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:BI.Aspect.RabbitMq.RabbitMqConsumer.StopConsumer">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="T:BI.Aspect.RabbitMq.RabbitMqMessage">
+            <inheritdoc />
+        </member>
+        <member name="M:BI.Aspect.RabbitMq.RabbitMqMessage.EnqueueAndWaitResponse``1(BI.Aspect.RabbitMq.Contract.QueueMessageRequest,System.String,System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:BI.Aspect.RabbitMq.RabbitMqMessage.EnqueueMessage(BI.Aspect.RabbitMq.Contract.QueueMessageRequest,System.String)">
+            <inheritdoc />
+        </member>
     </members>
 </doc>

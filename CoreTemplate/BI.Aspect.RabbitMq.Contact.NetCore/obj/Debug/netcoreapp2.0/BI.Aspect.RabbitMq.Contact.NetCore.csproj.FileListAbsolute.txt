@@ -1,0 +1,8 @@
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\BI.Aspect.RabbitMq.Contact.NetCore\bin\Debug\netcoreapp2.0\BI.Aspect.RabbitMq.Contact.NetCore.deps.json
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\BI.Aspect.RabbitMq.Contact.NetCore\bin\Debug\netcoreapp2.0\BI.Aspect.RabbitMq.Contact.NetCore.dll
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\BI.Aspect.RabbitMq.Contact.NetCore\bin\Debug\netcoreapp2.0\BI.Aspect.RabbitMq.Contact.NetCore.pdb
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\BI.Aspect.RabbitMq.Contact.NetCore\obj\Debug\netcoreapp2.0\BI.Aspect.RabbitMq.Contact.NetCore.csproj.CoreCompileInputs.cache
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\BI.Aspect.RabbitMq.Contact.NetCore\obj\Debug\netcoreapp2.0\BI.Aspect.RabbitMq.Contact.NetCore.AssemblyInfoInputs.cache
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\BI.Aspect.RabbitMq.Contact.NetCore\obj\Debug\netcoreapp2.0\BI.Aspect.RabbitMq.Contact.NetCore.AssemblyInfo.cs
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\BI.Aspect.RabbitMq.Contact.NetCore\obj\Debug\netcoreapp2.0\BI.Aspect.RabbitMq.Contact.NetCore.dll
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\BI.Aspect.RabbitMq.Contact.NetCore\obj\Debug\netcoreapp2.0\BI.Aspect.RabbitMq.Contact.NetCore.pdb

@@ -15,4 +15,3 @@ C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\Co
 C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.Common\obj\Debug\netcoreapp2.0\Template.Common.AssemblyInfo.cs
 C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.Common\obj\Debug\netcoreapp2.0\Template.Common.dll
 C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.Common\obj\Debug\netcoreapp2.0\Template.Common.pdb
-C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.Common\obj\Debug\netcoreapp2.0\Template.Common.csprojResolveAssemblyReference.cache

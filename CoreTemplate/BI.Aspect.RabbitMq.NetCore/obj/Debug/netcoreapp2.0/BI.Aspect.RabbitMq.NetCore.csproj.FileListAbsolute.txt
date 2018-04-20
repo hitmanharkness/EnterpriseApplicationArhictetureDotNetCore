@@ -1,0 +1,8 @@
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\BI.Aspect.RabbitMq.NetCore\bin\Debug\netcoreapp2.0\BI.Aspect.RabbitMq.NetCore.deps.json
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\BI.Aspect.RabbitMq.NetCore\bin\Debug\netcoreapp2.0\BI.Aspect.RabbitMq.NetCore.dll
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\BI.Aspect.RabbitMq.NetCore\bin\Debug\netcoreapp2.0\BI.Aspect.RabbitMq.NetCore.pdb
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\BI.Aspect.RabbitMq.NetCore\obj\Debug\netcoreapp2.0\BI.Aspect.RabbitMq.NetCore.csproj.CoreCompileInputs.cache
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\BI.Aspect.RabbitMq.NetCore\obj\Debug\netcoreapp2.0\BI.Aspect.RabbitMq.NetCore.AssemblyInfoInputs.cache
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\BI.Aspect.RabbitMq.NetCore\obj\Debug\netcoreapp2.0\BI.Aspect.RabbitMq.NetCore.AssemblyInfo.cs
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\BI.Aspect.RabbitMq.NetCore\obj\Debug\netcoreapp2.0\BI.Aspect.RabbitMq.NetCore.dll
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\BI.Aspect.RabbitMq.NetCore\obj\Debug\netcoreapp2.0\BI.Aspect.RabbitMq.NetCore.pdb

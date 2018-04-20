@@ -3,7 +3,6 @@ C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\Co
 C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\EventsWebApi\bin\Debug\netcoreapp2.0\EventsWebApi.runtimeconfig.dev.json
 C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\EventsWebApi\bin\Debug\netcoreapp2.0\EventsWebApi.dll
 C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\EventsWebApi\bin\Debug\netcoreapp2.0\EventsWebApi.pdb
-C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\EventsWebApi\obj\Debug\netcoreapp2.0\EventsWebApi.csprojResolveAssemblyReference.cache
 C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\EventsWebApi\obj\Debug\netcoreapp2.0\EventsWebApi.csproj.CoreCompileInputs.cache
 C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\EventsWebApi\obj\Debug\netcoreapp2.0\EventsWebApi.AssemblyInfoInputs.cache
 C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\EventsWebApi\obj\Debug\netcoreapp2.0\EventsWebApi.AssemblyInfo.cs

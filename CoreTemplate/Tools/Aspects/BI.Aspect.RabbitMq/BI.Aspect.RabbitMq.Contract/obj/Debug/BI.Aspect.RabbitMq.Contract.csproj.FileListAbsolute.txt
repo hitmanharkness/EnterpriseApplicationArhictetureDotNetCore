@@ -1,7 +1,6 @@
 C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Tools\Aspects\BI.Aspect.RabbitMq\BI.Aspect.RabbitMq.Contract\bin\Debug\BI.Aspect.RabbitMq.Contract.xml
 C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Tools\Aspects\BI.Aspect.RabbitMq\BI.Aspect.RabbitMq.Contract\bin\Debug\BI.Aspect.RabbitMq.Contract.dll
 C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Tools\Aspects\BI.Aspect.RabbitMq\BI.Aspect.RabbitMq.Contract\bin\Debug\BI.Aspect.RabbitMq.Contract.pdb
-C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Tools\Aspects\BI.Aspect.RabbitMq\BI.Aspect.RabbitMq.Contract\obj\Debug\BI.Aspect.RabbitMq.Contract.csprojResolveAssemblyReference.cache
 C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Tools\Aspects\BI.Aspect.RabbitMq\BI.Aspect.RabbitMq.Contract\obj\Debug\BI.Aspect.RabbitMq.Contract.csproj.CoreCompileInputs.cache
 C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Tools\Aspects\BI.Aspect.RabbitMq\BI.Aspect.RabbitMq.Contract\obj\Debug\BI.Aspect.RabbitMq.Contract.dll
 C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Tools\Aspects\BI.Aspect.RabbitMq\BI.Aspect.RabbitMq.Contract\obj\Debug\BI.Aspect.RabbitMq.Contract.pdb

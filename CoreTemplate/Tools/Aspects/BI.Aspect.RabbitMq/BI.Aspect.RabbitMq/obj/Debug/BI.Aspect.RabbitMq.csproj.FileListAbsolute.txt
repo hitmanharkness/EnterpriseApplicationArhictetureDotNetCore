@@ -5,3 +5,11 @@ C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\Co
 C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Tools\Aspects\BI.Aspect.RabbitMq\BI.Aspect.RabbitMq\bin\Debug\BI.Aspect.RabbitMq.pdb
 C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Tools\Aspects\BI.Aspect.RabbitMq\BI.Aspect.RabbitMq\obj\Debug\BI.Aspect.RabbitMq.dll
 C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Tools\Aspects\BI.Aspect.RabbitMq\BI.Aspect.RabbitMq\obj\Debug\BI.Aspect.RabbitMq.pdb
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Tools\Aspects\BI.Aspect.RabbitMq\BI.Aspect.RabbitMq\bin\Debug\BI.Aspect.RabbitMq.etwManifests.lst
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Tools\Aspects\BI.Aspect.RabbitMq\BI.Aspect.RabbitMq\bin\Debug\BI.Aspect.RabbitMq.Contract.dll
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Tools\Aspects\BI.Aspect.RabbitMq\BI.Aspect.RabbitMq\bin\Debug\Newtonsoft.Json.dll
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Tools\Aspects\BI.Aspect.RabbitMq\BI.Aspect.RabbitMq\bin\Debug\RabbitMQ.Client.dll
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Tools\Aspects\BI.Aspect.RabbitMq\BI.Aspect.RabbitMq\bin\Debug\BI.Aspect.RabbitMq.Contract.pdb
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Tools\Aspects\BI.Aspect.RabbitMq\BI.Aspect.RabbitMq\bin\Debug\BI.Aspect.RabbitMq.Contract.xml
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Tools\Aspects\BI.Aspect.RabbitMq\BI.Aspect.RabbitMq\bin\Debug\Newtonsoft.Json.xml
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Tools\Aspects\BI.Aspect.RabbitMq\BI.Aspect.RabbitMq\bin\Debug\RabbitMQ.Client.xml
