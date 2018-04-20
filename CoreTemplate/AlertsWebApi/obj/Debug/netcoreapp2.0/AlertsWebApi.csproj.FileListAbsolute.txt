@@ -8,4 +8,3 @@ C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\Co
 C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\AlertsWebApi\bin\Debug\netcoreapp2.0\AlertsWebApi.pdb
 C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\AlertsWebApi\obj\Debug\netcoreapp2.0\AlertsWebApi.dll
 C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\AlertsWebApi\obj\Debug\netcoreapp2.0\AlertsWebApi.pdb
-C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\AlertsWebApi\obj\Debug\netcoreapp2.0\AlertsWebApi.csprojResolveAssemblyReference.cache
