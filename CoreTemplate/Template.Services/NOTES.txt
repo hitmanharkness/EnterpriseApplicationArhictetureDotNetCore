@@ -1,5 +1,66 @@
 ﻿
+RabbitMQ.Aspect
+1) configuration manager in .net core. 
+https://www.danylkoweb.com/Blog/no-configurationmanager-in-aspnet-core-GC
+2) 
+
+
 TODO:
+https://docs.microsoft.com/en-us/aspnet/core/web-api/advanced/custom-formatters?view=aspnetcore-2.1
+https://www.jerriepelser.com/blog/validation-response-aspnet-core-webapi/
+
+1) Creating a template.
+** Visual Studio Export https://blog.jayway.com/2015/03/13/visual-studio-how-to-create-a-solution-template-with-multiple-projects/
+https://docs.microsoft.com/en-us/dotnet/core/tools/custom-templates
+https://docs.microsoft.com/en-us/dotnet/core/tutorials/create-custom-template
+
+Nuget package
+https://docs.microsoft.com/en-us/nuget/create-packages/creating-a-package
+https://docs.microsoft.com/en-us/nuget/quickstart/create-and-publish-a-package-using-visual-studio#publish-the-package
+
+https://rehansaeed.com/custom-project-templates-using-dotnet-new/
+https://docs.microsoft.com/en-us/visualstudio/extensibility/vsix-project-template
+1) testapikey
+   oy2h3qwchb2z7bpqmznabktu44j4i2rejdhowayzqk5kq4
+2) publish using powershell
+   ./nuget push BOC.NetCoreTemplate.CSharp.1.0.0.nupkg oy2h3qwchb2z7bpqmznabktu44j4i2rejdhowayzqk5kq4 -Source https://api.nuget.org/v3/index.json
+3) view the package
+   https://www.nuget.org/account/Packages
+4) install from nuget
+PS C:\Users\tharknes\Documents\NuGetTemplates> dotnet new -i BOC.NetCoreTemplate.CSharp
+Created - .NetCore Application
+
+Visual STudio 
+** https://docs.microsoft.com/en-us/visualstudio/extensibility/creating-custom-project-and-item-templates
+** https://docs.microsoft.com/en-us/visualstudio/ide/creating-project-and-item-templates
+*** https://docs.microsoft.com/en-us/visualstudio/ide/how-to-create-project-templates
+
+VSIX
+https://msdn.microsoft.com/en-us/library/dd885241.aspx
+
+
+1) Accessing app.settings inside a class library (options)
+https://stackoverflow.com/questions/46784352/access-appsettings-json-in-class-library
+
+
+
+
+2) building the next sub-domain/domain using .NET Core.
+   1) Windows Service
+   2) .net core app.settings takes out the need for config aspects.
+      - setting up the environment variable.
+   3) Model validation
+
+1) Windows Service in .Net Core
+http://www.ben-morris.com/running-a-net-core-console-application-as-a-windows-service/
+The most direct way of creating a Windows Service in .Net Core is to create a simple console application and use an external service manager like NSSM
+- https://nssm.cc/ NSSM - the Non-Sucking Service Manager
+
+
+
+
+
+
 Research webapi returning iqueryable.
 https://stackoverflow.com/questions/20584400/making-a-web-api-controller-returning-a-iqueryable-list-asynchronous
 

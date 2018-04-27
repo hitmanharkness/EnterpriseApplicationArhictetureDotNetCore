@@ -1,0 +1,24 @@
+networks:
+  default:
+    external:
+      name: nat
+services:
+  alertswebapi:
+    build:
+      context: C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\AlertsWebApi
+      dockerfile: Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: alertswebapi
+    ports:
+    - 80/tcp
+  templateexample:
+    build:
+      context: C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\TemplateExample
+      dockerfile: Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: templateexample
+    ports:
+    - 80/tcp
+version: '3.0'

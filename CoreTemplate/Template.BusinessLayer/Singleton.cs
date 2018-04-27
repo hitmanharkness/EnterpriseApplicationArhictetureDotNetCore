@@ -22,7 +22,7 @@ namespace Template.BusinessLayer
 
         public void Operation()
         {
-		Console.WriteLine("Operation of ConcreteSingleton");
+		    Console.WriteLine("Operation of ConcreteSingleton");
         }
 
         public static void Test()

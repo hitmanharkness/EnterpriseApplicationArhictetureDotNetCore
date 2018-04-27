@@ -6,4 +6,3 @@ C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\Co
 C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\BI.Aspect.RabbitMq.Contact.NetCore\obj\Debug\netcoreapp2.0\BI.Aspect.RabbitMq.Contact.NetCore.AssemblyInfo.cs
 C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\BI.Aspect.RabbitMq.Contact.NetCore\obj\Debug\netcoreapp2.0\BI.Aspect.RabbitMq.Contact.NetCore.dll
 C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\BI.Aspect.RabbitMq.Contact.NetCore\obj\Debug\netcoreapp2.0\BI.Aspect.RabbitMq.Contact.NetCore.pdb
-C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\BI.Aspect.RabbitMq.Contact.NetCore\obj\Debug\netcoreapp2.0\BI.Aspect.RabbitMq.Contact.NetCore.csprojResolveAssemblyReference.cache

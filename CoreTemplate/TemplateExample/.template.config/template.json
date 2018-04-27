@@ -1,0 +1,8 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Terrible Darkness",
+  "classifications": [ "Common", "Console" ],
+  "identity": "Template.NetCoreTemplate.CSharp",
+  "name": ".NetCore Application",
+  "shortName": "terrilharkness"
+}

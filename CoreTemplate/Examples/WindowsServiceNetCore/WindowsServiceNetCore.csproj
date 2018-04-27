@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\..\..\..\BI\BWS\Tools\AspectsCore\BI.Aspect.RabbitMq.Core\BI.Aspect.RabbitMq.Core.Contract\BI.Aspect.RabbitMq.Core.Contract.csproj" />
+    <ProjectReference Include="..\..\..\..\..\..\..\..\BI\BWS\Tools\AspectsCore\BI.Aspect.RabbitMq.Core\BI.Aspect.RabbitMq.Core\BI.Aspect.RabbitMq.Core.csproj" />
+  </ItemGroup>
+
+</Project>

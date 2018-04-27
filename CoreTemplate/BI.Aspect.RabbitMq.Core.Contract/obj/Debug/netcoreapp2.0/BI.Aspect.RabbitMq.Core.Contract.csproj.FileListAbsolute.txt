@@ -1,0 +1,17 @@
+C:\BI\BWS\Tools\AspectsCore\BI.Aspect.RabbitMq.Core\BI.Aspect.RabbitMq.Core.Contract\bin\Debug\netcoreapp2.0\BI.Aspect.RabbitMq.Core.Contract.deps.json
+C:\BI\BWS\Tools\AspectsCore\BI.Aspect.RabbitMq.Core\BI.Aspect.RabbitMq.Core.Contract\bin\Debug\netcoreapp2.0\BI.Aspect.RabbitMq.Core.Contract.dll
+C:\BI\BWS\Tools\AspectsCore\BI.Aspect.RabbitMq.Core\BI.Aspect.RabbitMq.Core.Contract\bin\Debug\netcoreapp2.0\BI.Aspect.RabbitMq.Core.Contract.pdb
+C:\BI\BWS\Tools\AspectsCore\BI.Aspect.RabbitMq.Core\BI.Aspect.RabbitMq.Core.Contract\obj\Debug\netcoreapp2.0\BI.Aspect.RabbitMq.Core.Contract.csproj.CoreCompileInputs.cache
+C:\BI\BWS\Tools\AspectsCore\BI.Aspect.RabbitMq.Core\BI.Aspect.RabbitMq.Core.Contract\obj\Debug\netcoreapp2.0\BI.Aspect.RabbitMq.Core.Contract.AssemblyInfoInputs.cache
+C:\BI\BWS\Tools\AspectsCore\BI.Aspect.RabbitMq.Core\BI.Aspect.RabbitMq.Core.Contract\obj\Debug\netcoreapp2.0\BI.Aspect.RabbitMq.Core.Contract.AssemblyInfo.cs
+C:\BI\BWS\Tools\AspectsCore\BI.Aspect.RabbitMq.Core\BI.Aspect.RabbitMq.Core.Contract\obj\Debug\netcoreapp2.0\BI.Aspect.RabbitMq.Core.Contract.dll
+C:\BI\BWS\Tools\AspectsCore\BI.Aspect.RabbitMq.Core\BI.Aspect.RabbitMq.Core.Contract\obj\Debug\netcoreapp2.0\BI.Aspect.RabbitMq.Core.Contract.pdb
+C:\BI\BWS\Tools\AspectsCore\BI.Aspect.RabbitMq.Core\BI.Aspect.RabbitMq.Core.Contract\obj\Debug\netcoreapp2.0\BI.Aspect.RabbitMq.Core.Contract.csprojResolveAssemblyReference.cache
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\BI.Aspect.RabbitMq.Core.Contract\bin\Debug\netcoreapp2.0\BI.Aspect.RabbitMq.Core.Contract.deps.json
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\BI.Aspect.RabbitMq.Core.Contract\bin\Debug\netcoreapp2.0\BI.Aspect.RabbitMq.Core.Contract.dll
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\BI.Aspect.RabbitMq.Core.Contract\bin\Debug\netcoreapp2.0\BI.Aspect.RabbitMq.Core.Contract.pdb
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\BI.Aspect.RabbitMq.Core.Contract\obj\Debug\netcoreapp2.0\BI.Aspect.RabbitMq.Core.Contract.csproj.CoreCompileInputs.cache
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\BI.Aspect.RabbitMq.Core.Contract\obj\Debug\netcoreapp2.0\BI.Aspect.RabbitMq.Core.Contract.AssemblyInfoInputs.cache
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\BI.Aspect.RabbitMq.Core.Contract\obj\Debug\netcoreapp2.0\BI.Aspect.RabbitMq.Core.Contract.AssemblyInfo.cs
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\BI.Aspect.RabbitMq.Core.Contract\obj\Debug\netcoreapp2.0\BI.Aspect.RabbitMq.Core.Contract.dll
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\BI.Aspect.RabbitMq.Core.Contract\obj\Debug\netcoreapp2.0\BI.Aspect.RabbitMq.Core.Contract.pdb

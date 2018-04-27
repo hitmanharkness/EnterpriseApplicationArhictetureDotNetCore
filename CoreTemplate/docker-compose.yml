@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  alertswebapi:
+    image: alertswebapi
+    build:
+      context: ./AlertsWebApi
+      dockerfile: Dockerfile
+
+  templateexample:
+    image: templateexample
+    build:
+      context: ./TemplateExample
+      dockerfile: Dockerfile

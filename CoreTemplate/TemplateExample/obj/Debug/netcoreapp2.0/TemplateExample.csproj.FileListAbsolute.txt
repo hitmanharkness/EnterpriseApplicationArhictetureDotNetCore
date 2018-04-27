@@ -1,0 +1,10 @@
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\TemplateExample\bin\Debug\netcoreapp2.0\TemplateExample.deps.json
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\TemplateExample\bin\Debug\netcoreapp2.0\TemplateExample.runtimeconfig.json
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\TemplateExample\bin\Debug\netcoreapp2.0\TemplateExample.runtimeconfig.dev.json
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\TemplateExample\bin\Debug\netcoreapp2.0\TemplateExample.dll
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\TemplateExample\bin\Debug\netcoreapp2.0\TemplateExample.pdb
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\TemplateExample\obj\Debug\netcoreapp2.0\TemplateExample.csproj.CoreCompileInputs.cache
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\TemplateExample\obj\Debug\netcoreapp2.0\TemplateExample.AssemblyInfoInputs.cache
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\TemplateExample\obj\Debug\netcoreapp2.0\TemplateExample.AssemblyInfo.cs
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\TemplateExample\obj\Debug\netcoreapp2.0\TemplateExample.dll
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\TemplateExample\obj\Debug\netcoreapp2.0\TemplateExample.pdb

@@ -31,7 +31,6 @@ namespace Template.ServiceApp.Controllers
 
     //[ClaimRequirement("EntityType", "4")] // BI.WebApi.base
     [Log] // BI.WebApi.base
-
     [LoggingActionFilter] // My thing
     //[Route("api/[controller]")]
     public class ClientController : ServicesControllerBase
@@ -116,22 +115,38 @@ namespace Template.ServiceApp.Controllers
             }
         }
 
+
+        // we can do the model viewstate it the filter
+        // TODO https://www.jerriepelser.com/blog/validation-response-aspnet-core-webapi/
+
         [TransactionActionFilter()]
         [HttpPost]
         public IActionResult Post(Client client)
         {
-            try
+            if (ModelState.IsValid)
             {
-                _clientManager.Create(client);
-                return new OkResult();
+                // Do something with the product (not shown).
+                try
+                {
+                    _clientManager.Create(client);
+                    return new OkResult();
 
+                }
+                catch (Exception ex)
+                {
+                    _logger.LogError(LoggingEvents.SERVICE_ERROR, ex, ex.Message);
+                    return new EmptyResult();
+                }
             }
-            catch (Exception ex)
+            else
             {
-                _logger.LogError(LoggingEvents.SERVICE_ERROR, ex, ex.Message);
-                return new EmptyResult();
+                // lets do this in the filter.
+                return new BadRequestObjectResult(ModelState);
             }
         }
+
+
+
         [TransactionActionFilter()]
         [HttpPut]
         public IActionResult Put(Client client)

@@ -12884,9 +12884,6 @@
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
       "projectUniqueName": "C:\\Users\\tharknes\\Documents\\GitHub\\EnterpriseApplicationArhictetureDotNetCore\\CoreTemplate\\Template.Services\\Template.Services.csproj",
       "projectName": "Template.Services",
@@ -12937,22 +12934,22 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "Redis-64": {
+          "MassTransit": {
             "target": "Package",
-            "version": "3.0.503"
-          },
-          "Microsoft.NETCore.App": {
-            "target": "Package",
-            "version": "2.0.0",
-            "autoReferenced": true
+            "version": "[4.1.0.1470-develop, )"
           },
           "Microsoft.AspNetCore.All": {
             "target": "Package",
-            "version": "2.0.0"
+            "version": "[2.0.0, )"
           },
-          "MassTransit": {
+          "Microsoft.NETCore.App": {
             "target": "Package",
-            "version": "4.1.0.1470-develop"
+            "version": "[2.0.0, )",
+            "autoReferenced": true
+          },
+          "Redis-64": {
+            "target": "Package",
+            "version": "[3.0.503, )"
           }
         },
         "imports": [

@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BI.Aspect.RabbitMq.Core", "BI.Aspect.RabbitMq.Core\BI.Aspect.RabbitMq.Core.csproj", "{79AC7C1A-3FA8-425C-9455-186A7A02BE01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BI.Aspect.RabbitMq.Core.Contract", "BI.Aspect.RabbitMq.Core.Contract\BI.Aspect.RabbitMq.Core.Contract.csproj", "{CB96FBB4-F982-42AA-9384-14A9470991C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79AC7C1A-3FA8-425C-9455-186A7A02BE01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79AC7C1A-3FA8-425C-9455-186A7A02BE01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79AC7C1A-3FA8-425C-9455-186A7A02BE01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79AC7C1A-3FA8-425C-9455-186A7A02BE01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB96FBB4-F982-42AA-9384-14A9470991C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB96FBB4-F982-42AA-9384-14A9470991C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB96FBB4-F982-42AA-9384-14A9470991C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB96FBB4-F982-42AA-9384-14A9470991C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5246DC0A-49FC-4AB0-B81A-8D1096F4504D}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://boucotfs:8080/tfs/software
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = BI.Aspect.RabbitMq.Core.Contract\\BI.Aspect.RabbitMq.Core.Contract.csproj
+		SccProjectName1 = BI.Aspect.RabbitMq.Core.Contract
+		SccLocalPath1 = BI.Aspect.RabbitMq.Core.Contract
+		SccProjectUniqueName2 = BI.Aspect.RabbitMq.Core\\BI.Aspect.RabbitMq.Core.csproj
+		SccProjectName2 = BI.Aspect.RabbitMq.Core
+		SccLocalPath2 = BI.Aspect.RabbitMq.Core
+	EndGlobalSection
+EndGlobal

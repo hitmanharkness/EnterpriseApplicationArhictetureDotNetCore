@@ -6,3 +6,4 @@ C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\Co
 C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Enterprise.Controller.Base\bin\Debug\netcoreapp2.0\BI.WebApi.Base.NetCore.pdb
 C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Enterprise.Controller.Base\obj\Debug\netcoreapp2.0\BI.WebApi.Base.NetCore.dll
 C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Enterprise.Controller.Base\obj\Debug\netcoreapp2.0\BI.WebApi.Base.NetCore.pdb
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Enterprise.Controller.Base\obj\Debug\netcoreapp2.0\BI.WebApi.Base.NetCore.csprojResolveAssemblyReference.cache

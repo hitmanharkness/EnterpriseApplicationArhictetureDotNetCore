@@ -1,0 +1,1 @@
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache

@@ -112,33 +112,20 @@ namespace Template.BusinessLayer.Managers.ServiceRequestManagement
         }
 
 
-        // NOTE: EF SQL I believe the easiest, fastest and cleanest solution is to use SQL Profiler.
-
-
-        //exec sp_executesql N'SELECT [clients].[client_id] AS [Id], [clients].[first_name] AS [FirstName], [clients].[last_name] AS [LastName]
-        //FROM[Client] AS[clients]
-        //INNER JOIN[tblalerts] AS[alerts] ON[clients].[client_id] = [alerts].[client_id]
-        //WHERE[clients].[client_id] = @___testClientId_1',N'@___testClientId_1 int',@___testClientId_1=425758
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="clientId"></param>
+        /// <returns></returns>
         public IEnumerable<ClientEvent> GetClientEvents(int clientId)
         {
 
             var query = from clients in _repository.All<Client>()
+
                 // repository base simple crud from a webapi.
                 join events in _apiRepository.GetAll<Event>() on clients.client_id equals events.client_id
-                    // EF Repository.
-                    // join alerts in _repository.All<Alert>() on clients.client_id equals alerts.client_id
-
-                    // Repository from another database.
-                    //join alerts2 in _repository.All<Alert>() on clients.client_id equals alerts2.client_id
-
-
-
-                    // repository base simple crud from a message queue.
-                    //join alerts4 in _mqRepository.GetAll<Alert>() on clients.client_id equals alerts4.client_id
-
-                    // where from a message queue.
-                where clients.client_id == clientId //_apiRepository.GetById<Event>(123).client_id
+                // where from a message queue.
+                where clients.client_id == clientId
 
                 select new ClientEvent()
                 {
@@ -157,6 +144,17 @@ namespace Template.BusinessLayer.Managers.ServiceRequestManagement
             _repository.Create<Alert>(alert);
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="clientId"></param>
+        /// <returns></returns>
+        /*  
+            exec sp_executesql N'SELECT [clients].[client_id] AS [Id], [clients].[first_name] AS [FirstName], [clients].[last_name] AS [LastName]
+            FROM[Client] AS[clients]
+            INNER JOIN[tblalerts] AS[alerts] ON[clients].[client_id] = [alerts].[client_id]
+            WHERE[clients].[client_id] = @___testClientId_1',N'@___testClientId_1 int',@___testClientId_1=425758
+        */
         public IEnumerable<ClientEvent> GetClientAlerts(int clientId)
         {
             var query = from clients in _repository.All<Client>()

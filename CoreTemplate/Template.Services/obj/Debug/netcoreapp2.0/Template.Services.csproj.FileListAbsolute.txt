@@ -17,3 +17,4 @@ C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\Co
 C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.Services\bin\Debug\netcoreapp2.0\Template.BusinessLayer.pdb
 C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.Services\bin\Debug\netcoreapp2.0\Template.Common.pdb
 C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.Services\bin\Debug\netcoreapp2.0\Template.DataAccess.pdb
+C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.Services\obj\Debug\netcoreapp2.0\Template.Services.csproj.CopyComplete
