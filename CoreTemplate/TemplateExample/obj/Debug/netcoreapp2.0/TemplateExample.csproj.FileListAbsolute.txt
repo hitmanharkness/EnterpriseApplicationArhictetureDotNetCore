@@ -8,3 +8,14 @@ C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\Co
 C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\TemplateExample\obj\Debug\netcoreapp2.0\TemplateExample.AssemblyInfo.cs
 C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\TemplateExample\obj\Debug\netcoreapp2.0\TemplateExample.dll
 C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\TemplateExample\obj\Debug\netcoreapp2.0\TemplateExample.pdb
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\TemplateExample\bin\Debug\netcoreapp2.0\TemplateExample.deps.json
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\TemplateExample\bin\Debug\netcoreapp2.0\TemplateExample.runtimeconfig.json
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\TemplateExample\bin\Debug\netcoreapp2.0\TemplateExample.runtimeconfig.dev.json
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\TemplateExample\bin\Debug\netcoreapp2.0\TemplateExample.dll
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\TemplateExample\bin\Debug\netcoreapp2.0\TemplateExample.pdb
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\TemplateExample\obj\Debug\netcoreapp2.0\TemplateExample.csprojAssemblyReference.cache
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\TemplateExample\obj\Debug\netcoreapp2.0\TemplateExample.csproj.CoreCompileInputs.cache
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\TemplateExample\obj\Debug\netcoreapp2.0\TemplateExample.AssemblyInfoInputs.cache
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\TemplateExample\obj\Debug\netcoreapp2.0\TemplateExample.AssemblyInfo.cs
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\TemplateExample\obj\Debug\netcoreapp2.0\TemplateExample.dll
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\TemplateExample\obj\Debug\netcoreapp2.0\TemplateExample.pdb

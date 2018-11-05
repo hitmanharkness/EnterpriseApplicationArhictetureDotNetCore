@@ -24,3 +24,15 @@ C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\Co
 C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\BI.Aspect.RabbitMq.Core\obj\Debug\netcoreapp2.0\BI.Aspect.RabbitMq.Core.pdb
 C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\BI.Aspect.RabbitMq.Core\bin\Debug\netcoreapp2.0\Microsoft.Extensions.Options.dll
 C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\BI.Aspect.RabbitMq.Core\bin\Debug\netcoreapp2.0\Microsoft.Extensions.Options.xml
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\BI.Aspect.RabbitMq.Core\bin\Debug\netcoreapp2.0\BI.Aspect.RabbitMq.Core.deps.json
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\BI.Aspect.RabbitMq.Core\bin\Debug\netcoreapp2.0\BI.Aspect.RabbitMq.Core.dll
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\BI.Aspect.RabbitMq.Core\bin\Debug\netcoreapp2.0\BI.Aspect.RabbitMq.Core.pdb
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\BI.Aspect.RabbitMq.Core\bin\Debug\netcoreapp2.0\BI.Aspect.RabbitMq.Core.Contract.dll
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\BI.Aspect.RabbitMq.Core\bin\Debug\netcoreapp2.0\BI.Aspect.RabbitMq.Core.Contract.pdb
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\BI.Aspect.RabbitMq.Core\obj\Debug\netcoreapp2.0\BI.Aspect.RabbitMq.Core.csprojAssemblyReference.cache
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\BI.Aspect.RabbitMq.Core\obj\Debug\netcoreapp2.0\BI.Aspect.RabbitMq.Core.csproj.CoreCompileInputs.cache
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\BI.Aspect.RabbitMq.Core\obj\Debug\netcoreapp2.0\BI.Aspect.RabbitMq.Core.AssemblyInfoInputs.cache
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\BI.Aspect.RabbitMq.Core\obj\Debug\netcoreapp2.0\BI.Aspect.RabbitMq.Core.AssemblyInfo.cs
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\BI.Aspect.RabbitMq.Core\obj\Debug\netcoreapp2.0\BI.Aspect.RabbitMq.Core.csproj.CopyComplete
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\BI.Aspect.RabbitMq.Core\obj\Debug\netcoreapp2.0\BI.Aspect.RabbitMq.Core.dll
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\BI.Aspect.RabbitMq.Core\obj\Debug\netcoreapp2.0\BI.Aspect.RabbitMq.Core.pdb

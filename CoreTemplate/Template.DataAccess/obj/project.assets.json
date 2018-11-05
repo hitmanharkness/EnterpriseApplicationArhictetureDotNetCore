@@ -2328,7 +2328,7 @@
       ]
     },
     "Remotion.Linq/2.1.1": {
-      "sha512": "IJn0BqkvwEDpP+2qjvci7n4/a9f7DhKESLWb2/uG4xQh3rTkGTBUz69bI4IivCoKkTFAqjXxYDZw2K/npohjsw==",
+      "sha512": "dzyE5QC1EUg6k282mtus1C/k6xb+g4gMXhzd1mKH7EWvLtbc0krt3XbNmkjfeG4GTYFIV6xQJLliSWhrJUyt7g==",
       "type": "package",
       "path": "remotion.linq/2.1.1",
       "files": [
@@ -3068,7 +3068,7 @@
       ]
     },
     "System.Linq.Queryable/4.0.1": {
-      "sha512": "Yn/WfYe9RoRfmSLvUt2JerP0BTGGykCZkQPgojaxgzF2N0oPo+/AhB8TXOpdCcNlrG3VRtsamtK2uzsp3cqRVw==",
+      "sha512": "+iloEl8bZykKRKFx62CX6B9SHpgjvk5q3N/49C+hvmETd+UmwoCpNP5UwflxJ5i6EzaY3SHrteR9sgku6xNbdQ==",
       "type": "package",
       "path": "system.linq.queryable/4.0.1",
       "files": [
@@ -4147,26 +4147,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tharknes\\.nuget\\packages\\": {},
+    "C:\\Users\\tharkness\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
-      "projectUniqueName": "C:\\Users\\tharknes\\Documents\\GitHub\\EnterpriseApplicationArhictetureDotNetCore\\CoreTemplate\\Template.DataAccess\\Template.DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\tharkness\\Documents\\GitHub\\EnterpriseApplicationArhictetureDotNetCore\\CoreTemplate\\Template.DataAccess\\Template.DataAccess.csproj",
       "projectName": "Template.DataAccess",
-      "projectPath": "C:\\Users\\tharknes\\Documents\\GitHub\\EnterpriseApplicationArhictetureDotNetCore\\CoreTemplate\\Template.DataAccess\\Template.DataAccess.csproj",
-      "packagesPath": "C:\\Users\\tharknes\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tharknes\\Documents\\GitHub\\EnterpriseApplicationArhictetureDotNetCore\\CoreTemplate\\Template.DataAccess\\obj\\",
+      "projectPath": "C:\\Users\\tharkness\\Documents\\GitHub\\EnterpriseApplicationArhictetureDotNetCore\\CoreTemplate\\Template.DataAccess\\Template.DataAccess.csproj",
+      "packagesPath": "C:\\Users\\tharkness\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tharkness\\Documents\\GitHub\\EnterpriseApplicationArhictetureDotNetCore\\CoreTemplate\\Template.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\tharknes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\tharkness\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4175,14 +4172,13 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "http://boucotfs:8080/tfs/SOFTWARE/_packaging/BINugetRepository/nuget/v3/index.json": {},
-        "http://klondike.bi.local/api/odata": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\tharknes\\Documents\\GitHub\\EnterpriseApplicationArhictetureDotNetCore\\CoreTemplate\\Template.Common\\Template.Common.csproj": {
-              "projectPath": "C:\\Users\\tharknes\\Documents\\GitHub\\EnterpriseApplicationArhictetureDotNetCore\\CoreTemplate\\Template.Common\\Template.Common.csproj"
+            "C:\\Users\\tharkness\\Documents\\GitHub\\EnterpriseApplicationArhictetureDotNetCore\\CoreTemplate\\Template.Common\\Template.Common.csproj": {
+              "projectPath": "C:\\Users\\tharkness\\Documents\\GitHub\\EnterpriseApplicationArhictetureDotNetCore\\CoreTemplate\\Template.Common\\Template.Common.csproj"
             }
           }
         }
@@ -4198,29 +4194,29 @@
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
             "target": "Package",
-            "version": "2.0.1"
+            "version": "[2.0.1, )"
+          },
+          "Microsoft.EntityFrameworkCore.SqlServer": {
+            "target": "Package",
+            "version": "[2.0.1, )"
           },
           "Microsoft.EntityFrameworkCore.Tools": {
             "target": "Package",
-            "version": "2.0.1"
+            "version": "[2.0.1, )"
           },
           "Microsoft.Extensions.Configuration": {
             "target": "Package",
-            "version": "2.0.0"
+            "version": "[2.0.0, )"
           },
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "2.0.0",
+            "version": "[2.0.0, )",
             "autoReferenced": true
-          },
-          "Microsoft.EntityFrameworkCore.SqlServer": {
-            "target": "Package",
-            "version": "2.0.1"
           },
           "Newtonsoft.Json": {
             "target": "Package",
-            "version": "11.0.2"
+            "version": "[11.0.2, )"
           }
         },
         "imports": [

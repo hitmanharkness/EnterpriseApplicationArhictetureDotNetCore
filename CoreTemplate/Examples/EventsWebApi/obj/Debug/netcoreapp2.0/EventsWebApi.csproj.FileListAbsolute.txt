@@ -20,3 +20,14 @@ C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\Co
 C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Examples\EventsWebApi\obj\Debug\netcoreapp2.0\EventsWebApi.dll
 C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Examples\EventsWebApi\obj\Debug\netcoreapp2.0\EventsWebApi.pdb
 C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Examples\EventsWebApi\obj\Debug\netcoreapp2.0\EventsWebApi.csprojResolveAssemblyReference.cache
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Examples\EventsWebApi\bin\Debug\netcoreapp2.0\EventsWebApi.deps.json
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Examples\EventsWebApi\bin\Debug\netcoreapp2.0\EventsWebApi.runtimeconfig.json
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Examples\EventsWebApi\bin\Debug\netcoreapp2.0\EventsWebApi.runtimeconfig.dev.json
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Examples\EventsWebApi\bin\Debug\netcoreapp2.0\EventsWebApi.dll
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Examples\EventsWebApi\bin\Debug\netcoreapp2.0\EventsWebApi.pdb
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Examples\EventsWebApi\obj\Debug\netcoreapp2.0\EventsWebApi.csprojAssemblyReference.cache
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Examples\EventsWebApi\obj\Debug\netcoreapp2.0\EventsWebApi.csproj.CoreCompileInputs.cache
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Examples\EventsWebApi\obj\Debug\netcoreapp2.0\EventsWebApi.AssemblyInfoInputs.cache
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Examples\EventsWebApi\obj\Debug\netcoreapp2.0\EventsWebApi.AssemblyInfo.cs
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Examples\EventsWebApi\obj\Debug\netcoreapp2.0\EventsWebApi.dll
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Examples\EventsWebApi\obj\Debug\netcoreapp2.0\EventsWebApi.pdb

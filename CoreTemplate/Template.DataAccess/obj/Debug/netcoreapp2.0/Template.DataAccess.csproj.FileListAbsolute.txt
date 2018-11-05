@@ -10,3 +10,15 @@ C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\Co
 C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.DataAccess\obj\Debug\netcoreapp2.0\Template.DataAccess.dll
 C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.DataAccess\obj\Debug\netcoreapp2.0\Template.DataAccess.pdb
 C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.DataAccess\obj\Debug\netcoreapp2.0\Template.DataAccess.csproj.CopyComplete
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.DataAccess\bin\Debug\netcoreapp2.0\Template.DataAccess.deps.json
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.DataAccess\bin\Debug\netcoreapp2.0\Template.DataAccess.dll
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.DataAccess\bin\Debug\netcoreapp2.0\Template.DataAccess.pdb
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.DataAccess\bin\Debug\netcoreapp2.0\Template.Common.dll
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.DataAccess\bin\Debug\netcoreapp2.0\Template.Common.pdb
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.DataAccess\obj\Debug\netcoreapp2.0\Template.DataAccess.csprojAssemblyReference.cache
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.DataAccess\obj\Debug\netcoreapp2.0\Template.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.DataAccess\obj\Debug\netcoreapp2.0\Template.DataAccess.AssemblyInfoInputs.cache
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.DataAccess\obj\Debug\netcoreapp2.0\Template.DataAccess.AssemblyInfo.cs
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.DataAccess\obj\Debug\netcoreapp2.0\Template.DataAccess.csproj.CopyComplete
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.DataAccess\obj\Debug\netcoreapp2.0\Template.DataAccess.dll
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.DataAccess\obj\Debug\netcoreapp2.0\Template.DataAccess.pdb

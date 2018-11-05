@@ -7,3 +7,12 @@ C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\Co
 C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Enterprise.Controller.Base\obj\Debug\netcoreapp2.0\BI.WebApi.Base.NetCore.dll
 C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Enterprise.Controller.Base\obj\Debug\netcoreapp2.0\BI.WebApi.Base.NetCore.pdb
 C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Enterprise.Controller.Base\obj\Debug\netcoreapp2.0\BI.WebApi.Base.NetCore.csprojResolveAssemblyReference.cache
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Enterprise.Controller.Base\bin\Debug\netcoreapp2.0\BI.WebApi.Base.NetCore.deps.json
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Enterprise.Controller.Base\bin\Debug\netcoreapp2.0\BI.WebApi.Base.NetCore.dll
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Enterprise.Controller.Base\bin\Debug\netcoreapp2.0\BI.WebApi.Base.NetCore.pdb
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Enterprise.Controller.Base\obj\Debug\netcoreapp2.0\BI.WebApi.Base.NetCore.csprojAssemblyReference.cache
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Enterprise.Controller.Base\obj\Debug\netcoreapp2.0\BI.WebApi.Base.NetCore.csproj.CoreCompileInputs.cache
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Enterprise.Controller.Base\obj\Debug\netcoreapp2.0\BI.WebApi.Base.NetCore.AssemblyInfoInputs.cache
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Enterprise.Controller.Base\obj\Debug\netcoreapp2.0\BI.WebApi.Base.NetCore.AssemblyInfo.cs
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Enterprise.Controller.Base\obj\Debug\netcoreapp2.0\BI.WebApi.Base.NetCore.dll
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Enterprise.Controller.Base\obj\Debug\netcoreapp2.0\BI.WebApi.Base.NetCore.pdb

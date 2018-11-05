@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\tharknes\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\tharknes\\.nuget\\packages",
+      "C:\\Users\\tharkness\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\tharkness\\.nuget\\packages",
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ]
   }

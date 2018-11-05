@@ -12,3 +12,17 @@ C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\Co
 C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.BusinessLayer\obj\Debug\netcoreapp2.0\Template.BusinessLayer.dll
 C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.BusinessLayer\obj\Debug\netcoreapp2.0\Template.BusinessLayer.pdb
 C:\Users\tharknes\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.BusinessLayer\obj\Debug\netcoreapp2.0\Template.BusinessLayer.csproj.CopyComplete
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.BusinessLayer\bin\Debug\netcoreapp2.0\Template.BusinessLayer.deps.json
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.BusinessLayer\bin\Debug\netcoreapp2.0\Template.BusinessLayer.dll
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.BusinessLayer\bin\Debug\netcoreapp2.0\Template.BusinessLayer.pdb
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.BusinessLayer\bin\Debug\netcoreapp2.0\Template.Common.dll
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.BusinessLayer\bin\Debug\netcoreapp2.0\Template.DataAccess.dll
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.BusinessLayer\bin\Debug\netcoreapp2.0\Template.Common.pdb
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.BusinessLayer\bin\Debug\netcoreapp2.0\Template.DataAccess.pdb
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.BusinessLayer\obj\Debug\netcoreapp2.0\Template.BusinessLayer.csprojAssemblyReference.cache
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.BusinessLayer\obj\Debug\netcoreapp2.0\Template.BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.BusinessLayer\obj\Debug\netcoreapp2.0\Template.BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.BusinessLayer\obj\Debug\netcoreapp2.0\Template.BusinessLayer.AssemblyInfo.cs
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.BusinessLayer\obj\Debug\netcoreapp2.0\Template.BusinessLayer.csproj.CopyComplete
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.BusinessLayer\obj\Debug\netcoreapp2.0\Template.BusinessLayer.dll
+C:\Users\tharkness\Documents\GitHub\EnterpriseApplicationArhictetureDotNetCore\CoreTemplate\Template.BusinessLayer\obj\Debug\netcoreapp2.0\Template.BusinessLayer.pdb
